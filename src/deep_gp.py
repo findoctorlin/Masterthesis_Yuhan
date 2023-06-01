@@ -39,9 +39,7 @@ class DeepGPHiddenLayer(DeepGPLayer):    #returns samples of q(f)
             learn_inducing_locations=True #Whether or not the inducing point locations 𝐙 should be learned (i.e. are they parameters of the model).
         )
 
-        super(ToyDeepGPHiddenLayer, self).__init__(variational_strategy, input_dims, output_dims)    #inherit _init_() from father “DeepGPLayer”
-
-        self.variational_distribution = variational_distribution
+        super(DeepGPHiddenLayer, self).__init__(variational_strategy, input_dims, output_dims)    #inherit _init_() from father “DeepGPLayer”
 
         if mean_type == 'constant':
             self.mean_module = ConstantMean(batch_shape=batch_shape)
@@ -94,7 +92,7 @@ class DeepGPHiddenLayer(DeepGPLayer):    #returns samples of q(f)
 
 
 # in this example we build a 2-layers DGP
-class DeepGP(DeepGP):#this class should contain "DeepGPLayer" modules, which we defined already above
+class DeepGPRegression(DeepGP):#this class should contain "DeepGPLayer" modules, which we defined already above
     '''
     DGP Module which passes forward through the various DGP Layers
     Inspired by the archtiecture of Deep Neural Network, the idea is to stack multiple GPs horizontally and vertically.
@@ -139,11 +137,12 @@ class DeepGP(DeepGP):#this class should contain "DeepGPLayer" modules, which we 
         self.hidden_layers = hidden_layers
         # self.last_layer = last_layer
         self.likelihood = GaussianLikelihood()
-        self.inducing_value = self.hidden_layer.variational_distribution() # test for inducing point
+        # self.inducing_value = self.hidden_layers.variational_distribution() # test for inducing point
 
     def forward(self, inputs):    #responsible for forwarding through the various layers
-        hidden_rep1 = self.hidden_layer(inputs)
-        output = self.last_layer(hidden_rep1)
+        output = self.hidden_layers[0](inputs)
+        for layer in self.hidden_layers[1:]:
+            output = layer(output)
         return output
 
     def get_inducing(self): #新加的
@@ -161,6 +160,6 @@ class DeepGP(DeepGP):#this class should contain "DeepGPLayer" modules, which we 
                 # print("preds.mean.shape:", preds.mean.shape)
                 variances.append(preds.variance)
                 # print("preds.variance.shape:", preds.variance.shape)
-                lls.append(model.likelihood.log_marginal(y_batch, model(x_batch)))
+                lls.append(self.likelihood.log_marginal(y_batch, self(x_batch)))
 
-        return torch.cat(mus, dim=-1), torch.cat(variances, dim=-1), torch.cat(lls, dim=-1), preds # in tutorial didn't return preds
+        return torch.cat(mus, dim=-1), torch.cat(variances, dim=-1), torch.cat(lls, dim=-1) # in tutorial didn't return preds

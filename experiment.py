@@ -20,12 +20,9 @@ if __name__ == "__main__":
     time_tolerance = int(input("Enter time tolerance: "))
 
     if hpo == "DGP":
-        HPO_DGP(n_splits=n_splits,
-            n_trials=n_trials,
+        HPO_DGP(n_trials=n_trials,
             epochs_inner=epochs_inner,
             patience=patience,
             file=file,
-            PPV=True,
             pruner_type=pruner_type,
-            time_tolerance=time_tolerance,
-            patience_outer=patience_outer)
+            time_tolerance=time_tolerance)

@@ -1,0 +1,619 @@
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: NameError("name 'ToyDeepGPHiddenLayer' is not defined").
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 234, in objective_train_test
+    model = DeepGPRegression(train_x_shape=X_train_inner.shape, output_dims=output_dims,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 120, in __init__
+    hidden_layers = torch.nn.ModuleList([DeepGPHiddenLayer(
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 42, in __init__
+    super(ToyDeepGPHiddenLayer, self).__init__(variational_strategy, input_dims, output_dims)    #inherit _init_() from father “DeepGPLayer”
+NameError: name 'ToyDeepGPHiddenLayer' is not defined
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: AttributeError("'DeepGPRegression' object has no attribute 'hidden_layer'").
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 436, in __getattr__
+    return super().__getattribute__(name)
+AttributeError: 'DeepGPRegression' object has no attribute 'hidden_layer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 234, in objective_train_test
+    model = DeepGPRegression(train_x_shape=X_train_inner.shape, output_dims=output_dims,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 142, in __init__
+    self.inducing_value = self.hidden_layer.variational_distribution() # test for inducing point
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 438, in __getattr__
+    raise e
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 433, in __getattr__
+    return super().__getattr__(name)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1269, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'DeepGPRegression' object has no attribute 'hidden_layer'
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: AttributeError("'ModuleList' object has no attribute 'variational_distribution'").
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 234, in objective_train_test
+    model = DeepGPRegression(train_x_shape=X_train_inner.shape, output_dims=output_dims,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 142, in __init__
+    self.inducing_value = self.hidden_layers.variational_distribution() # test for inducing point
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1269, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'ModuleList' object has no attribute 'variational_distribution'
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: RuntimeError('CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 258, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 143, in forward
+    output = self.hidden_layers[0](inputs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 167, in forward
+    full_output = self.model.forward(full_inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 70, in forward
+    mean_x = self.mean_module(x)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/means/mean.py", line 22, in __call__
+    res = super(Mean, self).__call__(x)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/means/linear_mean.py", line 18, in forward
+    res = x.matmul(self.weights).squeeze(-1)
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: RuntimeError('CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 258, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 143, in forward
+    output = self.hidden_layers[0](inputs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 167, in forward
+    full_output = self.model.forward(full_inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 70, in forward
+    mean_x = self.mean_module(x)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/means/mean.py", line 22, in __call__
+    res = super(Mean, self).__call__(x)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/means/linear_mean.py", line 18, in forward
+    res = x.matmul(self.weights).squeeze(-1)
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: RuntimeError('CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 258, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 143, in forward
+    output = self.hidden_layers[0](inputs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 167, in forward
+    full_output = self.model.forward(full_inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 70, in forward
+    mean_x = self.mean_module(x)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/means/mean.py", line 22, in __call__
+    res = super(Mean, self).__call__(x)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/means/linear_mean.py", line 18, in forward
+    res = x.matmul(self.weights).squeeze(-1)
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: ValueError('too many values to unpack (expected 3)').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 395, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 269, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+ValueError: too many values to unpack (expected 3)
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:root:Aborting Study
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: ValueError('too many values to unpack (expected 3)').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 269, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+ValueError: too many values to unpack (expected 3)
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: ValueError('too many values to unpack (expected 3)').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 269, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+ValueError: too many values to unpack (expected 3)
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: ValueError('too many values to unpack (expected 3)').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 269, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+ValueError: too many values to unpack (expected 3)
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: ValueError('too many values to unpack (expected 3)').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 269, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+ValueError: too many values to unpack (expected 3)
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: ValueError('too many values to unpack (expected 3)').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 269, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+ValueError: too many values to unpack (expected 3)
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 4089.3447265625 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 4089.3447265625.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 2812.178955078125 and parameters: {'lr': 0.042290533487337856, 'batch_size': 2048, 'num_inducing': 239, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 3}. Best is trial 1 with value: 2812.178955078125.
+WARNING:optuna.study._optimize:Trial 2 failed with parameters: {'lr': 0.00014116968635038952, 'batch_size': 512, 'num_inducing': 105, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 3} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 258, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 209, in forward
+    MatmulLinearOperator(interp_term.transpose(-1, -2), middle_term @ interp_term),
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/_linear_operator.py", line 2736, in __matmul__
+    return self.matmul(other)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/_linear_operator.py", line 1721, in matmul
+    return Matmul.apply(self.representation_tree(), other, *self.representation())
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/functions/_matmul.py", line 21, in forward
+    res = linear_op._matmul(rhs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/sum_linear_operator.py", line 42, in _matmul
+    return sum(linear_op._matmul(rhs) for linear_op in self.linear_ops)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/sum_linear_operator.py", line 42, in <genexpr>
+    return sum(linear_op._matmul(rhs) for linear_op in self.linear_ops)
+KeyboardInterrupt
+WARNING:optuna.study._optimize:Trial 2 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: CV_DGP 5
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 3936.9716796875 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 3936.9716796875.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 3005.63720703125 and parameters: {'lr': 0.028563571594484777, 'batch_size': 2048, 'num_inducing': 88, 'num_samples': 10, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 3005.63720703125.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 18656.568359375 and parameters: {'lr': 0.0003972976846344841, 'batch_size': 512, 'num_inducing': 487, 'num_samples': 12, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 1 with value: 3005.63720703125.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 2977.697021484375 and parameters: {'lr': 0.07688643533988301, 'batch_size': 2048, 'num_inducing': 630, 'num_samples': 7, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 3 with value: 2977.697021484375.
+INFO:optuna.study._optimize:Trial 4 pruned. 
+WARNING:optuna.study._optimize:Trial 5 failed with parameters: {'lr': 0.02519511091590447, 'batch_size': 512, 'num_inducing': 438, 'num_samples': 2, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 1} because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 408, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train_outer, y=y_train_outer,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 258, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 180, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 88, in _cholesky_factor
+    L = psd_safe_cholesky(to_dense(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/cholesky.py", line 65, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/cholesky.py", line 47, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+linear_operator.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+WARNING:optuna.study._optimize:Trial 5 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-07
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: TypeError("'int' object is not callable").
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 386, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 226, in objective_train_test
+    train_inner_dataset = TensorDataset(X_train_inner, y_train_inner)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 189, in __init__
+    assert all(tensors[0].size(0) == tensor.size(0) for tensor in tensors), "Size mismatch between tensors"
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 189, in <genexpr>
+    assert all(tensors[0].size(0) == tensor.size(0) for tensor in tensors), "Size mismatch between tensors"
+TypeError: 'int' object is not callable
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-07
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 3236.98193359375 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 3236.98193359375.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 2698.099853515625 and parameters: {'lr': 0.047723917304585896, 'batch_size': 2048, 'num_inducing': 181, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 1 with value: 2698.099853515625.
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:optuna.study._optimize:Trial 3 pruned. 
+INFO:optuna.study._optimize:Trial 4 pruned. 
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 5 finished with value: 16172.9287109375 and parameters: {'lr': 0.0003355146860080185, 'batch_size': 2048, 'num_inducing': 88, 'num_samples': 7, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 1 with value: 2698.099853515625.
+WARNING:optuna.study._optimize:Trial 6 failed with parameters: {'lr': 0.0008844004079592246, 'batch_size': 512, 'num_inducing': 78, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 3} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 387, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 270, in objective_train_test
+    predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 157, in predict
+    preds = self.likelihood(self(x_batch)) #mapping from latent function value f(X) to observed labels y
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 189, in forward
+    interp_term = L.solve(induc_data_covar.type(_linalg_dtype_cholesky.value())).to(full_inputs.dtype)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/triangular_linear_operator.py", line 190, in solve
+    if squeeze:
+KeyboardInterrupt
+WARNING:optuna.study._optimize:Trial 6 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-07
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 3174.658935546875 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 3174.658935546875.
+WARNING:optuna.study._optimize:Trial 1 failed with parameters: {'lr': 0.04426394802226706, 'batch_size': 2048, 'num_inducing': 79, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 5} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 387, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 259, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 180, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 88, in _cholesky_factor
+    L = psd_safe_cholesky(to_dense(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/_linear_operator.py", line 2812, in to_dense
+    return obj.to_dense()
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/memoize.py", line 59, in g
+    return _add_to_cache(self, cache_name, method(self, *args, **kwargs), *args, kwargs_pkl=kwargs_pkl)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/sum_linear_operator.py", line 68, in to_dense
+    return (sum(linear_op.to_dense() for linear_op in self.linear_ops)).contiguous()
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/sum_linear_operator.py", line 68, in <genexpr>
+    return (sum(linear_op.to_dense() for linear_op in self.linear_ops)).contiguous()
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/memoize.py", line 59, in g
+    return _add_to_cache(self, cache_name, method(self, *args, **kwargs), *args, kwargs_pkl=kwargs_pkl)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/diag_linear_operator.py", line 110, in to_dense
+    return torch.diag_embed(self._diag)
+KeyboardInterrupt
+WARNING:optuna.study._optimize:Trial 1 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-08
+WARNING:optuna.study._optimize:Trial 0 failed with parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 388, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 260, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 209, in forward
+    MatmulLinearOperator(interp_term.transpose(-1, -2), middle_term @ interp_term),
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/_linear_operator.py", line 2736, in __matmul__
+    return self.matmul(other)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/_linear_operator.py", line 1721, in matmul
+    return Matmul.apply(self.representation_tree(), other, *self.representation())
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/functions/_matmul.py", line 21, in forward
+    res = linear_op._matmul(rhs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/sum_linear_operator.py", line 42, in _matmul
+    return sum(linear_op._matmul(rhs) for linear_op in self.linear_ops)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/operators/sum_linear_operator.py", line 42, in <genexpr>
+    return sum(linear_op._matmul(rhs) for linear_op in self.linear_ops)
+KeyboardInterrupt
+WARNING:optuna.study._optimize:Trial 0 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-08
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 40.03617858886719 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 40.03617858886719.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.4733772277832 and parameters: {'lr': 0.02243646523042602, 'batch_size': 1024, 'num_inducing': 119, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 1 with value: 37.4733772277832.
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 37.424415588378906 and parameters: {'lr': 0.01024665505584201, 'batch_size': 512, 'num_inducing': 141, 'num_samples': 11, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 3 with value: 37.424415588378906.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 41.070396423339844 and parameters: {'lr': 0.022399251583227735, 'batch_size': 1024, 'num_inducing': 198, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 3 with value: 37.424415588378906.
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:optuna.study._optimize:Trial 6 pruned. 
+INFO:optuna.study._optimize:Trial 7 pruned. 
+WARNING:optuna.study._optimize:Trial 8 failed with parameters: {'lr': 0.0029019839836181, 'batch_size': 2048, 'num_inducing': 56, 'num_samples': 14, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 1} because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 388, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 260, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 180, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 88, in _cholesky_factor
+    L = psd_safe_cholesky(to_dense(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/cholesky.py", line 65, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/cholesky.py", line 47, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+linear_operator.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+WARNING:optuna.study._optimize:Trial 8 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-08
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 39.583946228027344 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 39.583946228027344.
+INFO:optuna.study._optimize:Trial 1 pruned. 
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 37.53398513793945 and parameters: {'lr': 0.006216137046474744, 'batch_size': 512, 'num_inducing': 591, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 3}. Best is trial 2 with value: 37.53398513793945.
+WARNING:optuna.study._optimize:Trial 3 failed with parameters: {'lr': 0.0006370931153996985, 'batch_size': 2048, 'num_inducing': 280, 'num_samples': 7, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 3} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 388, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 262, in objective_train_test
+    loss.backward()
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/torch/autograd/function.py", line 257, in apply
+    def apply(self, *args):
+KeyboardInterrupt
+WARNING:optuna.study._optimize:Trial 3 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-08
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.453006744384766 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.453006744384766.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.42525100708008 and parameters: {'lr': 0.03572914541015925, 'batch_size': 2048, 'num_inducing': 327, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 3}. Best is trial 1 with value: 37.42525100708008.
+WARNING:optuna.study._optimize:Trial 2 failed with parameters: {'lr': 0.016156388327490303, 'batch_size': 1024, 'num_inducing': 447, 'num_samples': 2, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 1} because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.').
+Traceback (most recent call last):
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 388, in <lambda>
+    study.optimize(lambda trial: objective_train_test(trial, X=X_train, y=y,
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 260, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 100, in __call__
+    output = ApproximateGP.__call__(self, inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/models/approximate_gp.py", line 108, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 246, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/_variational_strategy.py", line 309, in __call__
+    return super().__call__(
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 180, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/gpytorch/variational/variational_strategy.py", line 88, in _cholesky_factor
+    L = psd_safe_cholesky(to_dense(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/cholesky.py", line 65, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/.local/lib/python3.10/site-packages/linear_operator/utils/cholesky.py", line 47, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+linear_operator.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+WARNING:optuna.study._optimize:Trial 2 failed with value None.
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-08
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.705421447753906 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.705421447753906.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.073570251464844 and parameters: {'lr': 0.009112331764726493, 'batch_size': 512, 'num_inducing': 110, 'num_samples': 10, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 1 with value: 37.073570251464844.
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 36.948177337646484 and parameters: {'lr': 0.023266236885281132, 'batch_size': 512, 'num_inducing': 498, 'num_samples': 11, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 3 with value: 36.948177337646484.
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 53.80064010620117 and parameters: {'lr': 0.0018108326608240108, 'batch_size': 512, 'num_inducing': 680, 'num_samples': 9, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 3 with value: 36.948177337646484.
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:optuna.study._optimize:Trial 6 pruned. 
+INFO:optuna.study._optimize:Trial 7 pruned. 

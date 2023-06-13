@@ -53,6 +53,7 @@ def objective_time_prune(trial, X, y, kf,
     print(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
         f'num_samples: {num_samples} - kernel_type: {kernel_type} - lr: {lr}')
+
     logging.info(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - \
         num_samples: {num_samples} - kernel_type: {kernel_type} - lr: {lr}')
@@ -187,7 +188,7 @@ def objective_time_prune(trial, X, y, kf,
     return best_score
 
 
-def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=1800, metric=mse):
+def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=1800, metric=mae):
     """
     Optuna trial. Performs n_splits CV to calculate a score for a given Hyperparameter Config
 
@@ -214,7 +215,10 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
 
     print(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
-        f'num_samples: {num_samples} - num_inducing: {num_inducing} - lr: {lr}')
+        f'num_samples: {num_samples} - batch_size:{batch_size} - num_inducing: {num_inducing} - lr: {lr}')
+    logging.info(
+        f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
+        f'num_samples: {num_samples} - batch_size:{batch_size} - num_inducing: {num_inducing} - lr: {lr}')
 
     # Model Evaluation on Train/Test Split
     X_train_inner, X_val_inner, y_train_inner, y_val_inner = train_test_split(X, y, test_size=0.2, shuffle=False)
@@ -275,10 +279,12 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
 
         if early_stopping.early_stop:
             print("Early stopping")
+            logging.info("Early stopping")
             break
 
         if epoch % 10 == 0:
             print(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score}")
+            logging.info(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score}")
 
         # Pruner
         trial.report(score, epoch)
@@ -289,6 +295,7 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
         train_time = time.time()
         if train_time - start_time > time_tolerance:
             print("Time Budget run out. Pruning Trial")
+            logging.info("Time Budget run out. Pruning Trial")
             break
 
     # Set max epochs, as the maximum epoch over all inner splits
@@ -349,7 +356,9 @@ def HPO_DGP(n_trials=30,
         os.mkdir(savedir)
     # study_infos_file = savedir + '/study_infos_DGP_' + dataset_name + '.csv'
     nested_resampling_infos_file = savedir + '/nested_resampling_infos_DGP_' + dataset_name + '.csv'
-    logging.basicConfig(filename=log_filename, encoding='utf-8', level=logging.INFO, force=True)
+    # Python 3.6版本的logging模块中，basicConfig函数不支持encoding和force参数
+    # logging.basicConfig(filename=log_filename, encoding='utf-8', level=logging.INFO, force=True)
+    logging.basicConfig(filename=log_filename, level=logging.INFO)
     optuna.logging.enable_propagation() # # Propagate logs to the root logger 'logging'
 
     # data preprocess
@@ -388,7 +397,7 @@ def HPO_DGP(n_trials=30,
                                                 epochs_inner=epochs_inner,
                                                 patience=patience,
                                                 time_tolerance=time_tolerance,
-                                                metric=mse),
+                                                metric=mae),
                                                 n_trials=n_trials)  # n_trials=N_TRIALS
 
     # # empty cuda cache to prevent memory issues

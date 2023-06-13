@@ -1,0 +1,2777 @@
+The job has begun
+[32m[I 2023-06-12 17:26:14,474][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,474][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,474][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,475][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,476][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,476][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,476][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 17:26:14,476][0m A new study created in memory with name: DGP 2023-06-12[0m
+[32m[I 2023-06-12 18:08:58,170][0m Trial 0 finished with value: 38.17227554321289 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.17227554321289.[0m
+[32m[I 2023-06-12 18:10:45,116][0m Trial 1 pruned. [0m
+[32m[I 2023-06-12 18:12:28,144][0m Trial 2 pruned. [0m
+[32m[I 2023-06-12 18:26:18,092][0m Trial 0 finished with value: 37.90920639038086 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.90920639038086.[0m
+[32m[I 2023-06-12 18:26:18,606][0m Trial 0 finished with value: 37.98957824707031 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.98957824707031.[0m
+[32m[I 2023-06-12 18:26:20,815][0m Trial 0 finished with value: 37.70381546020508 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.70381546020508.[0m
+[32m[I 2023-06-12 18:26:22,345][0m Trial 0 finished with value: 37.85197830200195 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.85197830200195.[0m
+[32m[I 2023-06-12 18:26:23,243][0m Trial 0 finished with value: 37.79494857788086 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.79494857788086.[0m
+[32m[I 2023-06-12 18:26:27,349][0m Trial 0 finished with value: 37.545196533203125 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.545196533203125.[0m
+[32m[I 2023-06-12 18:26:29,026][0m Trial 0 finished with value: 37.55686569213867 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.55686569213867.[0m
+[32m[I 2023-06-12 18:26:29,679][0m Trial 0 finished with value: 37.82093811035156 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.82093811035156.[0m
+[32m[I 2023-06-12 18:26:30,736][0m Trial 0 finished with value: 37.304439544677734 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.304439544677734.[0m
+[32m[I 2023-06-12 18:26:31,889][0m Trial 0 finished with value: 38.12601852416992 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.12601852416992.[0m
+[32m[I 2023-06-12 18:26:34,174][0m Trial 0 finished with value: 37.804405212402344 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.804405212402344.[0m
+[32m[I 2023-06-12 18:26:35,568][0m Trial 0 finished with value: 37.77363586425781 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.77363586425781.[0m
+[32m[I 2023-06-12 18:26:36,538][0m Trial 0 finished with value: 38.560447692871094 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.560447692871094.[0m
+[32m[I 2023-06-12 18:26:37,442][0m Trial 0 finished with value: 37.92942428588867 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.92942428588867.[0m
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=1083028.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: paris1: task 10: Out Of Memory
+[32m[I 2023-06-12 18:26:41,783][0m Trial 0 finished with value: 38.06056594848633 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.06056594848633.[0m
+[32m[I 2023-06-12 18:31:16,834][0m Trial 1 pruned. [0m
+[32m[I 2023-06-12 18:35:13,276][0m Trial 2 pruned. [0m
+[32m[I 2023-06-12 18:38:13,824][0m Trial 1 finished with value: 37.58218002319336 and parameters: {'lr': 0.04729338216636208, 'batch_size': 512, 'num_inducing': 195, 'num_samples': 4, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.58218002319336.[0m
+[32m[I 2023-06-12 18:39:37,768][0m Trial 1 pruned. [0m
+[32m[I 2023-06-12 18:40:07,983][0m Trial 2 pruned. [0m
+[32m[I 2023-06-12 18:40:16,947][0m Trial 3 pruned. [0m
+[32m[I 2023-06-12 18:43:16,191][0m Trial 2 pruned. [0m
+[32m[I 2023-06-12 18:43:23,198][0m Trial 1 finished with value: 37.265811920166016 and parameters: {'lr': 0.0660968541540321, 'batch_size': 2048, 'num_inducing': 89, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 1 with value: 37.265811920166016.[0m
+[32m[I 2023-06-12 18:48:32,077][0m Trial 1 finished with value: 37.78729248046875 and parameters: {'lr': 0.0555442770834226, 'batch_size': 512, 'num_inducing': 166, 'num_samples': 14, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.78729248046875.[0m
+[32m[I 2023-06-12 18:50:45,089][0m Trial 1 finished with value: 37.39690017700195 and parameters: {'lr': 0.01069747257706085, 'batch_size': 1024, 'num_inducing': 158, 'num_samples': 4, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 1 with value: 37.39690017700195.[0m
+[32m[I 2023-06-12 18:55:38,719][0m Trial 2 pruned. [0m
+[32m[I 2023-06-12 18:57:45,160][0m Trial 1 finished with value: 36.760799407958984 and parameters: {'lr': 0.03230738965178223, 'batch_size': 1024, 'num_inducing': 277, 'num_samples': 6, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 1 with value: 36.760799407958984.[0m
+[32m[I 2023-06-12 19:02:31,032][0m Trial 4 finished with value: 37.21852111816406 and parameters: {'lr': 0.03220710772728541, 'batch_size': 1024, 'num_inducing': 78, 'num_samples': 11, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 4 with value: 37.21852111816406.[0m
+[32m[I 2023-06-12 19:14:39,216][0m Trial 3 finished with value: 37.44314193725586 and parameters: {'lr': 0.031048572767630418, 'batch_size': 1024, 'num_inducing': 659, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 3 with value: 37.44314193725586.[0m
+[32m[I 2023-06-12 19:20:53,009][0m Trial 3 finished with value: 37.525611877441406 and parameters: {'lr': 0.009351728912121783, 'batch_size': 512, 'num_inducing': 385, 'num_samples': 9, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 3 with value: 37.525611877441406.[0m
+[32m[I 2023-06-12 19:23:35,129][0m Trial 3 pruned. [0m
+[32m[I 2023-06-12 19:26:30,932][0m Trial 1 finished with value: 38.294349670410156 and parameters: {'lr': 0.007987353252504565, 'batch_size': 2048, 'num_inducing': 68, 'num_samples': 8, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 0 with value: 37.90920639038086.[0m
+[32m[I 2023-06-12 19:26:50,356][0m Trial 1 finished with value: 37.736331939697266 and parameters: {'lr': 0.0077083125917856935, 'batch_size': 1024, 'num_inducing': 375, 'num_samples': 4, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 3}. Best is trial 1 with value: 37.736331939697266.[0m
+[32m[I 2023-06-12 19:27:01,674][0m Trial 1 finished with value: 67.71727752685547 and parameters: {'lr': 0.006652497426893072, 'batch_size': 2048, 'num_inducing': 50, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 2}. Best is trial 0 with value: 37.92942428588867.[0m
+[32m[I 2023-06-12 19:27:12,829][0m Trial 1 finished with value: 37.933349609375 and parameters: {'lr': 0.009620458665835267, 'batch_size': 512, 'num_inducing': 75, 'num_samples': 13, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 4}. Best is trial 0 with value: 37.55686569213867.[0m
+[32m[I 2023-06-12 19:27:39,563][0m Trial 1 finished with value: 113.21566009521484 and parameters: {'lr': 0.0014946769748262624, 'batch_size': 2048, 'num_inducing': 633, 'num_samples': 3, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 0 with value: 37.77363586425781.[0m
+[32m[I 2023-06-12 19:28:04,112][0m Trial 4 pruned. [0m
+[32m[I 2023-06-12 19:28:23,842][0m Trial 2 pruned. [0m
+[32m[I 2023-06-12 19:32:42,785][0m Trial 1 finished with value: 118.52850341796875 and parameters: {'lr': 0.00045754546576201393, 'batch_size': 1024, 'num_inducing': 167, 'num_samples': 7, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 5}. Best is trial 0 with value: 37.70381546020508.[0m
+[32m[I 2023-06-12 19:40:15,989][0m Trial 3 finished with value: 61.81217956542969 and parameters: {'lr': 0.0012126114273368056, 'batch_size': 512, 'num_inducing': 57, 'num_samples': 13, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 1 with value: 37.58218002319336.[0m
+[32m[I 2023-06-12 19:40:19,697][0m Trial 1 finished with value: 118.09937286376953 and parameters: {'lr': 0.0012485835973172722, 'batch_size': 512, 'num_inducing': 312, 'num_samples': 9, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 3}. Best is trial 0 with value: 37.82093811035156.[0m
+[32m[I 2023-06-12 19:41:39,008][0m Trial 4 pruned. [0m
+[32m[I 2023-06-12 19:43:31,828][0m Trial 5 pruned. [0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14739.40625 - Score: 118.03807067871094
+10/400 - Loss: 5500.5009765625 - Score: 98.13961791992188
+20/400 - Loss: 2697.7041015625 - Score: 76.47760009765625
+30/400 - Loss: 1414.457275390625 - Score: 60.63058853149414
+40/400 - Loss: 781.6567993164062 - Score: 50.856117248535156
+50/400 - Loss: 478.193115234375 - Score: 45.01457214355469
+EarlyStopping counter: 1 out of 15
+60/400 - Loss: 329.9231872558594 - Score: 42.03761672973633
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+70/400 - Loss: 262.984619140625 - Score: 40.36675262451172
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+80/400 - Loss: 223.10018920898438 - Score: 39.909950256347656
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+90/400 - Loss: 189.18109130859375 - Score: 39.3105354309082
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+100/400 - Loss: 167.74710083007812 - Score: 38.76168441772461
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+110/400 - Loss: 147.6352996826172 - Score: 38.20804977416992
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+120/400 - Loss: 149.80825805664062 - Score: 38.50832748413086
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+130/400 - Loss: 129.705322265625 - Score: 37.90888595581055
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 69 - num_samples: 8 - batch_size:2048 - num_inducing: 69 - lr: 0.00045620258330781037
+0/400 - Loss: 16514.435546875 - Score: 118.5660400390625
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 392 - num_samples: 12 - batch_size:1024 - num_inducing: 392 - lr: 0.003710056138013894
+0/400 - Loss: 15864.30859375 - Score: 118.439453125
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 385 - num_samples: 9 - batch_size:512 - num_inducing: 385 - lr: 0.009351728912121783
+0/400 - Loss: 13391.908203125 - Score: 117.2795181274414
+10/400 - Loss: 1499.9942626953125 - Score: 56.474327087402344
+20/400 - Loss: 332.0753479003906 - Score: 40.12175750732422
+30/400 - Loss: 235.6407012939453 - Score: 37.94082260131836
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+40/400 - Loss: 213.83111572265625 - Score: 37.61728286743164
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+50/400 - Loss: 239.25140380859375 - Score: 38.21388244628906
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 59 - num_samples: 2 - batch_size:2048 - num_inducing: 59 - lr: 0.015704829937141285
+0/400 - Loss: 15101.84765625 - Score: 118.22010803222656
+10/400 - Loss: 6816.36328125 - Score: 107.91291809082031
+20/400 - Loss: 4066.712890625 - Score: 95.17263793945312
+30/400 - Loss: 2641.52587890625 - Score: 81.24655151367188
+40/400 - Loss: 1768.8182373046875 - Score: 69.89246368408203
+50/400 - Loss: 1200.078857421875 - Score: 60.82554626464844
+60/400 - Loss: 839.19970703125 - Score: 54.23422622680664
+70/400 - Loss: 585.71826171875 - Score: 49.241233825683594
+80/400 - Loss: 428.16046142578125 - Score: 45.799156188964844
+EarlyStopping counter: 1 out of 15
+90/400 - Loss: 326.220947265625 - Score: 43.08901596069336
+100/400 - Loss: 269.40594482421875 - Score: 41.72488784790039
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+110/400 - Loss: 234.71556091308594 - Score: 41.05886459350586
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+120/400 - Loss: 196.95509338378906 - Score: 40.16946029663086
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+130/400 - Loss: 184.9036102294922 - Score: 39.70649719238281
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+140/400 - Loss: 162.5740203857422 - Score: 39.0279426574707
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+150/400 - Loss: 140.58509826660156 - Score: 38.71320724487305
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+160/400 - Loss: 168.388671875 - Score: 39.67409896850586
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+170/400 - Loss: 133.11692810058594 - Score: 38.479469299316406
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+180/400 - Loss: 121.711181640625 - Score: 38.11587905883789
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+190/400 - Loss: 136.68478393554688 - Score: 38.751007080078125
+EarlyStopping counter: 1 out of 15
+[32m[I 2023-06-12 19:46:29,207][0m Trial 4 finished with value: 37.82332992553711 and parameters: {'lr': 0.015704829937141285, 'batch_size': 2048, 'num_inducing': 59, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 1}. Best is trial 3 with value: 37.525611877441406.[0m
+[32m[I 2023-06-12 19:48:38,671][0m Trial 2 finished with value: 117.1639404296875 and parameters: {'lr': 0.0008845636266002723, 'batch_size': 2048, 'num_inducing': 209, 'num_samples': 2, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 6}. Best is trial 1 with value: 37.78729248046875.[0m
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-07 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-06 to the diagonal
+  NumericalWarning,
+[33m[W 2023-06-12 19:52:53,416][0m Trial 5 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)[0m
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+200/400 - Loss: 112.33995819091797 - Score: 37.82332992553711
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+210/400 - Loss: 116.00108337402344 - Score: 38.07823181152344
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 760 - num_samples: 2 - batch_size:1024 - num_inducing: 760 - lr: 0.036878794387688874
+0/400 - Loss: 11102.4609375 - Score: 116.55115509033203
+Traceback (most recent call last):
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/experiment.py", line 30, in <module>
+    time_tolerance=time_tolerance)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 401, in HPO_DGP
+    n_trials=n_trials)  # n_trials=N_TRIALS
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/study.py", line 428, in optimize
+    show_progress_bar=show_progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 76, in _optimize
+    progress_bar=progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 160, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 234, in _run_trial
+    raise func_err
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+[32m[I 2023-06-12 19:57:31,655][0m Trial 2 finished with value: 118.33453369140625 and parameters: {'lr': 0.0053847428520667675, 'batch_size': 1024, 'num_inducing': 527, 'num_samples': 9, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 5}. Best is trial 1 with value: 37.39690017700195.[0m
+[32m[I 2023-06-12 19:58:26,666][0m Trial 3 pruned. [0m
+[32m[I 2023-06-12 20:05:18,409][0m Trial 5 finished with value: 39.87487030029297 and parameters: {'lr': 0.04502895027106956, 'batch_size': 1024, 'num_inducing': 598, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 4 with value: 37.21852111816406.[0m
+[32m[I 2023-06-12 20:18:53,574][0m Trial 5 finished with value: 37.87373733520508 and parameters: {'lr': 0.030635374128837965, 'batch_size': 2048, 'num_inducing': 155, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 3 with value: 37.44314193725586.[0m
+[32m[I 2023-06-12 20:19:07,614][0m Trial 4 finished with value: 44.12959671020508 and parameters: {'lr': 0.0007388168409667129, 'batch_size': 512, 'num_inducing': 88, 'num_samples': 2, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.39690017700195.[0m
+[32m[I 2023-06-12 20:26:50,805][0m Trial 2 finished with value: 37.91103744506836 and parameters: {'lr': 0.007706499296604288, 'batch_size': 2048, 'num_inducing': 182, 'num_samples': 5, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 1 with value: 37.736331939697266.[0m
+[32m[I 2023-06-12 20:26:52,246][0m Trial 2 finished with value: 84.7150650024414 and parameters: {'lr': 0.0008586713192096651, 'batch_size': 1024, 'num_inducing': 106, 'num_samples': 11, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 0 with value: 37.90920639038086.[0m
+[32m[I 2023-06-12 20:27:49,384][0m Trial 3 pruned. [0m
+[32m[I 2023-06-12 20:32:57,462][0m Trial 2 finished with value: 105.89946746826172 and parameters: {'lr': 0.000771984192477562, 'batch_size': 1024, 'num_inducing': 278, 'num_samples': 3, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 2}. Best is trial 0 with value: 37.70381546020508.[0m
+[32m[I 2023-06-12 20:37:07,645][0m Trial 2 finished with value: 118.55390167236328 and parameters: {'lr': 0.0002849533367718103, 'batch_size': 2048, 'num_inducing': 125, 'num_samples': 6, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 6}. Best is trial 0 with value: 37.55686569213867.[0m
+[32m[I 2023-06-12 20:39:01,485][0m Trial 5 pruned. [0m
+[32m[I 2023-06-12 20:40:42,680][0m Trial 2 finished with value: 37.68682861328125 and parameters: {'lr': 0.02650057776141841, 'batch_size': 1024, 'num_inducing': 108, 'num_samples': 10, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 2 with value: 37.68682861328125.[0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14803.6904296875 - Score: 118.2339859008789
+10/400 - Loss: 5104.01953125 - Score: 93.20054626464844
+20/400 - Loss: 2316.39990234375 - Score: 70.43440246582031
+30/400 - Loss: 1132.5184326171875 - Score: 55.21162414550781
+40/400 - Loss: 631.2664794921875 - Score: 47.0122184753418
+EarlyStopping counter: 1 out of 15
+50/400 - Loss: 434.64764404296875 - Score: 42.98112487792969
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+60/400 - Loss: 307.8384704589844 - Score: 41.3371696472168
+EarlyStopping counter: 1 out of 15
+70/400 - Loss: 248.809814453125 - Score: 39.71271514892578
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+80/400 - Loss: 205.696533203125 - Score: 39.512184143066406
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+90/400 - Loss: 178.85096740722656 - Score: 38.331974029541016
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+100/400 - Loss: 166.8433380126953 - Score: 38.288604736328125
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+110/400 - Loss: 151.71128845214844 - Score: 37.801597595214844
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+120/400 - Loss: 136.78213500976562 - Score: 37.64033126831055
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+130/400 - Loss: 128.79937744140625 - Score: 37.61423110961914
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 158 - num_samples: 4 - batch_size:1024 - num_inducing: 158 - lr: 0.01069747257706085
+0/400 - Loss: 14689.2451171875 - Score: 118.31179809570312
+10/400 - Loss: 3045.210693359375 - Score: 70.15513610839844
+20/400 - Loss: 795.3071899414062 - Score: 46.417747497558594
+30/400 - Loss: 351.7706298828125 - Score: 40.02610397338867
+40/400 - Loss: 238.66041564941406 - Score: 38.28886413574219
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+50/400 - Loss: 275.0434265136719 - Score: 38.18922424316406
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 1 out of 15
+60/400 - Loss: 156.59951782226562 - Score: 37.404136657714844
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+70/400 - Loss: 145.26034545898438 - Score: 37.45818328857422
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 527 - num_samples: 9 - batch_size:1024 - num_inducing: 527 - lr: 0.0053847428520667675
+0/400 - Loss: 15580.5400390625 - Score: 118.4711685180664
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 205 - num_samples: 8 - batch_size:512 - num_inducing: 205 - lr: 0.002963329123066735
+0/400 - Loss: 15489.865234375 - Score: 118.38369750976562
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 88 - num_samples: 2 - batch_size:512 - num_inducing: 88 - lr: 0.0007388168409667129
+0/400 - Loss: 16280.650390625 - Score: 118.52704620361328
+10/400 - Loss: 13807.791015625 - Score: 117.7876205444336
+20/400 - Loss: 11840.5361328125 - Score: 115.9834976196289
+30/400 - Loss: 10115.05859375 - Score: 112.73934173583984
+40/400 - Loss: 8777.796875 - Score: 109.87186431884766
+50/400 - Loss: 7718.35888671875 - Score: 107.28080749511719
+60/400 - Loss: 6851.45703125 - Score: 104.82563018798828
+70/400 - Loss: 6116.8115234375 - Score: 102.42053985595703
+80/400 - Loss: 5482.724609375 - Score: 100.04637908935547
+90/400 - Loss: 4940.9931640625 - Score: 97.65757751464844
+100/400 - Loss: 4463.375 - Score: 95.26361083984375
+110/400 - Loss: 4039.9521484375 - Score: 92.8980941772461
+120/400 - Loss: 3663.22705078125 - Score: 90.53881072998047
+130/400 - Loss: 3329.36279296875 - Score: 88.1920394897461
+140/400 - Loss: 3025.8642578125 - Score: 85.88494873046875
+150/400 - Loss: 2753.55810546875 - Score: 83.6059799194336
+160/400 - Loss: 2503.5361328125 - Score: 81.34500885009766
+170/400 - Loss: 2278.41064453125 - Score: 79.1285171508789
+180/400 - Loss: 2072.95849609375 - Score: 76.95528411865234
+190/400 - Loss: 1884.931884765625 - Score: 74.8170394897461
+200/400 - Loss: 1713.26904296875 - Score: 72.72955322265625
+210/400 - Loss: 1558.021240234375 - Score: 70.70038604736328
+220/400 - Loss: 1412.213623046875 - Score: 68.71324157714844
+230/400 - Loss: 1282.225341796875 - Score: 66.79731750488281
+240/400 - Loss: 1160.783203125 - Score: 64.92752075195312
+250/400 - Loss: 1052.19580078125 - Score: 63.10421371459961
+260/400 - Loss: 949.3255615234375 - Score: 61.357662200927734
+270/400 - Loss: 857.5872192382812 - Score: 59.67455291748047
+280/400 - Loss: 774.8521118164062 - Score: 58.07556915283203
+290/400 - Loss: 697.4879150390625 - Score: 56.50987243652344
+300/400 - Loss: 628.74609375 - Score: 55.050804138183594
+310/400 - Loss: 565.8209228515625 - Score: 53.64253616333008
+320/400 - Loss: 508.2922668457031 - Score: 52.30632019042969
+330/400 - Loss: 456.15704345703125 - Score: 51.02800369262695
+340/400 - Loss: 409.828125 - Score: 49.84482192993164
+350/400 - Loss: 367.4381103515625 - Score: 48.681400299072266
+360/400 - Loss: 329.8058776855469 - Score: 47.62876892089844
+370/400 - Loss: 296.155517578125 - Score: 46.63853454589844
+380/400 - Loss: 266.62530517578125 - Score: 45.70460891723633
+390/400 - Loss: 240.0410614013672 - Score: 44.847633361816406
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 334 - num_samples: 7 - batch_size:512 - num_inducing: 334 - lr: 0.027241899050823876
+0/400 - Loss: 9274.1923828125 - Score: 112.57820892333984
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 376.8541564941406 - Score: 43.560272216796875
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+20/400 - Loss: 192.72291564941406 - Score: 39.981834411621094
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 748 - num_samples: 10 - batch_size:512 - num_inducing: 748 - lr: 0.0072293396260077105
+[32m[I 2023-06-12 20:43:51,463][0m Trial 6 finished with value: 71.98878479003906 and parameters: {'lr': 0.006459051988309766, 'batch_size': 1024, 'num_inducing': 437, 'num_samples': 6, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 37.58218002319336.[0m
+[32m[I 2023-06-12 20:44:28,506][0m Trial 3 pruned. [0m
+[32m[I 2023-06-12 20:49:17,053][0m Trial 3 finished with value: 113.0516128540039 and parameters: {'lr': 0.00036329806217656285, 'batch_size': 512, 'num_inducing': 126, 'num_samples': 9, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 1 with value: 37.78729248046875.[0m
+[32m[I 2023-06-12 20:49:48,315][0m Trial 6 pruned. [0m
+[32m[I 2023-06-12 20:51:10,656][0m Trial 7 pruned. [0m
+[32m[I 2023-06-12 20:51:55,474][0m Trial 7 pruned. [0m
+[32m[I 2023-06-12 20:58:22,610][0m Trial 4 pruned. [0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14758.1220703125 - Score: 118.10258483886719
+10/400 - Loss: 5129.48193359375 - Score: 94.42935943603516
+20/400 - Loss: 2322.10595703125 - Score: 70.44667053222656
+30/400 - Loss: 1151.158935546875 - Score: 55.54952621459961
+40/400 - Loss: 626.6510009765625 - Score: 47.099056243896484
+50/400 - Loss: 410.78741455078125 - Score: 42.77560043334961
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+60/400 - Loss: 313.96051025390625 - Score: 41.40986633300781
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+70/400 - Loss: 238.85061645507812 - Score: 39.6151123046875
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+80/400 - Loss: 186.9099578857422 - Score: 38.76051712036133
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+90/400 - Loss: 176.28878784179688 - Score: 38.19904327392578
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+100/400 - Loss: 168.5883026123047 - Score: 38.022342681884766
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+110/400 - Loss: 156.83627319335938 - Score: 37.90044403076172
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+120/400 - Loss: 145.32150268554688 - Score: 37.898643493652344
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:4 - n_gp_out: 5 - num_inducing: 167 - num_samples: 7 - batch_size:1024 - num_inducing: 167 - lr: 0.00045754546576201393
+0/400 - Loss: 16471.685546875 - Score: 118.5630111694336
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 278 - num_samples: 3 - batch_size:1024 - num_inducing: 278 - lr: 0.000771984192477562
+0/400 - Loss: 16412.017578125 - Score: 118.5555191040039
+10/400 - Loss: 14939.96484375 - Score: 118.16626739501953
+20/400 - Loss: 13254.25 - Score: 115.2006607055664
+30/400 - Loss: 11704.140625 - Score: 111.30673217773438
+40/400 - Loss: 10480.2431640625 - Score: 108.1866455078125
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 50 - num_samples: 13 - batch_size:2048 - num_inducing: 50 - lr: 0.013101681052409928
+0/400 - Loss: 15360.181640625 - Score: 118.36109161376953
+10/400 - Loss: 7871.12158203125 - Score: 112.68174743652344
+20/400 - Loss: 4724.4755859375 - Score: 97.86917877197266
+30/400 - Loss: 3098.210693359375 - Score: 84.381103515625
+40/400 - Loss: 2097.142333984375 - Score: 72.9545669555664
+50/400 - Loss: 1430.6297607421875 - Score: 63.33047103881836
+60/400 - Loss: 1004.546142578125 - Score: 56.426822662353516
+70/400 - Loss: 723.7223510742188 - Score: 51.340736389160156
+80/400 - Loss: 537.6732177734375 - Score: 47.54750061035156
+90/400 - Loss: 414.3960266113281 - Score: 44.726844787597656
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+100/400 - Loss: 334.2208251953125 - Score: 42.994747161865234
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+110/400 - Loss: 284.82843017578125 - Score: 41.623836517333984
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+120/400 - Loss: 234.83428955078125 - Score: 41.10983657836914
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+130/400 - Loss: 209.07020568847656 - Score: 40.0804443359375
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+140/400 - Loss: 192.29287719726562 - Score: 39.38298034667969
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+150/400 - Loss: 183.51976013183594 - Score: 39.168540954589844
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+160/400 - Loss: 187.64248657226562 - Score: 39.17247009277344
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+170/400 - Loss: 172.4609375 - Score: 38.944969177246094
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+180/400 - Loss: 159.69451904296875 - Score: 38.65980911254883
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+190/400 - Loss: 128.24066162109375 - Score: 37.95547103881836
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+200/400 - Loss: 126.68061828613281 - Score: 37.92510223388672
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+210/400 - Loss: 122.17247009277344 - Score: 37.83540725708008
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+220/400 - Loss: 116.99152374267578 - Score: 37.827205657958984
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+[32m[I 2023-06-12 21:08:30,115][0m Trial 3 finished with value: 37.737003326416016 and parameters: {'lr': 0.013101681052409928, 'batch_size': 2048, 'num_inducing': 50, 'num_samples': 13, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 0 with value: 37.70381546020508.[0m
+[32m[I 2023-06-12 21:08:41,800][0m Trial 5 pruned. [0m
+[32m[I 2023-06-12 21:19:04,082][0m Trial 6 finished with value: 108.34200286865234 and parameters: {'lr': 0.0007103501453459978, 'batch_size': 2048, 'num_inducing': 68, 'num_samples': 8, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 3 with value: 37.44314193725586.[0m
+[32m[I 2023-06-12 21:24:02,942][0m Trial 7 pruned. [0m
+[32m[I 2023-06-12 21:31:13,066][0m Trial 4 finished with value: 37.52021408081055 and parameters: {'lr': 0.06704678381845867, 'batch_size': 1024, 'num_inducing': 596, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 4 with value: 37.52021408081055.[0m
+[32m[I 2023-06-12 21:31:55,137][0m Trial 5 pruned. [0m
+[32m[I 2023-06-12 21:33:29,440][0m Trial 4 finished with value: 37.46335983276367 and parameters: {'lr': 0.003982627922137281, 'batch_size': 512, 'num_inducing': 56, 'num_samples': 14, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 4 with value: 37.46335983276367.[0m
+[32m[I 2023-06-12 21:33:45,787][0m Trial 3 finished with value: 39.024776458740234 and parameters: {'lr': 0.012139959464094277, 'batch_size': 512, 'num_inducing': 179, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 0 with value: 37.55686569213867.[0m
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-07 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-06 to the diagonal
+  NumericalWarning,
+[33m[W 2023-06-12 21:35:08,746][0m Trial 4 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)[0m
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+230/400 - Loss: 114.84591674804688 - Score: 37.78871154785156
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+240/400 - Loss: 111.17189025878906 - Score: 37.79035568237305
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+250/400 - Loss: 109.78498840332031 - Score: 37.758602142333984
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 330 - num_samples: 6 - batch_size:2048 - num_inducing: 330 - lr: 0.026448299678632495
+0/400 - Loss: 14192.1474609375 - Score: 117.83345794677734
+10/400 - Loss: 3784.4716796875 - Score: 89.95394134521484
+20/400 - Loss: 1451.3751220703125 - Score: 67.73709869384766
+Traceback (most recent call last):
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/experiment.py", line 30, in <module>
+    time_tolerance=time_tolerance)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 401, in HPO_DGP
+    n_trials=n_trials)  # n_trials=N_TRIALS
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/study.py", line 428, in optimize
+    show_progress_bar=show_progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 76, in _optimize
+    progress_bar=progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 160, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 234, in _run_trial
+    raise func_err
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14750.5517578125 - Score: 118.05500030517578
+10/400 - Loss: 4498.6943359375 - Score: 86.39704895019531
+20/400 - Loss: 1763.5390625 - Score: 62.07345962524414
+30/400 - Loss: 795.8948364257812 - Score: 49.04269027709961
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+40/400 - Loss: 490.6944885253906 - Score: 43.84428405761719
+EarlyStopping counter: 1 out of 15
+50/400 - Loss: 338.0583190917969 - Score: 40.81193161010742
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+60/400 - Loss: 274.95379638671875 - Score: 39.75374984741211
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 1 out of 15
+70/400 - Loss: 246.2554168701172 - Score: 39.5906982421875
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+80/400 - Loss: 243.08303833007812 - Score: 39.658111572265625
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 60 - num_samples: 9 - batch_size:2048 - num_inducing: 60 - lr: 0.000530124464457663
+0/400 - Loss: 16507.154296875 - Score: 118.56241607666016
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 329 - num_samples: 2 - batch_size:1024 - num_inducing: 329 - lr: 0.001986934153527166
+0/400 - Loss: 16178.537109375 - Score: 118.48697662353516
+Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 659 - num_samples: 15 - batch_size:1024 - num_inducing: 659 - lr: 0.031048572767630418
+0/400 - Loss: 11900.853515625 - Score: 116.80323791503906
+EarlyStopping counter: 1 out of 15
+10/400 - Loss: 501.7091369628906 - Score: 38.01689529418945
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 492 - num_samples: 10 - batch_size:1024 - num_inducing: 492 - lr: 0.00017423894766871548
+0/400 - Loss: 16524.265625 - Score: 118.56368255615234
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 155 - num_samples: 3 - batch_size:2048 - num_inducing: 155 - lr: 0.030635374128837965
+0/400 - Loss: 13875.0400390625 - Score: 117.82931518554688
+10/400 - Loss: 3260.280517578125 - Score: 84.5890121459961
+EarlyStopping counter: 1 out of 15
+20/400 - Loss: 1335.7996826171875 - Score: 61.326751708984375
+30/400 - Loss: 506.2469177246094 - Score: 46.51181411743164
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+40/400 - Loss: 401.0069274902344 - Score: 44.13679885864258
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+50/400 - Loss: 348.8469543457031 - Score: 43.60485076904297
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+60/400 - Loss: 297.5600280761719 - Score: 42.62505340576172
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+70/400 - Loss: 181.64068603515625 - Score: 39.833805084228516
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+80/400 - Loss: 139.09962463378906 - Score: 38.28111267089844
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+90/400 - Loss: 127.59432220458984 - Score: 38.17631149291992
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+100/400 - Loss: 121.56033325195312 - Score: 38.07097244262695
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+110/400 - Loss: 114.26436614990234 - Score: 37.91142272949219
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+120/400 - Loss: 107.81340789794922 - Score: 37.97402572631836
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+130/400 - Loss: 115.2079086303711 - Score: 39.97279357910156
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 68 - num_samples: 8 - batch_size:2048 - num_inducing: 68 - lr: 0.0007103501453459978
+0/400 - Loss: 16489.111328125 - Score: 118.55894470214844
+10/400 - Loss: 15742.708984375 - Score: 118.42085266113281
+20/400 - Loss: 15049.9833984375 - Score: 118.23617553710938
+30/400 - Loss: 14397.869140625 - Score: 117.97321319580078
+40/400 - Loss: 13790.134765625 - Score: 117.60132598876953
+50/400 - Loss: 13213.7900390625 - Score: 117.09346771240234
+60/400 - Loss: 12654.7265625 - Score: 116.46199035644531
+70/400 - Loss: 12100.021484375 - Score: 115.74954986572266
+80/400 - Loss: 11610.0556640625 - Score: 115.13558197021484
+90/400 - Loss: 11158.5205078125 - Score: 114.5546875
+100/400 - Loss: 10734.3525390625 - Score: 113.98448944091797
+110/400 - Loss: 10341.43359375 - Score: 113.43256378173828
+120/400 - Loss: 9973.234375 - Score: 112.89616394042969
+130/400 - Loss: 9626.650390625 - Score: 112.36377716064453
+140/400 - Loss: 9298.5419921875 - Score: 111.83805084228516
+150/400 - Loss: 8989.2001953125 - Score: 111.31725311279297
+160/400 - Loss: 8698.361328125 - Score: 110.79309844970703
+170/400 - Loss: 8421.5400390625 - Score: 110.27627563476562
+180/400 - Loss: 8155.4853515625 - Score: 109.75654602050781
+190/400 - Loss: 7907.083984375 - Score: 109.23839569091797
+200/400 - Loss: 7668.50830078125 - Score: 108.71797180175781
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 472 - num_samples: 14 - batch_size:2048 - num_inducing: 472 - lr: 0.0038264654731326032
+0/400 - Loss: 16185.0556640625 - Score: 118.48163604736328
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 176 - num_samples: 11 - batch_size:1024 - num_inducing: 176 - lr: 0.005995703439109793
+0/400 - Loss: 15426.6806640625 - Score: 118.21644592285156
+10/400 - Loss: 8297.8564453125 - Score: 109.99288177490234
+20/400 - Loss: 5312.52685546875 - Score: 99.78710174560547
+30/400 - Loss: 3633.984130859375 - Score: 88.12698364257812
+[32m[I 2023-06-12 21:44:42,117][0m Trial 8 finished with value: 37.49007034301758 and parameters: {'lr': 0.018889785867090263, 'batch_size': 512, 'num_inducing': 96, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 37.39690017700195.[0m
+[32m[I 2023-06-12 21:45:49,865][0m Trial 9 pruned. [0m
+[32m[I 2023-06-12 21:46:37,219][0m Trial 4 finished with value: 37.11784744262695 and parameters: {'lr': 0.03791480521203901, 'batch_size': 1024, 'num_inducing': 96, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 4 with value: 37.11784744262695.[0m
+[32m[I 2023-06-12 21:51:56,541][0m Trial 8 finished with value: 43.3186149597168 and parameters: {'lr': 0.0012911590924113163, 'batch_size': 1024, 'num_inducing': 159, 'num_samples': 5, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 1 with value: 37.58218002319336.[0m
+[32m[I 2023-06-12 21:54:44,299][0m Trial 9 pruned. [0m
+[32m[I 2023-06-12 21:56:53,531][0m Trial 10 pruned. [0m
+[32m[I 2023-06-12 21:57:25,548][0m Trial 11 pruned. [0m
+[32m[I 2023-06-12 21:58:11,316][0m Trial 12 pruned. [0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14762.791015625 - Score: 118.10807800292969
+10/400 - Loss: 5929.55322265625 - Score: 103.208740234375
+20/400 - Loss: 3235.20947265625 - Score: 85.52210235595703
+30/400 - Loss: 1902.919921875 - Score: 70.44281768798828
+40/400 - Loss: 1152.860107421875 - Score: 59.17391586303711
+50/400 - Loss: 718.4124755859375 - Score: 51.42367172241211
+60/400 - Loss: 488.44183349609375 - Score: 46.46421432495117
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+70/400 - Loss: 369.6664123535156 - Score: 43.730106353759766
+EarlyStopping counter: 1 out of 15
+80/400 - Loss: 269.2300109863281 - Score: 41.23390197753906
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+90/400 - Loss: 229.671630859375 - Score: 40.29176330566406
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+100/400 - Loss: 194.21153259277344 - Score: 39.714622497558594
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+110/400 - Loss: 175.27694702148438 - Score: 39.0444221496582
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+120/400 - Loss: 166.03871154785156 - Score: 39.02592086791992
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+130/400 - Loss: 154.07435607910156 - Score: 38.699947357177734
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 195 - num_samples: 4 - batch_size:512 - num_inducing: 195 - lr: 0.04729338216636208
+0/400 - Loss: 6937.16162109375 - Score: 110.3821029663086
+10/400 - Loss: 243.70700073242188 - Score: 38.942787170410156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+20/400 - Loss: 376.4603271484375 - Score: 45.31280517578125
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+30/400 - Loss: 142.1138153076172 - Score: 38.066322326660156
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+40/400 - Loss: 147.44068908691406 - Score: 40.314292907714844
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 74 - num_samples: 3 - batch_size:1024 - num_inducing: 74 - lr: 0.07550793663000266
+0/400 - Loss: 7434.88037109375 - Score: 108.7010269165039
+Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 57 - num_samples: 13 - batch_size:512 - num_inducing: 57 - lr: 0.0012126114273368056
+0/400 - Loss: 16111.224609375 - Score: 118.52222442626953
+10/400 - Loss: 11894.8330078125 - Score: 113.50981903076172
+20/400 - Loss: 8964.568359375 - Score: 106.51445770263672
+30/400 - Loss: 7083.361328125 - Score: 100.91692352294922
+40/400 - Loss: 5708.3837890625 - Score: 95.36473083496094
+50/400 - Loss: 4658.4091796875 - Score: 89.29410552978516
+60/400 - Loss: 3836.37890625 - Score: 83.931884765625
+70/400 - Loss: 3178.02490234375 - Score: 78.94234466552734
+80/400 - Loss: 2640.984619140625 - Score: 74.30868530273438
+90/400 - Loss: 2198.12548828125 - Score: 69.9207763671875
+100/400 - Loss: 1829.263916015625 - Score: 65.86280059814453
+110/400 - Loss: 1520.3671875 - Score: 62.182342529296875
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 87 - num_samples: 13 - batch_size:512 - num_inducing: 87 - lr: 0.031404351093330576
+0/400 - Loss: 8728.109375 - Score: 112.63907623291016
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 322 - num_samples: 4 - batch_size:1024 - num_inducing: 322 - lr: 0.0013868454448543732
+0/400 - Loss: 16289.8916015625 - Score: 118.50774383544922
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 437 - num_samples: 6 - batch_size:1024 - num_inducing: 437 - lr: 0.006459051988309766
+0/400 - Loss: 15357.921875 - Score: 118.26345825195312
+10/400 - Loss: 6199.37939453125 - Score: 92.93574523925781
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 177 - num_samples: 11 - batch_size:512 - num_inducing: 177 - lr: 0.00035492910494277667
+0/400 - Loss: 16422.91015625 - Score: 118.54618072509766
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 159 - num_samples: 5 - batch_size:1024 - num_inducing: 159 - lr: 0.0012911590924113163
+0/400 - Loss: 16314.904296875 - Score: 118.53760528564453
+10/400 - Loss: 13984.3828125 - Score: 117.63001251220703
+20/400 - Loss: 11793.4169921875 - Score: 113.66557312011719
+30/400 - Loss: 9534.357421875 - Score: 106.2764892578125
+40/400 - Loss: 7841.99755859375 - Score: 99.68309020996094
+50/400 - Loss: 6545.1767578125 - Score: 93.75855255126953
+60/400 - Loss: 5513.89501953125 - Score: 88.05545043945312
+70/400 - Loss: 4683.5498046875 - Score: 82.78406524658203
+80/400 - Loss: 3985.97802734375 - Score: 77.97207641601562
+90/400 - Loss: 3401.35302734375 - Score: 73.60707092285156
+100/400 - Loss: 2905.904296875 - Score: 69.66522216796875
+110/400 - Loss: 2496.400146484375 - Score: 66.092529296875
+120/400 - Loss: 2143.96728515625 - Score: 62.8255615234375
+130/400 - Loss: 1843.605224609375 - Score: 59.853416442871094
+140/400 - Loss: 1585.341064453125 - Score: 57.15970230102539
+150/400 - Loss: 1365.9696044921875 - Score: 54.74717712402344
+160/400 - Loss: 1173.8377685546875 - Score: 52.57709503173828
+170/400 - Loss: 1015.5784301757812 - Score: 50.617767333984375
+180/400 - Loss: 876.9581909179688 - Score: 48.86080551147461
+190/400 - Loss: 759.7184448242188 - Score: 47.31332778930664
+200/400 - Loss: 662.7296142578125 - Score: 45.928565979003906
+210/400 - Loss: 577.583984375 - Score: 44.69087600708008
+220/400 - Loss: 509.46234130859375 - Score: 43.62723159790039
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 399 - num_samples: 2 - batch_size:512 - num_inducing: 399 - lr: 0.00011272661706555473
+0/400 - Loss: 16514.794921875 - Score: 118.56228637695312
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 259 - num_samples: 6 - batch_size:2048 - num_inducing: 259 - lr: 0.04347378146278114
+0/400 - Loss: 12907.8154296875 - Score: 117.18585205078125
+Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 82 - num_samples: 7 - batch_size:512 - num_inducing: 82 - lr: 0.01788533951505762
+0/400 - Loss: 11376.2861328125 - Score: 116.75786590576172
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 73 - num_samples: 2 - batch_size:512 - num_inducing: 73 - lr: 0.00031587589944159235
+0/400 - Loss: 16439.4140625 - Score: 118.55819702148438
+[32m[I 2023-06-12 22:05:05,922][0m Trial 5 pruned. [0m
+[32m[I 2023-06-12 22:17:38,929][0m Trial 13 finished with value: 37.91056442260742 and parameters: {'lr': 0.011509807913064806, 'batch_size': 512, 'num_inducing': 58, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 1 with value: 37.58218002319336.[0m
+[32m[I 2023-06-12 22:24:11,904][0m Trial 8 finished with value: 38.38225173950195 and parameters: {'lr': 0.005995703439109793, 'batch_size': 1024, 'num_inducing': 176, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 3 with value: 37.44314193725586.[0m
+[32m[I 2023-06-12 22:25:34,567][0m Trial 9 pruned. [0m
+[32m[I 2023-06-12 22:32:49,529][0m Trial 14 pruned. [0m
+[32m[I 2023-06-12 22:33:31,869][0m Trial 6 finished with value: 36.753379821777344 and parameters: {'lr': 0.03822827340683878, 'batch_size': 1024, 'num_inducing': 464, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 6 with value: 36.753379821777344.[0m
+[32m[I 2023-06-12 22:34:44,125][0m Trial 6 finished with value: 118.50518798828125 and parameters: {'lr': 0.000873188533237095, 'batch_size': 512, 'num_inducing': 776, 'num_samples': 5, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 4}. Best is trial 1 with value: 37.78729248046875.[0m
+[32m[I 2023-06-12 22:35:02,846][0m Trial 7 pruned. [0m
+[32m[I 2023-06-12 22:43:16,079][0m Trial 7 pruned. [0m
+[32m[I 2023-06-12 22:46:11,749][0m Trial 10 pruned. [0m
+[32m[I 2023-06-12 22:46:18,456][0m Trial 10 finished with value: 116.99560546875 and parameters: {'lr': 0.0010073639605119244, 'batch_size': 2048, 'num_inducing': 623, 'num_samples': 11, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.39690017700195.[0m
+[32m[I 2023-06-12 22:48:01,521][0m Trial 11 pruned. [0m
+[32m[I 2023-06-12 22:49:33,536][0m Trial 5 finished with value: 42.05530548095703 and parameters: {'lr': 0.04956909084151764, 'batch_size': 512, 'num_inducing': 630, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 5}. Best is trial 4 with value: 37.11784744262695.[0m
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/distributions/multivariate_normal.py:263: NumericalWarning: Negative variance values detected. This is likely due to numerical instabilities. Rounding negative variances up to 1e-06.
+  NumericalWarning,
+[32m[I 2023-06-12 22:51:44,633][0m Trial 15 finished with value: 37.577857971191406 and parameters: {'lr': 0.03957630522557885, 'batch_size': 512, 'num_inducing': 92, 'num_samples': 9, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 15 with value: 37.577857971191406.[0m
+[32m[I 2023-06-12 22:55:22,578][0m Trial 16 pruned. [0m
+[32m[I 2023-06-12 22:57:20,428][0m Trial 8 pruned. [0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14781.0185546875 - Score: 118.20943450927734
+10/400 - Loss: 5195.8876953125 - Score: 94.68354034423828
+20/400 - Loss: 2393.081787109375 - Score: 71.6382064819336
+30/400 - Loss: 1198.148681640625 - Score: 56.40852355957031
+40/400 - Loss: 647.209228515625 - Score: 48.06755065917969
+50/400 - Loss: 490.4278869628906 - Score: 43.344844818115234
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+60/400 - Loss: 326.9554138183594 - Score: 42.107032775878906
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+70/400 - Loss: 260.34271240234375 - Score: 40.443641662597656
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+80/400 - Loss: 219.68734741210938 - Score: 39.39104080200195
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+90/400 - Loss: 203.37420654296875 - Score: 39.19893264770508
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+100/400 - Loss: 164.0131378173828 - Score: 38.006996154785156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+110/400 - Loss: 151.72109985351562 - Score: 38.001251220703125
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+120/400 - Loss: 145.22604370117188 - Score: 37.72156524658203
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+130/400 - Loss: 149.86329650878906 - Score: 38.04178237915039
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 75 - num_samples: 13 - batch_size:512 - num_inducing: 75 - lr: 0.009620458665835267
+0/400 - Loss: 13416.8603515625 - Score: 117.89276123046875
+10/400 - Loss: 1970.6495361328125 - Score: 63.78292465209961
+20/400 - Loss: 513.8096313476562 - Score: 44.622276306152344
+30/400 - Loss: 262.3905029296875 - Score: 39.87832260131836
+EarlyStopping counter: 1 out of 15
+40/400 - Loss: 197.8849334716797 - Score: 38.27227783203125
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+50/400 - Loss: 157.91488647460938 - Score: 38.107601165771484
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:4 - n_gp_out: 6 - num_inducing: 125 - num_samples: 6 - batch_size:2048 - num_inducing: 125 - lr: 0.0002849533367718103
+0/400 - Loss: 16530.873046875 - Score: 118.56827545166016
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 179 - num_samples: 14 - batch_size:512 - num_inducing: 179 - lr: 0.012139959464094277
+0/400 - Loss: 12509.9794921875 - Score: 116.13619995117188
+10/400 - Loss: 2178.24755859375 - Score: 72.78398895263672
+20/400 - Loss: 614.45556640625 - Score: 48.22916793823242
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+30/400 - Loss: 390.5364074707031 - Score: 43.52883529663086
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+40/400 - Loss: 221.69410705566406 - Score: 40.24517059326172
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+50/400 - Loss: 187.1746826171875 - Score: 39.024776458740234
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+60/400 - Loss: 172.3414764404297 - Score: 39.22465515136719
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 96 - num_samples: 12 - batch_size:1024 - num_inducing: 96 - lr: 0.03791480521203901
+0/400 - Loss: 11041.7841796875 - Score: 116.74943542480469
+10/400 - Loss: 283.8981628417969 - Score: 40.283199310302734
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+20/400 - Loss: 258.563232421875 - Score: 37.72502899169922
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+30/400 - Loss: 123.25594329833984 - Score: 37.23435592651367
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+40/400 - Loss: 123.81436157226562 - Score: 37.30384063720703
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:3 - n_gp_out: 5 - num_inducing: 630 - num_samples: 15 - batch_size:512 - num_inducing: 630 - lr: 0.04956909084151764
+0/400 - Loss: 4120.671875 - Score: 83.36383056640625
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 276 - num_samples: 12 - batch_size:512 - num_inducing: 276 - lr: 0.01543640589813031
+0/400 - Loss: 11820.7333984375 - Score: 116.46210479736328
+10/400 - Loss: 358.1434326171875 - Score: 39.58043670654297
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+20/400 - Loss: 300.27899169921875 - Score: 37.439212799072266
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+[32m[I 2023-06-12 23:04:32,943][0m Trial 11 finished with value: 37.291175842285156 and parameters: {'lr': 0.0075067136919158865, 'batch_size': 1024, 'num_inducing': 293, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 11 with value: 37.291175842285156.[0m
+[32m[I 2023-06-12 23:05:22,698][0m Trial 6 finished with value: 37.17204666137695 and parameters: {'lr': 0.01543640589813031, 'batch_size': 512, 'num_inducing': 276, 'num_samples': 12, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 4 with value: 37.11784744262695.[0m
+[32m[I 2023-06-12 23:06:25,468][0m Trial 9 pruned. [0m
+[32m[I 2023-06-12 23:13:42,450][0m Trial 10 pruned. [0m
+[32m[I 2023-06-12 23:16:34,373][0m Trial 11 pruned. [0m
+[32m[I 2023-06-12 23:20:35,933][0m Trial 12 pruned. [0m
+[32m[I 2023-06-12 23:20:45,006][0m Trial 12 pruned. [0m
+[32m[I 2023-06-12 23:21:49,450][0m Trial 13 pruned. [0m
+[32m[I 2023-06-12 23:23:09,642][0m Trial 17 pruned. [0m
+[32m[I 2023-06-12 23:30:18,208][0m Trial 12 pruned. [0m
+[32m[I 2023-06-12 23:31:54,248][0m Trial 13 pruned. [0m
+[32m[I 2023-06-12 23:32:03,555][0m Trial 13 finished with value: 37.22980880737305 and parameters: {'lr': 0.039338593636438914, 'batch_size': 1024, 'num_inducing': 392, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 13 with value: 37.22980880737305.[0m
+[32m[I 2023-06-12 23:33:37,706][0m Trial 14 pruned. [0m
+[32m[I 2023-06-12 23:35:08,659][0m Trial 8 finished with value: 118.22862243652344 and parameters: {'lr': 0.00025632776947322986, 'batch_size': 2048, 'num_inducing': 177, 'num_samples': 5, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 6 with value: 36.753379821777344.[0m
+0/400 - Loss: 14038.052734375 - Score: 117.69749450683594
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 248 - num_samples: 12 - batch_size:512 - num_inducing: 248 - lr: 0.000281552769834617
+0/400 - Loss: 16450.84765625 - Score: 118.54994201660156
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 96 - num_samples: 12 - batch_size:512 - num_inducing: 96 - lr: 0.018889785867090263
+0/400 - Loss: 10757.6806640625 - Score: 113.82151794433594
+10/400 - Loss: 500.6288757324219 - Score: 44.97340774536133
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+20/400 - Loss: 265.8807067871094 - Score: 40.77724075317383
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+30/400 - Loss: 191.8235321044922 - Score: 38.431800842285156
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+40/400 - Loss: 154.97914123535156 - Score: 39.81450653076172
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+50/400 - Loss: 142.59886169433594 - Score: 37.79994201660156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+60/400 - Loss: 130.9049530029297 - Score: 37.71372985839844
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+70/400 - Loss: 101.26740264892578 - Score: 40.12153625488281
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+80/400 - Loss: 108.4317398071289 - Score: 37.56166458129883
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+90/400 - Loss: 101.20877075195312 - Score: 37.56943130493164
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 118 - num_samples: 13 - batch_size:512 - num_inducing: 118 - lr: 0.011721091069876455
+0/400 - Loss: 12775.5693359375 - Score: 117.17183685302734
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 623 - num_samples: 11 - batch_size:2048 - num_inducing: 623 - lr: 0.0010073639605119244
+0/400 - Loss: 16460.728515625 - Score: 118.55235290527344
+10/400 - Loss: 15424.7587890625 - Score: 118.33150482177734
+20/400 - Loss: 14478.27734375 - Score: 117.97496795654297
+30/400 - Loss: 13583.443359375 - Score: 117.3107681274414
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 293 - num_samples: 2 - batch_size:1024 - num_inducing: 293 - lr: 0.0075067136919158865
+0/400 - Loss: 15209.6533203125 - Score: 118.29737854003906
+10/400 - Loss: 5294.79296875 - Score: 87.52481842041016
+20/400 - Loss: 1566.485107421875 - Score: 55.14099884033203
+30/400 - Loss: 619.1621704101562 - Score: 43.550209045410156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+40/400 - Loss: 370.47369384765625 - Score: 39.65699005126953
+EarlyStopping counter: 1 out of 15
+50/400 - Loss: 283.34307861328125 - Score: 38.458499908447266
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+60/400 - Loss: 264.6854248046875 - Score: 37.893306732177734
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+70/400 - Loss: 194.58013916015625 - Score: 37.50746536254883
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+80/400 - Loss: 168.1689453125 - Score: 37.47565841674805
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+90/400 - Loss: 163.4585723876953 - Score: 37.291175842285156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+100/400 - Loss: 140.80654907226562 - Score: 37.465293884277344
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 770 - num_samples: 8 - batch_size:512 - num_inducing: 770 - lr: 0.0001155824264172615
+0/400 - Loss: 16513.384765625 - Score: 118.56114196777344
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 392 - num_samples: 3 - batch_size:1024 - num_inducing: 392 - lr: 0.039338593636438914
+0/400 - Loss: 10795.8974609375 - Score: 116.00566864013672
+EarlyStopping counter: 1 out of 15
+10/400 - Loss: 349.8543395996094 - Score: 39.05561065673828
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+20/400 - Loss: 298.1360168457031 - Score: 37.771484375
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+30/400 - Loss: 232.95542907714844 - Score: 37.36870193481445
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 160 - num_samples: 8 - batch_size:2048 - num_inducing: 160 - lr: 0.002848593399442831
+0/400 - Loss: 16283.6533203125 - Score: 118.52477264404297
+Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 60 - num_samples: 3 - batch_size:1024 - num_inducing: 60 - lr: 0.09493154779610616
+0/400 - Loss: 6320.33984375 - Score: 106.32154083251953
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+[32m[I 2023-06-12 23:38:20,339][0m Trial 9 pruned. [0m
+[32m[I 2023-06-12 23:40:27,978][0m Trial 15 finished with value: 38.891990661621094 and parameters: {'lr': 0.09493154779610616, 'batch_size': 1024, 'num_inducing': 60, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 3}. Best is trial 13 with value: 37.22980880737305.[0m
+[32m[I 2023-06-12 23:40:55,232][0m Trial 14 pruned. [0m
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-07 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-06 to the diagonal
+  NumericalWarning,
+[33m[W 2023-06-12 23:58:17,358][0m Trial 10 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)[0m
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14730.9951171875 - Score: 117.98822021484375
+10/400 - Loss: 5741.75537109375 - Score: 100.97698211669922
+20/400 - Loss: 2960.072265625 - Score: 80.93203735351562
+30/400 - Loss: 1632.894287109375 - Score: 65.19923400878906
+40/400 - Loss: 929.6851806640625 - Score: 54.31050109863281
+50/400 - Loss: 564.6900634765625 - Score: 47.48271179199219
+60/400 - Loss: 393.6404724121094 - Score: 43.55791091918945
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+70/400 - Loss: 288.4618835449219 - Score: 41.437801361083984
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+80/400 - Loss: 221.21109008789062 - Score: 39.97935485839844
+EarlyStopping counter: 1 out of 15
+90/400 - Loss: 188.8480682373047 - Score: 39.217796325683594
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+100/400 - Loss: 161.62612915039062 - Score: 38.648406982421875
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+110/400 - Loss: 150.02806091308594 - Score: 38.29671859741211
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+120/400 - Loss: 144.20419311523438 - Score: 38.21498107910156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+130/400 - Loss: 129.7274169921875 - Score: 37.90920639038086
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 68 - num_samples: 8 - batch_size:2048 - num_inducing: 68 - lr: 0.007987353252504565
+0/400 - Loss: 15814.5732421875 - Score: 118.49147033691406
+10/400 - Loss: 9879.5439453125 - Score: 113.38414764404297
+20/400 - Loss: 5470.76708984375 - Score: 91.81055450439453
+30/400 - Loss: 3475.076904296875 - Score: 77.14175415039062
+40/400 - Loss: 2296.5751953125 - Score: 66.22076416015625
+50/400 - Loss: 1561.0845947265625 - Score: 58.19588851928711
+60/400 - Loss: 1088.1075439453125 - Score: 52.287071228027344
+70/400 - Loss: 779.1713256835938 - Score: 48.001346588134766
+80/400 - Loss: 578.7413330078125 - Score: 44.93598937988281
+90/400 - Loss: 446.5007019042969 - Score: 42.76404571533203
+100/400 - Loss: 359.0181884765625 - Score: 41.28072738647461
+110/400 - Loss: 297.51129150390625 - Score: 40.26322555541992
+120/400 - Loss: 254.9112091064453 - Score: 39.53813171386719
+130/400 - Loss: 224.00018310546875 - Score: 39.03825759887695
+140/400 - Loss: 201.70413208007812 - Score: 38.682411193847656
+150/400 - Loss: 183.68807983398438 - Score: 38.42697525024414
+EarlyStopping counter: 1 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 106 - num_samples: 11 - batch_size:1024 - num_inducing: 106 - lr: 0.0008586713192096651
+0/400 - Loss: 16396.353515625 - Score: 118.55449676513672
+10/400 - Loss: 14827.8818359375 - Score: 118.29711151123047
+20/400 - Loss: 13429.1865234375 - Score: 117.50399017333984
+30/400 - Loss: 12070.35546875 - Score: 115.24979400634766
+40/400 - Loss: 10640.4052734375 - Score: 110.91310119628906
+50/400 - Loss: 9244.83203125 - Score: 106.15288543701172
+60/400 - Loss: 8168.45458984375 - Score: 102.07451629638672
+70/400 - Loss: 7277.10107421875 - Score: 98.41020965576172
+80/400 - Loss: 6514.05419921875 - Score: 95.01419067382812
+90/400 - Loss: 5867.03076171875 - Score: 91.72364807128906
+100/400 - Loss: 5302.63623046875 - Score: 88.58185577392578
+110/400 - Loss: 4801.42138671875 - Score: 85.58118438720703
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 62 - num_samples: 14 - batch_size:1024 - num_inducing: 62 - lr: 0.0003467275099530408
+0/400 - Loss: 16491.64453125 - Score: 118.55894470214844
+Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 596 - num_samples: 15 - batch_size:1024 - num_inducing: 596 - lr: 0.06704678381845867
+0/400 - Loss: 8041.275390625 - Score: 110.87281799316406
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+10/400 - Loss: 301.85247802734375 - Score: 38.32732391357422
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 56 - num_samples: 11 - batch_size:1024 - num_inducing: 56 - lr: 0.057083238070506304
+0/400 - Loss: 9296.0078125 - Score: 115.74030303955078
+Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 464 - num_samples: 15 - batch_size:1024 - num_inducing: 464 - lr: 0.03822827340683878
+0/400 - Loss: 10873.3154296875 - Score: 115.41902160644531
+10/400 - Loss: 366.7979736328125 - Score: 37.004764556884766
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+20/400 - Loss: 139.6118927001953 - Score: 37.01579666137695
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 97 - num_samples: 10 - batch_size:512 - num_inducing: 97 - lr: 0.030919798258844864
+0/400 - Loss: 8740.126953125 - Score: 112.4298324584961
+Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 177 - num_samples: 5 - batch_size:2048 - num_inducing: 177 - lr: 0.00025632776947322986
+0/400 - Loss: 16533.66015625 - Score: 118.56835174560547
+10/400 - Loss: 16263.271484375 - Score: 118.53958129882812
+20/400 - Loss: 16001.875 - Score: 118.50505065917969
+30/400 - Loss: 15747.171875 - Score: 118.45718383789062
+40/400 - Loss: 15494.0654296875 - Score: 118.3870620727539
+50/400 - Loss: 15237.8515625 - Score: 118.28950500488281
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 131 - num_samples: 5 - batch_size:1024 - num_inducing: 131 - lr: 0.00011969592007035675
+0/400 - Loss: 16535.328125 - Score: 118.5682144165039
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 188 - num_samples: 12 - batch_size:512 - num_inducing: 188 - lr: 0.0006451402906792897
+0/400 - Loss: 16311.1962890625 - Score: 118.52068328857422
+10/400 - Loss: 14084.4072265625 - Score: 117.741943359375
+20/400 - Loss: 12295.671875 - Score: 116.43878936767578
+30/400 - Loss: 10754.9794921875 - Score: 114.18810272216797
+40/400 - Loss: 9335.5361328125 - Score: 110.77328491210938
+50/400 - Loss: 8194.5126953125 - Score: 107.52940368652344
+60/400 - Loss: 7247.13916015625 - Score: 104.55403137207031
+70/400 - Loss: 6459.865234375 - Score: 101.6543960571289
+80/400 - Loss: 5768.44287109375 - Score: 98.74535369873047
+90/400 - Loss: 5159.54443359375 - Score: 95.8077163696289
+100/400 - Loss: 4631.23388671875 - Score: 92.93701934814453
+Traceback (most recent call last):
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/experiment.py", line 30, in <module>
+    time_tolerance=time_tolerance)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 401, in HPO_DGP
+    n_trials=n_trials)  # n_trials=N_TRIALS
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/study.py", line 428, in optimize
+    show_progress_bar=show_progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 76, in _optimize
+    progress_bar=progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 160, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 234, in _run_trial
+    raise func_err
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+[32m[I 2023-06-13 00:00:12,360][0m Trial 16 pruned. [0m
+[32m[I 2023-06-13 00:04:17,480][0m Trial 17 pruned. [0m
+[32m[I 2023-06-13 00:05:43,851][0m Trial 7 finished with value: 117.49380493164062 and parameters: {'lr': 0.00010663109589553259, 'batch_size': 1024, 'num_inducing': 166, 'num_samples': 5, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 4}. Best is trial 4 with value: 37.11784744262695.[0m
+[32m[I 2023-06-13 00:08:04,521][0m Trial 18 pruned. [0m
+[32m[I 2023-06-13 00:22:27,694][0m Trial 14 finished with value: 117.7249526977539 and parameters: {'lr': 0.00041513530702190374, 'batch_size': 2048, 'num_inducing': 72, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 37.78729248046875.[0m
+[32m[I 2023-06-13 00:24:04,266][0m Trial 15 pruned. [0m
+[32m[I 2023-06-13 00:25:17,587][0m Trial 18 finished with value: 37.789554595947266 and parameters: {'lr': 0.0661742641313344, 'batch_size': 512, 'num_inducing': 781, 'num_samples': 6, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 15 with value: 37.577857971191406.[0m
+[32m[I 2023-06-13 00:26:18,716][0m Trial 19 pruned. [0m
+[32m[I 2023-06-13 00:43:09,531][0m Trial 8 finished with value: 107.82142639160156 and parameters: {'lr': 0.00021254874706633808, 'batch_size': 1024, 'num_inducing': 63, 'num_samples': 7, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 4 with value: 37.11784744262695.[0m
+[32m[I 2023-06-13 00:51:48,080][0m Trial 9 pruned. [0m
+[32m[I 2023-06-13 00:57:44,625][0m Trial 10 pruned. [0m
+30/400 - Loss: 233.49310302734375 - Score: 37.738121032714844[32m[I 2023-06-13 01:08:30,614][0m Trial 19 finished with value: 41.460391998291016 and parameters: {'lr': 0.004101198340681486, 'batch_size': 512, 'num_inducing': 132, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 2}. Best is trial 13 with value: 37.22980880737305.[0m
+[32m[I 2023-06-13 01:10:22,315][0m Trial 20 pruned. [0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+0/400 - Loss: 14751.619140625 - Score: 118.08731079101562
+10/400 - Loss: 5930.10400390625 - Score: 103.2435302734375
+20/400 - Loss: 3197.869140625 - Score: 84.90951538085938
+30/400 - Loss: 1855.60546875 - Score: 69.54268646240234
+40/400 - Loss: 1108.0511474609375 - Score: 58.17565155029297
+50/400 - Loss: 686.9927978515625 - Score: 50.60844421386719
+60/400 - Loss: 453.90240478515625 - Score: 45.647613525390625
+70/400 - Loss: 329.7372131347656 - Score: 42.670982360839844
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+80/400 - Loss: 275.6100769042969 - Score: 41.47648239135742
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+90/400 - Loss: 205.5044708251953 - Score: 39.67677688598633
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+100/400 - Loss: 181.07737731933594 - Score: 39.229984283447266
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+110/400 - Loss: 180.36849975585938 - Score: 39.329627990722656
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 1 out of 15
+120/400 - Loss: 139.40866088867188 - Score: 38.26071548461914
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+130/400 - Loss: 130.91500854492188 - Score: 38.1454963684082
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 166 - num_samples: 14 - batch_size:512 - num_inducing: 166 - lr: 0.0555442770834226
+0/400 - Loss: 6148.69873046875 - Score: 108.30158233642578
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 198.12648010253906 - Score: 39.25997543334961
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+20/400 - Loss: 188.64918518066406 - Score: 38.90864944458008
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+30/400 - Loss: 199.85203552246094 - Score: 38.743980407714844
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 1 out of 15
+40/400 - Loss: 162.3809356689453 - Score: 37.88779830932617
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+50/400 - Loss: 138.0565948486328 - Score: 38.31381607055664
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 209 - num_samples: 2 - batch_size:2048 - num_inducing: 209 - lr: 0.0008845636266002723
+0/400 - Loss: 16473.69921875 - Score: 118.56238555908203
+10/400 - Loss: 15577.1103515625 - Score: 118.45500183105469
+20/400 - Loss: 14728.451171875 - Score: 118.14785766601562
+30/400 - Loss: 13923.80859375 - Score: 117.60868835449219
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 126 - num_samples: 9 - batch_size:512 - num_inducing: 126 - lr: 0.00036329806217656285
+0/400 - Loss: 16419.015625 - Score: 118.54601287841797
+10/400 - Loss: 15062.919921875 - Score: 117.9483642578125
+20/400 - Loss: 13759.0068359375 - Score: 116.53877258300781
+30/400 - Loss: 12445.775390625 - Score: 114.24108123779297
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 167 - num_samples: 13 - batch_size:512 - num_inducing: 167 - lr: 0.022887875102484422
+0/400 - Loss: 10176.005859375 - Score: 114.51910400390625
+Current Configuration: n_gp_layers:3 - n_gp_out: 4 - num_inducing: 88 - num_samples: 6 - batch_size:2048 - num_inducing: 88 - lr: 0.0239800932793171
+0/400 - Loss: 14462.6298828125 - Score: 118.33212280273438
+Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 776 - num_samples: 5 - batch_size:512 - num_inducing: 776 - lr: 0.000873188533237095
+0/400 - Loss: 16234.505859375 - Score: 118.53927612304688
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 86 - num_samples: 12 - batch_size:2048 - num_inducing: 86 - lr: 0.00012059173479237476
+0/400 - Loss: 16546.466796875 - Score: 118.56924438476562
+Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 86 - num_samples: 15 - batch_size:512 - num_inducing: 86 - lr: 0.0012157154599340566
+0/400 - Loss: 16109.400390625 - Score: 118.52458953857422
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 296 - num_samples: 10 - batch_size:2048 - num_inducing: 296 - lr: 0.0012534406512879628
+0/400 - Loss: 16434.64453125 - Score: 118.54023742675781
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 401 - num_samples: 14 - batch_size:2048 - num_inducing: 401 - lr: 0.08093685049448869
+0/400 - Loss: 10582.5625 - Score: 115.53388977050781
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 260 - num_samples: 10 - batch_size:2048 - num_inducing: 260 - lr: 0.035730508305645024
+0/400 - Loss: 13510.6748046875 - Score: 117.70684051513672
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 416 - num_samples: 8 - batch_size:2048 - num_inducing: 416 - lr: 0.010247135543856357
+0/400 - Loss: 15592.080078125 - Score: 118.3567123413086
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 71 - num_samples: 8 - batch_size:1024 - num_inducing: 71 - lr: 0.004528094259855304
+0/400 - Loss: 15728.7001953125 - Score: 118.4599609375
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 72 - num_samples: 14 - batch_size:2048 - num_inducing: 72 - lr: 0.00041513530702190374
+0/400 - Loss: 16517.658203125 - Score: 118.56297302246094
+10/400 - Loss: 16070.7216796875 - Score: 118.46085357666016
+20/400 - Loss: 15637.9482421875 - Score: 118.30455017089844
+30/400 - Loss: 15201.515625 - Score: 118.0112075805664
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 172 - num_samples: 5 - batch_size:2048 - num_inducing: 172 - lr: 0.004495140201661371
+0/400 - Loss: 16131.1904296875 - Score: 118.49557495117188
+Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 210 - num_samples: 3 - batch_size:512 - num_inducing: 210 - lr: 0.00021819985766906828
+0/400 - Loss: 16474.365234375 - Score: 118.55427551269531
+10/400 - Loss: 15644.5390625 - Score: 118.3036880493164
+20/400 - Loss: 14782.8916015625 - Score: 117.49308776855469
+30/400 - Loss: 13986.2861328125 - Score: 116.6059799194336
+40/400 - Loss: 13284.7060546875 - Score: 115.91980743408203
+50/400 - Loss: 12651.6376953125 - Score: 115.30988311767578
+60/400 - Loss: 12068.421875 - Score: 114.72831726074219
+70/400 - Loss: 11523.4580078125 - Score: 114.15863037109375
+80/400 - Loss: 11015.5625 - Score: 113.59129333496094
+90/400 - Loss: 10538.486328125 - Score: 113.02217102050781
+100/400 - Loss: 10089.1181640625 - Score: 112.44743347167969
+110/400 - Loss: 9664.2138671875 - Score: 111.86434173583984
+[32m[I 2023-06-13 01:24:11,856][0m Trial 16 finished with value: 110.6175765991211 and parameters: {'lr': 0.00021819985766906828, 'batch_size': 512, 'num_inducing': 210, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 1 with value: 37.78729248046875.[0m
+[32m[I 2023-06-13 01:28:35,671][0m Trial 20 finished with value: 37.77137756347656 and parameters: {'lr': 0.09962932134654698, 'batch_size': 512, 'num_inducing': 752, 'num_samples': 10, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 15 with value: 37.577857971191406.[0m
+40/400 - Loss: 2560.660888671875 - Score: 77.94939422607422[32m[I 2023-06-13 02:06:04,126][0m Trial 21 pruned. [0m
+[32m[I 2023-06-13 02:08:13,960][0m Trial 22 pruned. [0m
+[32m[I 2023-06-13 02:29:28,963][0m Trial 21 finished with value: 49.504390716552734 and parameters: {'lr': 0.06264552332447494, 'batch_size': 2048, 'num_inducing': 389, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 15 with value: 37.577857971191406.[0m
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 58 - num_samples: 12 - batch_size:512 - num_inducing: 58 - lr: 0.011509807913064806
+0/400 - Loss: 12865.5966796875 - Score: 117.40738677978516
+10/400 - Loss: 2597.62939453125 - Score: 77.70841217041016
+20/400 - Loss: 872.9423217773438 - Score: 54.86582946777344
+30/400 - Loss: 378.3272705078125 - Score: 45.34888458251953
+EarlyStopping counter: 1 out of 15
+40/400 - Loss: 238.0033416748047 - Score: 41.21868896484375
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+50/400 - Loss: 190.1916046142578 - Score: 39.48274230957031
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+60/400 - Loss: 148.22035217285156 - Score: 38.78461837768555
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+70/400 - Loss: 140.31373596191406 - Score: 38.31772994995117
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+80/400 - Loss: 123.6102066040039 - Score: 38.05268478393555
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+90/400 - Loss: 124.2392578125 - Score: 38.625694274902344
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 449 - num_samples: 5 - batch_size:1024 - num_inducing: 449 - lr: 0.00013594801509408103
+0/400 - Loss: 16531.541015625 - Score: 118.5644760131836
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 92 - num_samples: 9 - batch_size:512 - num_inducing: 92 - lr: 0.03957630522557885
+0/400 - Loss: 7824.1005859375 - Score: 112.89716339111328
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 331.4270324707031 - Score: 43.45268249511719
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+20/400 - Loss: 164.22531127929688 - Score: 38.62384033203125
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+30/400 - Loss: 136.12660217285156 - Score: 38.04743194580078
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+40/400 - Loss: 139.57827758789062 - Score: 38.14645004272461
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+50/400 - Loss: 131.5663299560547 - Score: 38.419246673583984
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+60/400 - Loss: 110.76590728759766 - Score: 38.27850341796875
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+70/400 - Loss: 113.01716613769531 - Score: 37.59455490112305
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+80/400 - Loss: 100.18521881103516 - Score: 37.831905364990234
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+90/400 - Loss: 94.04537963867188 - Score: 37.70794677734375
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 232 - num_samples: 7 - batch_size:512 - num_inducing: 232 - lr: 0.0006319141047525357
+0/400 - Loss: 16313.845703125 - Score: 118.5067367553711
+Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 180 - num_samples: 14 - batch_size:2048 - num_inducing: 180 - lr: 0.021586903333274444
+0/400 - Loss: 14577.6162109375 - Score: 117.88085174560547
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 781 - num_samples: 6 - batch_size:512 - num_inducing: 781 - lr: 0.0661742641313344
+0/400 - Loss: 4761.89794921875 - Score: 94.58729553222656
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+10/400 - Loss: 317.4815979003906 - Score: 38.5187873840332
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+20/400 - Loss: 236.4484100341797 - Score: 38.20918273925781
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 166 - num_samples: 2 - batch_size:2048 - num_inducing: 166 - lr: 0.005831704188776239
+0/400 - Loss: 16007.5986328125 - Score: 118.4684829711914
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 752 - num_samples: 10 - batch_size:512 - num_inducing: 752 - lr: 0.09962932134654698
+0/400 - Loss: 3704.38134765625 - Score: 74.82129669189453
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+10/400 - Loss: 185.4634552001953 - Score: 38.10215377807617
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+20/400 - Loss: 190.68728637695312 - Score: 37.82963943481445
+EarlyStopping counter: 12 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 389 - num_samples: 15 - batch_size:2048 - num_inducing: 389 - lr: 0.06264552332447494
+0/400 - Loss: 11625.166015625 - Score: 116.35575103759766
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 1822.1856689453125 - Score: 75.36566925048828
+Time Budget run out. Pruning Trial
+[32m[I 2023-06-13 02:31:06,338][0m Trial 17 finished with value: 118.55948638916016 and parameters: {'lr': 0.00012102223019997164, 'batch_size': 2048, 'num_inducing': 110, 'num_samples': 13, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 5}. Best is trial 1 with value: 37.78729248046875.[0m
+[32m[I 2023-06-13 02:33:04,885][0m Trial 23 finished with value: 37.10303497314453 and parameters: {'lr': 0.0846908461538859, 'batch_size': 1024, 'num_inducing': 310, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 3}. Best is trial 23 with value: 37.10303497314453.[0m
+[32m[I 2023-06-13 02:43:23,670][0m Trial 24 pruned. [0m
+[32m[I 2023-06-13 02:45:13,340][0m Trial 22 pruned. [0m
+[32m[I 2023-06-13 02:56:04,377][0m Trial 25 finished with value: 36.6922492980957 and parameters: {'lr': 0.05244317979104497, 'batch_size': 1024, 'num_inducing': 380, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 25 with value: 36.6922492980957.[0m
+[32m[I 2023-06-13 03:11:11,780][0m Trial 26 pruned. [0m
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-07 to the diagonal
+  NumericalWarning,
+/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-06 to the diagonal
+  NumericalWarning,
+[33m[W 2023-06-13 03:12:57,385][0m Trial 27 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)[0m
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+10/400 - Loss: 186.12554931640625 - Score: 40.63766860961914
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+20/400 - Loss: 143.78643798828125 - Score: 43.39331817626953
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 484 - num_samples: 11 - batch_size:512 - num_inducing: 484 - lr: 0.0008437992889992047
+0/400 - Loss: 16243.4375 - Score: 118.5311508178711
+Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 101 - num_samples: 3 - batch_size:1024 - num_inducing: 101 - lr: 0.0007974413177825174
+0/400 - Loss: 16407.09375 - Score: 118.55494689941406
+Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 75 - num_samples: 5 - batch_size:1024 - num_inducing: 75 - lr: 0.026238740216636743
+0/400 - Loss: 12301.5595703125 - Score: 116.63471221923828
+Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 132 - num_samples: 15 - batch_size:512 - num_inducing: 132 - lr: 0.004101198340681486
+0/400 - Loss: 15121.162109375 - Score: 118.36348724365234
+10/400 - Loss: 5850.98193359375 - Score: 94.44070434570312
+20/400 - Loss: 2761.918701171875 - Score: 71.97134399414062
+30/400 - Loss: 1369.864013671875 - Score: 56.78107452392578
+40/400 - Loss: 712.3873901367188 - Score: 47.80815887451172
+50/400 - Loss: 422.6778564453125 - Score: 42.879398345947266
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 2 - num_inducing: 83 - num_samples: 8 - batch_size:512 - num_inducing: 83 - lr: 0.009183640344838952
+0/400 - Loss: 13516.6708984375 - Score: 117.7862548828125
+Current Configuration: n_gp_layers:3 - n_gp_out: 6 - num_inducing: 144 - num_samples: 15 - batch_size:1024 - num_inducing: 144 - lr: 0.0011788474504491483
+0/400 - Loss: 16336.259765625 - Score: 118.54965209960938
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 94 - num_samples: 5 - batch_size:2048 - num_inducing: 94 - lr: 0.024181949944233245
+0/400 - Loss: 14390.109375 - Score: 117.95285034179688
+Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 310 - num_samples: 11 - batch_size:1024 - num_inducing: 310 - lr: 0.0846908461538859
+0/400 - Loss: 7025.34716796875 - Score: 109.26473999023438
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 377.1677551269531 - Score: 37.803165435791016
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+20/400 - Loss: 208.19769287109375 - Score: 38.00360870361328
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 1 out of 15
+30/400 - Loss: 190.16990661621094 - Score: 37.29485321044922
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+40/400 - Loss: 220.04396057128906 - Score: 37.76364517211914
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 325 - num_samples: 5 - batch_size:1024 - num_inducing: 325 - lr: 0.08800519297054002
+0/400 - Loss: 6936.5185546875 - Score: 110.23934173583984
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+10/400 - Loss: 316.20184326171875 - Score: 37.6264762878418
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+20/400 - Loss: 283.6768493652344 - Score: 38.25891876220703
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 380 - num_samples: 2 - batch_size:1024 - num_inducing: 380 - lr: 0.05244317979104497
+0/400 - Loss: 9474.978515625 - Score: 114.14794158935547
+10/400 - Loss: 338.547119140625 - Score: 37.32309341430664
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 1 out of 15
+20/400 - Loss: 282.7290954589844 - Score: 37.31944274902344
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+30/400 - Loss: 170.05850219726562 - Score: 37.104793548583984
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 460 - num_samples: 12 - batch_size:2048 - num_inducing: 460 - lr: 0.0497599000884628
+0/400 - Loss: 12463.2294921875 - Score: 116.94493865966797
+EarlyStopping counter: 1 out of 15
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 610 - num_samples: 2 - batch_size:512 - num_inducing: 610 - lr: 0.01880717582430647
+0/400 - Loss: 11095.07421875 - Score: 116.19927978515625
+Traceback (most recent call last):
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/experiment.py", line 30, in <module>
+    time_tolerance=time_tolerance)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 401, in HPO_DGP
+    n_trials=n_trials)  # n_trials=N_TRIALS
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/study.py", line 428, in optimize
+    show_progress_bar=show_progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 76, in _optimize
+    progress_bar=progress_bar,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 160, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 234, in _run_trial
+    raise func_err
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+[32m[I 2023-06-13 03:33:25,074][0m Trial 18 finished with value: 36.90489959716797 and parameters: {'lr': 0.04046915447575169, 'batch_size': 1024, 'num_inducing': 602, 'num_samples': 12, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 03:36:59,652][0m Trial 19 pruned. [0m
+[32m[I 2023-06-13 03:48:56,491][0m Trial 23 finished with value: 41.694679260253906 and parameters: {'lr': 0.08624047729563256, 'batch_size': 512, 'num_inducing': 410, 'num_samples': 14, 'kernel_type': 'matern1.5', 'n_gp_layers': 4, 'n_gp_out': 3}. Best is trial 15 with value: 37.577857971191406.[0m
+[32m[I 2023-06-13 04:12:08,459][0m Trial 20 pruned. [0m
+[32m[I 2023-06-13 04:13:17,254][0m Trial 21 pruned. [0m
+[32m[I 2023-06-13 04:15:39,157][0m Trial 22 pruned. [0m
+[32m[I 2023-06-13 04:16:17,414][0m Trial 23 pruned. [0m
+[32m[I 2023-06-13 04:57:43,942][0m Trial 24 finished with value: 118.56049346923828 and parameters: {'lr': 0.0011048815595595027, 'batch_size': 2048, 'num_inducing': 581, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 15 with value: 37.577857971191406.[0m
+[32m[I 2023-06-13 04:59:25,623][0m Trial 25 pruned. [0m
+[32m[I 2023-06-13 05:00:23,117][0m Trial 26 pruned. [0m
+[32m[I 2023-06-13 05:03:00,566][0m Trial 24 pruned. [0m
+[32m[I 2023-06-13 05:07:09,504][0m Trial 25 pruned. [0m
+[32m[I 2023-06-13 05:16:31,567][0m Trial 27 pruned. [0m
+[32m[I 2023-06-13 05:55:07,383][0m Trial 26 pruned. [0m
+[32m[I 2023-06-13 06:06:31,432][0m Trial 27 pruned. [0m
+[32m[I 2023-06-13 06:09:58,646][0m Trial 28 pruned. [0m
+[32m[I 2023-06-13 06:16:41,529][0m Trial 28 finished with value: 37.96625518798828 and parameters: {'lr': 0.00296705139816177, 'batch_size': 512, 'num_inducing': 105, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 15 with value: 37.577857971191406.[0m
+[32m[I 2023-06-13 07:10:22,084][0m Trial 29 finished with value: 53.22675704956055 and parameters: {'lr': 0.012921723287923906, 'batch_size': 2048, 'num_inducing': 50, 'num_samples': 8, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 07:18:09,842][0m Trial 30 finished with value: 37.67537307739258 and parameters: {'lr': 0.03776051191061001, 'batch_size': 512, 'num_inducing': 103, 'num_samples': 9, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 07:18:53,168][0m Trial 31 pruned. [0m
+[32m[I 2023-06-13 07:26:01,084][0m Trial 32 pruned. [0m
+[32m[I 2023-06-13 07:37:20,582][0m Trial 29 finished with value: 118.51107025146484 and parameters: {'lr': 0.0027708492095716397, 'batch_size': 2048, 'num_inducing': 348, 'num_samples': 15, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 5}. Best is trial 15 with value: 37.577857971191406.[0m
+[32m[I 2023-06-13 07:39:12,100][0m Trial 33 pruned. [0m
+[32m[I 2023-06-13 08:31:01,572][0m Trial 30 pruned. [0m
+[32m[I 2023-06-13 08:43:04,474][0m Trial 31 finished with value: 36.95566177368164 and parameters: {'lr': 0.04226454854439315, 'batch_size': 1024, 'num_inducing': 154, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 31 with value: 36.95566177368164.[0m
+[32m[I 2023-06-13 08:55:30,380][0m Trial 34 finished with value: 47.31935119628906 and parameters: {'lr': 0.09950491896378591, 'batch_size': 1024, 'num_inducing': 349, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 5}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 08:59:06,759][0m Trial 35 pruned. [0m
+[32m[I 2023-06-13 09:16:10,822][0m Trial 36 pruned. [0m
+[32m[I 2023-06-13 09:19:37,147][0m Trial 37 pruned. [0m
+[32m[I 2023-06-13 09:23:17,851][0m Trial 38 pruned. [0m
+[32m[I 2023-06-13 09:26:43,371][0m Trial 39 pruned. [0m
+[32m[I 2023-06-13 09:33:16,957][0m Trial 32 pruned. [0m
+[32m[I 2023-06-13 09:35:13,469][0m Trial 40 pruned. [0m
+[32m[I 2023-06-13 09:40:24,948][0m Trial 33 pruned. [0m
+120/400 - Loss: 9263.359375 - Score: 111.27582550048828
+130/400 - Loss: 8881.5849609375 - Score: 110.67769622802734
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 110 - num_samples: 13 - batch_size:2048 - num_inducing: 110 - lr: 0.00012102223019997164
+0/400 - Loss: 16546.62109375 - Score: 118.5699691772461
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 602 - num_samples: 12 - batch_size:1024 - num_inducing: 602 - lr: 0.04046915447575169
+0/400 - Loss: 10457.9931640625 - Score: 113.80074310302734
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 482.0475158691406 - Score: 38.14781188964844
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 128 - num_samples: 14 - batch_size:1024 - num_inducing: 128 - lr: 0.022565828939460707
+0/400 - Loss: 12964.9931640625 - Score: 117.7354965209961
+Current Configuration: n_gp_layers:2 - n_gp_out: 2 - num_inducing: 635 - num_samples: 12 - batch_size:512 - num_inducing: 635 - lr: 0.00011843007251446763
+0/400 - Loss: 16512.771484375 - Score: 118.56245422363281
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 2 - batch_size:1024 - num_inducing: 128 - lr: 0.09314111687601007
+0/400 - Loss: 6802.349609375 - Score: 111.28678131103516
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 120 - num_samples: 11 - batch_size:1024 - num_inducing: 120 - lr: 0.0011844318588460595
+0/400 - Loss: 16328.4228515625 - Score: 118.5248794555664
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 56 - num_samples: 10 - batch_size:512 - num_inducing: 56 - lr: 0.012136263972245438
+0/400 - Loss: 12633.23046875 - Score: 116.92668151855469
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 237 - num_samples: 15 - batch_size:1024 - num_inducing: 237 - lr: 0.0012479502590399803
+0/400 - Loss: 16323.6904296875 - Score: 118.5455093383789
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 123 - num_samples: 12 - batch_size:512 - num_inducing: 123 - lr: 0.0458276342197687
+0/400 - Loss: 6792.04248046875 - Score: 107.81092071533203
+EarlyStopping counter: 1 out of 15
+Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 799 - num_samples: 8 - batch_size:1024 - num_inducing: 799 - lr: 0.003125954467676169
+0/400 - Loss: 15969.3271484375 - Score: 118.4486083984375
+Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 303 - num_samples: 6 - batch_size:1024 - num_inducing: 303 - lr: 0.011089503152622096
+0/400 - Loss: 14530.0615234375 - Score: 117.7879867553711
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 183 - num_samples: 9 - batch_size:1024 - num_inducing: 183 - lr: 0.00022124774437749494
+0/400 - Loss: 16515.7578125 - Score: 118.56401062011719
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 50 - num_samples: 8 - batch_size:2048 - num_inducing: 50 - lr: 0.012921723287923906
+0/400 - Loss: 15366.734375 - Score: 118.37831115722656
+10/400 - Loss: 7252.5263671875 - Score: 105.61732482910156
+20/400 - Loss: 4121.8701171875 - Score: 89.45254516601562
+30/400 - Loss: 2513.40380859375 - Score: 74.21027374267578
+40/400 - Loss: 1574.831298828125 - Score: 62.692230224609375
+50/400 - Loss: 1008.9490966796875 - Score: 54.55918884277344
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 103 - num_samples: 9 - batch_size:512 - num_inducing: 103 - lr: 0.03776051191061001
+0/400 - Loss: 8106.56005859375 - Score: 113.88990020751953
+10/400 - Loss: 245.23193359375 - Score: 42.045753479003906
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+20/400 - Loss: 155.72239685058594 - Score: 38.36397933959961
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+30/400 - Loss: 180.59561157226562 - Score: 38.39607238769531
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+40/400 - Loss: 118.51455688476562 - Score: 38.076393127441406
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 52 - num_samples: 3 - batch_size:512 - num_inducing: 52 - lr: 0.0030328634659360573
+0/400 - Loss: 15457.7607421875 - Score: 118.37289428710938
+Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 59 - num_samples: 2 - batch_size:1024 - num_inducing: 59 - lr: 0.0022012757757184434
+0/400 - Loss: 16144.46875 - Score: 118.51789855957031
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 766 - num_samples: 4 - batch_size:2048 - num_inducing: 766 - lr: 0.014719717311642854
+0/400 - Loss: 15207.046875 - Score: 118.23086547851562
+Current Configuration: n_gp_layers:4 - n_gp_out: 5 - num_inducing: 349 - num_samples: 15 - batch_size:1024 - num_inducing: 349 - lr: 0.09950491896378591
+0/400 - Loss: 5638.1259765625 - Score: 99.7242431640625
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 102 - num_samples: 13 - batch_size:1024 - num_inducing: 102 - lr: 0.04331950428436437
+0/400 - Loss: 10403.5791015625 - Score: 115.7749252319336
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 229 - num_samples: 12 - batch_size:512 - num_inducing: 229 - lr: 0.0950648102487626
+0/400 - Loss: 2459.4619140625 - Score: 76.58399200439453
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+10/400 - Loss: 169.1263885498047 - Score: 38.80662536621094
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 1 out of 15
+20/400 - Loss: 199.1315460205078 - Score: 39.784061431884766
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 1 out of 15
+Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 149 - num_samples: 11 - batch_size:512 - num_inducing: 149 - lr: 0.008152765742285947
+0/400 - Loss: 13770.3759765625 - Score: 117.61458587646484
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 123 - num_samples: 13 - batch_size:512 - num_inducing: 123 - lr: 0.045912780483279195
+0/400 - Loss: 7034.349609375 - Score: 111.42864990234375
+EarlyStopping counter: 1 out of 15
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 231 - num_samples: 12 - batch_size:512 - num_inducing: 231 - lr: 0.021187421059643437
+0/400 - Loss: 10307.4404296875 - Score: 113.6375732421875
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 113 - num_samples: 9 - batch_size:2048 - num_inducing: 113 - lr: 0.0011919376155619726
+0/400 - Loss: 16444.40234375 - Score: 118.55261993408203
+10/400 - Loss: 15244.2138671875 - Score: 118.27809143066406
+20/400 - Loss: 14139.3408203125 - Score: 117.7948989868164
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 290 - num_samples: 7 - batch_size:2048 - num_inducing: 290 - lr: 0.006661991008405749
+0/400 - Loss: 15921.9775390625 - Score: 118.43333435058594
+[32m[I 2023-06-13 09:57:42,108][0m Trial 34 pruned. [0m
+[32m[I 2023-06-13 09:59:01,657][0m Trial 41 pruned. [0m
+[32m[I 2023-06-13 09:59:28,754][0m Trial 35 pruned. [0m
+[32m[I 2023-06-13 10:09:32,569][0m Trial 36 pruned. [0m
+[32m[I 2023-06-13 10:14:24,987][0m Trial 42 pruned. [0m
+[32m[I 2023-06-13 10:33:26,780][0m Trial 37 pruned. [0m
+[32m[I 2023-06-13 10:42:55,921][0m Trial 38 pruned. [0m
+[32m[I 2023-06-13 11:14:25,560][0m Trial 43 finished with value: 88.68636322021484 and parameters: {'lr': 0.0006944162760014645, 'batch_size': 1024, 'num_inducing': 131, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 1}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 11:35:03,651][0m Trial 44 finished with value: 39.06793975830078 and parameters: {'lr': 0.09124390105094086, 'batch_size': 512, 'num_inducing': 197, 'num_samples': 6, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 1}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 11:36:43,088][0m Trial 45 pruned. [0m
+[32m[I 2023-06-13 11:41:15,741][0m Trial 39 pruned. [0m
+[32m[I 2023-06-13 12:39:21,743][0m Trial 46 finished with value: 38.796295166015625 and parameters: {'lr': 0.01480851245720875, 'batch_size': 512, 'num_inducing': 492, 'num_samples': 7, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 6}. Best is trial 18 with value: 36.90489959716797.[0m
+[32m[I 2023-06-13 12:44:29,983][0m Trial 40 finished with value: 118.52717590332031 and parameters: {'lr': 0.00022863354010200105, 'batch_size': 1024, 'num_inducing': 395, 'num_samples': 2, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 4}. Best is trial 31 with value: 36.95566177368164.[0m
+[32m[I 2023-06-13 12:47:39,531][0m Trial 47 pruned. [0m
+[32m[I 2023-06-13 12:49:28,824][0m Trial 48 pruned. [0m
+[32m[I 2023-06-13 12:52:19,545][0m Trial 41 pruned. [0m
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 669 - num_samples: 10 - batch_size:512 - num_inducing: 669 - lr: 0.0029781764083732032
+0/400 - Loss: 15472.40625 - Score: 118.30768585205078
+Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 410 - num_samples: 14 - batch_size:512 - num_inducing: 410 - lr: 0.08624047729563256
+0/400 - Loss: 2236.005126953125 - Score: 74.48797607421875
+EarlyStopping counter: 1 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 581 - num_samples: 12 - batch_size:2048 - num_inducing: 581 - lr: 0.0011048815595595027
+0/400 - Loss: 16452.75 - Score: 118.56049346923828
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 187 - num_samples: 11 - batch_size:512 - num_inducing: 187 - lr: 0.023452103522694254
+0/400 - Loss: 10182.5283203125 - Score: 114.93305206298828
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 135 - num_samples: 9 - batch_size:512 - num_inducing: 135 - lr: 0.010929423235701098
+0/400 - Loss: 13007.0009765625 - Score: 117.52189636230469
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 399 - num_samples: 12 - batch_size:2048 - num_inducing: 399 - lr: 0.00036674510906121316
+0/400 - Loss: 16522.123046875 - Score: 118.56267547607422
+Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 105 - num_samples: 15 - batch_size:512 - num_inducing: 105 - lr: 0.00296705139816177
+0/400 - Loss: 15473.265625 - Score: 118.35655212402344
+10/400 - Loss: 8516.068359375 - Score: 109.88457489013672
+20/400 - Loss: 5384.31298828125 - Score: 98.03455352783203
+30/400 - Loss: 3736.667724609375 - Score: 87.94389343261719
+40/400 - Loss: 2705.213134765625 - Score: 79.190185546875
+50/400 - Loss: 2001.549072265625 - Score: 71.54351806640625
+60/400 - Loss: 1495.04931640625 - Score: 64.94798278808594
+70/400 - Loss: 1123.9586181640625 - Score: 59.379730224609375
+80/400 - Loss: 847.6424560546875 - Score: 54.735626220703125
+90/400 - Loss: 643.542236328125 - Score: 50.970394134521484
+100/400 - Loss: 492.45672607421875 - Score: 47.918418884277344
+110/400 - Loss: 383.5777282714844 - Score: 45.51622772216797
+120/400 - Loss: 301.68365478515625 - Score: 43.60072326660156
+EarlyStopping counter: 1 out of 15
+130/400 - Loss: 245.44992065429688 - Score: 42.144710540771484
+EarlyStopping counter: 1 out of 15
+140/400 - Loss: 196.66578674316406 - Score: 40.671775817871094
+EarlyStopping counter: 1 out of 15
+150/400 - Loss: 169.4424591064453 - Score: 39.89293670654297
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+160/400 - Loss: 155.44064331054688 - Score: 39.28904342651367
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+170/400 - Loss: 152.13865661621094 - Score: 38.818511962890625
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+180/400 - Loss: 155.03819274902344 - Score: 38.649322509765625
+EarlyStopping counter: 1 out of 15
+190/400 - Loss: 129.0175323486328 - Score: 38.24687957763672
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 1 out of 15
+200/400 - Loss: 117.79454803466797 - Score: 38.04115295410156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 348 - num_samples: 15 - batch_size:2048 - num_inducing: 348 - lr: 0.0027708492095716397
+0/400 - Loss: 16295.4716796875 - Score: 118.54237365722656
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 606 - num_samples: 8 - batch_size:512 - num_inducing: 606 - lr: 0.0042451491938729005
+0/400 - Loss: 15040.681640625 - Score: 118.35174560546875
+Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 154 - num_samples: 3 - batch_size:1024 - num_inducing: 154 - lr: 0.04226454854439315
+0/400 - Loss: 10560.4697265625 - Score: 116.206787109375
+10/400 - Loss: 303.2950744628906 - Score: 38.08363723754883
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+20/400 - Loss: 163.42539978027344 - Score: 37.09345626831055
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+30/400 - Loss: 122.08289337158203 - Score: 37.089229583740234
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 358 - num_samples: 4 - batch_size:512 - num_inducing: 358 - lr: 0.001989483390134316
+0/400 - Loss: 15794.751953125 - Score: 118.31109619140625
+10/400 - Loss: 9397.1865234375 - Score: 106.35948944091797
+20/400 - Loss: 5884.2802734375 - Score: 92.91716003417969
+Current Configuration: n_gp_layers:4 - n_gp_out: 4 - num_inducing: 116 - num_samples: 2 - batch_size:512 - num_inducing: 116 - lr: 0.09232614343879755
+0/400 - Loss: 2623.170654296875 - Score: 80.40003967285156
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 136 - num_samples: 12 - batch_size:1024 - num_inducing: 136 - lr: 0.008994816734279692
+0/400 - Loss: 14922.89453125 - Score: 118.1685562133789
+10/400 - Loss: 5539.86181640625 - Score: 95.67583465576172
+20/400 - Loss: 2651.7626953125 - Score: 73.67337036132812
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 51 - num_samples: 15 - batch_size:2048 - num_inducing: 51 - lr: 0.0330555236370571
+0/400 - Loss: 13743.1650390625 - Score: 117.96045684814453
+Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 296 - num_samples: 9 - batch_size:512 - num_inducing: 296 - lr: 0.01368296709874267
+0/400 - Loss: 12078.4501953125 - Score: 115.52273559570312
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 772 - num_samples: 5 - batch_size:512 - num_inducing: 772 - lr: 0.05062560502774791
+0/400 - Loss: 6088.63671875 - Score: 102.51917266845703
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 528 - num_samples: 4 - batch_size:512 - num_inducing: 528 - lr: 0.04831359541890845
+0/400 - Loss: 6369.564453125 - Score: 104.45415496826172
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 591 - num_samples: 10 - batch_size:512 - num_inducing: 591 - lr: 0.0031325682981115655
+0/400 - Loss: 15389.8359375 - Score: 118.19796752929688
+Current Configuration: n_gp_layers:3 - n_gp_out: 4 - num_inducing: 395 - num_samples: 2 - batch_size:1024 - num_inducing: 395 - lr: 0.00022863354010200105
+0/400 - Loss: 16514.8984375 - Score: 118.56635284423828
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 335 - num_samples: 8 - batch_size:512 - num_inducing: 335 - lr: 0.00023913511800445004
+0/400 - Loss: 16465.951171875 - Score: 118.54975128173828
+Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 176 - num_samples: 14 - batch_size:1024 - num_inducing: 176 - lr: 0.009196272591328367
+0/400 - Loss: 14892.7724609375 - Score: 118.18180847167969
+10/400 - Loss: 4562.30322265625 - Score: 84.71823120117188
+20/400 - Loss: 1521.0345458984375 - Score: 56.75259780883789
+30/400 - Loss: 575.9015502929688 - Score: 44.18034744262695
+[32m[I 2023-06-13 13:10:36,881][0m Trial 49 pruned. [0m
+10/400 - Loss: 10622.181640625 - Score: 114.12867736816406
+20/400 - Loss: 7032.25390625 - Score: 102.0733871459961
+Current Configuration: n_gp_layers:3 - n_gp_out: 6 - num_inducing: 74 - num_samples: 14 - batch_size:512 - num_inducing: 74 - lr: 0.057235021652224126
+0/400 - Loss: 5069.90625 - Score: 97.17623138427734
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 131 - num_samples: 3 - batch_size:1024 - num_inducing: 131 - lr: 0.0006944162760014645
+0/400 - Loss: 16424.033203125 - Score: 118.54350280761719
+10/400 - Loss: 15061.1259765625 - Score: 117.99769592285156
+20/400 - Loss: 13797.2646484375 - Score: 116.89374542236328
+30/400 - Loss: 12699.7060546875 - Score: 115.73662567138672
+40/400 - Loss: 11753.9111328125 - Score: 114.6639633178711
+50/400 - Loss: 10924.1650390625 - Score: 113.62014770507812
+60/400 - Loss: 10187.35546875 - Score: 112.57109069824219
+70/400 - Loss: 9526.1015625 - Score: 111.50572204589844
+80/400 - Loss: 8927.6435546875 - Score: 110.42339324951172
+90/400 - Loss: 8383.7529296875 - Score: 109.32115936279297
+100/400 - Loss: 7886.5703125 - Score: 108.20376586914062
+110/400 - Loss: 7430.166015625 - Score: 107.07355499267578
+120/400 - Loss: 7007.56884765625 - Score: 105.91455841064453
+130/400 - Loss: 6617.84228515625 - Score: 104.75525665283203
+140/400 - Loss: 6256.16943359375 - Score: 103.59073638916016
+150/400 - Loss: 5919.57958984375 - Score: 102.41976928710938
+160/400 - Loss: 5605.65869140625 - Score: 101.23566436767578
+170/400 - Loss: 5312.130859375 - Score: 99.95486450195312
+180/400 - Loss: 5037.48291015625 - Score: 98.57281494140625
+190/400 - Loss: 4778.49169921875 - Score: 97.12165832519531
+200/400 - Loss: 4534.75390625 - Score: 95.72782897949219
+210/400 - Loss: 4305.3310546875 - Score: 94.38766479492188
+220/400 - Loss: 4088.906982421875 - Score: 93.08460235595703
+230/400 - Loss: 3884.663818359375 - Score: 91.77652740478516
+240/400 - Loss: 3691.216796875 - Score: 90.49120330810547
+250/400 - Loss: 3508.146728515625 - Score: 89.19741821289062
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 197 - num_samples: 6 - batch_size:512 - num_inducing: 197 - lr: 0.09124390105094086
+0/400 - Loss: 3839.8935546875 - Score: 97.364990234375
+10/400 - Loss: 165.78729248046875 - Score: 40.58203887939453
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+EarlyStopping counter: 4 out of 15
+20/400 - Loss: 140.03993225097656 - Score: 39.25811004638672
+EarlyStopping counter: 5 out of 15
+EarlyStopping counter: 6 out of 15
+EarlyStopping counter: 7 out of 15
+EarlyStopping counter: 8 out of 15
+EarlyStopping counter: 9 out of 15
+EarlyStopping counter: 10 out of 15
+EarlyStopping counter: 11 out of 15
+EarlyStopping counter: 12 out of 15
+EarlyStopping counter: 13 out of 15
+EarlyStopping counter: 14 out of 15
+30/400 - Loss: 115.00484466552734 - Score: 39.334007263183594
+EarlyStopping counter: 15 out of 15
+Early stopping
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 146 - num_samples: 11 - batch_size:512 - num_inducing: 146 - lr: 0.019930511011222573
+0/400 - Loss: 10831.1953125 - Score: 115.9681625366211
+Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 492 - num_samples: 7 - batch_size:512 - num_inducing: 492 - lr: 0.01480851245720875
+0/400 - Loss: 11842.427734375 - Score: 115.69068145751953
+10/400 - Loss: 408.64410400390625 - Score: 39.26057815551758
+Time Budget run out. Pruning Trial
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 149 - num_samples: 11 - batch_size:512 - num_inducing: 149 - lr: 0.008988959455709754
+0/400 - Loss: 13397.255859375 - Score: 116.72505187988281
+Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 108 - num_samples: 9 - batch_size:512 - num_inducing: 108 - lr: 0.09329935346784006
+0/400 - Loss: 3577.98046875 - Score: 93.40788269042969
+EarlyStopping counter: 1 out of 15
+EarlyStopping counter: 2 out of 15
+EarlyStopping counter: 3 out of 15
+Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 323 - num_samples: 12 - batch_size:1024 - num_inducing: 323 - lr: 0.00240598920217297
+0/400 - Loss: 16092.5595703125 - Score: 118.4373779296875
+Traceback (most recent call last):
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/experiment.py", line 30, in <module>
+    time_tolerance=time_tolerance)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 439, in HPO_DGP
+    X_train_outer.detach()
+UnboundLocalError: local variable 'X_train_outer' referenced before assignment
+[32m[I 2023-06-13 13:40:11,980][0m Trial 42 finished with value: 37.343597412109375 and parameters: {'lr': 0.009196272591328367, 'batch_size': 1024, 'num_inducing': 176, 'num_samples': 14, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 31 with value: 36.95566177368164.[0m
+[32m[I 2023-06-13 14:42:00,315][0m Trial 43 finished with value: 37.56009292602539 and parameters: {'lr': 0.09200988160039257, 'batch_size': 1024, 'num_inducing': 114, 'num_samples': 7, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 6}. Best is trial 31 with value: 36.95566177368164.[0m
+[32m[I 2023-06-13 15:43:17,705][0m Trial 44 finished with value: 37.87307357788086 and parameters: {'lr': 0.09115798306460197, 'batch_size': 1024, 'num_inducing': 106, 'num_samples': 6, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 6}. Best is trial 31 with value: 36.95566177368164.[0m
+[32m[I 2023-06-13 16:43:52,613][0m Trial 45 finished with value: 115.78546905517578 and parameters: {'lr': 0.000842257458608892, 'batch_size': 2048, 'num_inducing': 284, 'num_samples': 8, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 31 with value: 36.95566177368164.[0m
+[32m[I 2023-06-13 16:59:42,800][0m Trial 46 pruned. [0m
+[32m[I 2023-06-13 17:22:05,223][0m Trial 47 pruned. [0m
+[32m[I 2023-06-13 17:24:05,749][0m Trial 48 pruned. [0m
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd: error: *** JOB 1083028 ON paris1 CANCELLED AT 2023-06-13T17:26:24 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 1083028.0 ON paris1 CANCELLED AT 2023-06-13T17:26:24 DUE TO TIME LIMIT ***
+40/400 - Loss: 320.59063720703125 - Score: 39.794490814208984slurmstepd: error: Detected 10 oom-kill event(s) in StepId=1083028.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

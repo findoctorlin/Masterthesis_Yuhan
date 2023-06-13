@@ -1,0 +1,1826 @@
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:optuna.storages._in_memory:A new study created in memory with name: DGP 2023-06-12
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 10 - batch_size:1024 - num_inducing: 128 - lr: 0.01
+INFO:root:0/400 - Loss: 14734.9873046875 - Score: 117.9850082397461
+INFO:root:0/400 - Loss: 14752.7109375 - Score: 118.0862045288086
+INFO:root:0/400 - Loss: 14730.9951171875 - Score: 117.98822021484375
+INFO:root:0/400 - Loss: 14763.5654296875 - Score: 118.15752410888672
+INFO:root:0/400 - Loss: 14750.5517578125 - Score: 118.05500030517578
+INFO:root:0/400 - Loss: 14762.791015625 - Score: 118.10807800292969
+INFO:root:0/400 - Loss: 14755.7265625 - Score: 118.13150024414062
+INFO:root:0/400 - Loss: 14751.619140625 - Score: 118.08731079101562
+INFO:root:0/400 - Loss: 14739.40625 - Score: 118.03807067871094
+INFO:root:0/400 - Loss: 14748.0029296875 - Score: 118.13941955566406
+INFO:root:0/400 - Loss: 14759.466796875 - Score: 118.12992095947266
+INFO:root:0/400 - Loss: 14758.1220703125 - Score: 118.10258483886719
+INFO:root:0/400 - Loss: 14739.556640625 - Score: 118.09029388427734
+INFO:root:0/400 - Loss: 14780.521484375 - Score: 118.16597747802734
+INFO:root:0/400 - Loss: 14781.0185546875 - Score: 118.20943450927734
+INFO:root:0/400 - Loss: 14803.6904296875 - Score: 118.2339859008789
+INFO:root:10/400 - Loss: 5793.484375 - Score: 101.63090515136719
+INFO:root:10/400 - Loss: 5605.56884765625 - Score: 99.59935760498047
+INFO:root:10/400 - Loss: 5741.75537109375 - Score: 100.97698211669922
+INFO:root:10/400 - Loss: 4498.6943359375 - Score: 86.39704895019531
+INFO:root:10/400 - Loss: 5500.5009765625 - Score: 98.13961791992188
+INFO:root:10/400 - Loss: 5929.55322265625 - Score: 103.208740234375
+INFO:root:10/400 - Loss: 5601.64794921875 - Score: 99.10527038574219
+INFO:root:10/400 - Loss: 5583.02587890625 - Score: 98.96728515625
+INFO:root:10/400 - Loss: 4897.78564453125 - Score: 91.14958190917969
+INFO:root:10/400 - Loss: 5930.10400390625 - Score: 103.2435302734375
+INFO:root:10/400 - Loss: 5586.4501953125 - Score: 99.08576202392578
+INFO:root:10/400 - Loss: 5129.48193359375 - Score: 94.42935943603516
+INFO:root:10/400 - Loss: 5693.3251953125 - Score: 100.46466064453125
+INFO:root:10/400 - Loss: 5672.94580078125 - Score: 99.99530792236328
+INFO:root:10/400 - Loss: 5195.8876953125 - Score: 94.68354034423828
+INFO:root:10/400 - Loss: 5104.01953125 - Score: 93.20054626464844
+INFO:root:20/400 - Loss: 2830.75537109375 - Score: 78.71345520019531
+INFO:root:20/400 - Loss: 2960.072265625 - Score: 80.93203735351562
+INFO:root:20/400 - Loss: 2697.7041015625 - Score: 76.47760009765625
+INFO:root:20/400 - Loss: 3035.335205078125 - Score: 82.34410095214844
+INFO:root:20/400 - Loss: 2843.199462890625 - Score: 78.97059631347656
+INFO:root:20/400 - Loss: 2794.44091796875 - Score: 78.11402130126953
+INFO:root:20/400 - Loss: 2936.03759765625 - Score: 80.35253143310547
+INFO:root:20/400 - Loss: 3235.20947265625 - Score: 85.52210235595703
+INFO:root:20/400 - Loss: 2824.70458984375 - Score: 78.66756439208984
+INFO:root:20/400 - Loss: 3197.869140625 - Score: 84.90951538085938
+INFO:root:20/400 - Loss: 2934.722412109375 - Score: 80.43704986572266
+INFO:root:20/400 - Loss: 2322.10595703125 - Score: 70.44667053222656
+INFO:root:20/400 - Loss: 2393.081787109375 - Score: 71.6382064819336
+INFO:root:20/400 - Loss: 1763.5390625 - Score: 62.07345962524414
+INFO:root:20/400 - Loss: 2108.44970703125 - Score: 67.34635925292969
+INFO:root:20/400 - Loss: 2316.39990234375 - Score: 70.43440246582031
+INFO:root:30/400 - Loss: 1537.54150390625 - Score: 63.04074478149414
+INFO:root:30/400 - Loss: 1414.457275390625 - Score: 60.63058853149414
+INFO:root:30/400 - Loss: 1632.894287109375 - Score: 65.19923400878906
+INFO:root:30/400 - Loss: 1501.2755126953125 - Score: 62.47653579711914
+INFO:root:30/400 - Loss: 1568.296142578125 - Score: 63.665367126464844
+INFO:root:30/400 - Loss: 1632.285400390625 - Score: 64.91685485839844
+INFO:root:30/400 - Loss: 1902.919921875 - Score: 70.44281768798828
+INFO:root:30/400 - Loss: 1198.148681640625 - Score: 56.40852355957031
+INFO:root:30/400 - Loss: 1538.2952880859375 - Score: 63.08698654174805
+INFO:root:30/400 - Loss: 1721.8001708984375 - Score: 66.94029998779297
+INFO:root:30/400 - Loss: 1648.1337890625 - Score: 65.13201141357422
+INFO:root:30/400 - Loss: 1855.60546875 - Score: 69.54268646240234
+INFO:root:30/400 - Loss: 1151.158935546875 - Score: 55.54952621459961
+INFO:root:30/400 - Loss: 1132.5184326171875 - Score: 55.21162414550781
+INFO:root:30/400 - Loss: 795.8948364257812 - Score: 49.04269027709961
+INFO:root:30/400 - Loss: 1009.4544067382812 - Score: 54.11882019042969
+INFO:root:40/400 - Loss: 781.6567993164062 - Score: 50.856117248535156
+INFO:root:40/400 - Loss: 873.7694091796875 - Score: 52.86088943481445
+INFO:root:40/400 - Loss: 929.6851806640625 - Score: 54.31050109863281
+INFO:root:40/400 - Loss: 845.3782958984375 - Score: 52.24714660644531
+INFO:root:40/400 - Loss: 936.98046875 - Score: 54.31840133666992
+INFO:root:40/400 - Loss: 900.8098754882812 - Score: 53.3737678527832
+INFO:root:40/400 - Loss: 647.209228515625 - Score: 48.06755065917969
+INFO:root:40/400 - Loss: 1152.860107421875 - Score: 59.17391586303711
+INFO:root:40/400 - Loss: 958.51025390625 - Score: 54.65300750732422
+INFO:root:40/400 - Loss: 872.7029418945312 - Score: 52.90414810180664
+INFO:root:40/400 - Loss: 1108.0511474609375 - Score: 58.17565155029297
+INFO:root:40/400 - Loss: 1010.9453125 - Score: 55.95674133300781
+INFO:root:40/400 - Loss: 626.6510009765625 - Score: 47.099056243896484
+INFO:root:40/400 - Loss: 631.2664794921875 - Score: 47.0122184753418
+INFO:root:40/400 - Loss: 490.6944885253906 - Score: 43.84428405761719
+INFO:root:40/400 - Loss: 540.128662109375 - Score: 45.59328842163086
+INFO:root:50/400 - Loss: 478.193115234375 - Score: 45.01457214355469
+INFO:root:50/400 - Loss: 529.9366455078125 - Score: 46.39459228515625
+INFO:root:50/400 - Loss: 564.6900634765625 - Score: 47.48271179199219
+INFO:root:50/400 - Loss: 508.8232421875 - Score: 46.01645278930664
+INFO:root:50/400 - Loss: 571.3945922851562 - Score: 47.74457931518555
+INFO:root:50/400 - Loss: 567.44921875 - Score: 47.4106559753418
+INFO:root:50/400 - Loss: 490.4278869628906 - Score: 43.344844818115234
+INFO:root:50/400 - Loss: 718.4124755859375 - Score: 51.42367172241211
+INFO:root:50/400 - Loss: 593.0418090820312 - Score: 48.23418426513672
+INFO:root:50/400 - Loss: 619.7918090820312 - Score: 48.989234924316406
+INFO:root:50/400 - Loss: 541.1358642578125 - Score: 46.595619201660156
+INFO:root:50/400 - Loss: 686.9927978515625 - Score: 50.60844421386719
+INFO:root:50/400 - Loss: 410.78741455078125 - Score: 42.77560043334961
+INFO:root:50/400 - Loss: 434.64764404296875 - Score: 42.98112487792969
+INFO:root:50/400 - Loss: 338.0583190917969 - Score: 40.81193161010742
+INFO:root:50/400 - Loss: 403.2648010253906 - Score: 42.26046371459961
+INFO:root:60/400 - Loss: 329.9231872558594 - Score: 42.03761672973633
+INFO:root:60/400 - Loss: 434.86260986328125 - Score: 44.11176681518555
+INFO:root:60/400 - Loss: 393.6404724121094 - Score: 43.55791091918945
+INFO:root:60/400 - Loss: 366.9908752441406 - Score: 42.79872131347656
+INFO:root:60/400 - Loss: 399.1436462402344 - Score: 43.668113708496094
+INFO:root:60/400 - Loss: 381.5763854980469 - Score: 43.19767379760742
+INFO:root:60/400 - Loss: 326.9554138183594 - Score: 42.107032775878906
+INFO:root:60/400 - Loss: 415.533447265625 - Score: 44.331512451171875
+INFO:root:60/400 - Loss: 415.1507263183594 - Score: 43.90256118774414
+INFO:root:60/400 - Loss: 488.44183349609375 - Score: 46.46421432495117
+INFO:root:60/400 - Loss: 395.9017028808594 - Score: 43.533653259277344
+INFO:root:60/400 - Loss: 453.90240478515625 - Score: 45.647613525390625
+INFO:root:60/400 - Loss: 313.96051025390625 - Score: 41.40986633300781
+INFO:root:60/400 - Loss: 307.8384704589844 - Score: 41.3371696472168
+INFO:root:60/400 - Loss: 274.95379638671875 - Score: 39.75374984741211
+INFO:root:60/400 - Loss: 308.24365234375 - Score: 41.243404388427734
+INFO:root:70/400 - Loss: 262.984619140625 - Score: 40.36675262451172
+INFO:root:70/400 - Loss: 291.69110107421875 - Score: 40.85738754272461
+INFO:root:70/400 - Loss: 288.4618835449219 - Score: 41.437801361083984
+INFO:root:70/400 - Loss: 286.4529724121094 - Score: 41.25209045410156
+INFO:root:70/400 - Loss: 280.78424072265625 - Score: 40.903568267822266
+INFO:root:70/400 - Loss: 313.8926696777344 - Score: 41.809600830078125
+INFO:root:70/400 - Loss: 260.34271240234375 - Score: 40.443641662597656
+INFO:root:70/400 - Loss: 382.4726257324219 - Score: 42.36510467529297
+INFO:root:70/400 - Loss: 302.75164794921875 - Score: 41.714508056640625
+INFO:root:70/400 - Loss: 369.6664123535156 - Score: 43.730106353759766
+INFO:root:70/400 - Loss: 273.7502136230469 - Score: 41.17158508300781
+INFO:root:70/400 - Loss: 329.7372131347656 - Score: 42.670982360839844
+INFO:root:70/400 - Loss: 248.809814453125 - Score: 39.71271514892578
+INFO:root:70/400 - Loss: 238.85061645507812 - Score: 39.6151123046875
+INFO:root:70/400 - Loss: 246.2554168701172 - Score: 39.5906982421875
+INFO:root:70/400 - Loss: 235.48007202148438 - Score: 39.28846740722656
+INFO:root:80/400 - Loss: 223.10018920898438 - Score: 39.909950256347656
+INFO:root:80/400 - Loss: 216.35556030273438 - Score: 39.558204650878906
+INFO:root:80/400 - Loss: 227.96975708007812 - Score: 40.29436111450195
+INFO:root:80/400 - Loss: 238.2182159423828 - Score: 40.26370620727539
+INFO:root:80/400 - Loss: 221.21109008789062 - Score: 39.97935485839844
+INFO:root:80/400 - Loss: 252.22079467773438 - Score: 40.41334533691406
+INFO:root:80/400 - Loss: 219.68734741210938 - Score: 39.39104080200195
+INFO:root:80/400 - Loss: 283.3452453613281 - Score: 41.23895263671875
+INFO:root:80/400 - Loss: 253.8115692138672 - Score: 40.55302047729492
+INFO:root:80/400 - Loss: 269.2300109863281 - Score: 41.23390197753906
+INFO:root:80/400 - Loss: 240.23190307617188 - Score: 40.150394439697266
+INFO:root:80/400 - Loss: 275.6100769042969 - Score: 41.47648239135742
+INFO:root:80/400 - Loss: 205.696533203125 - Score: 39.512184143066406
+INFO:root:80/400 - Loss: 186.9099578857422 - Score: 38.76051712036133
+INFO:root:80/400 - Loss: 243.08303833007812 - Score: 39.658111572265625
+INFO:root:80/400 - Loss: 204.9718017578125 - Score: 38.358882904052734
+INFO:root:90/400 - Loss: 189.18109130859375 - Score: 39.3105354309082
+INFO:root:90/400 - Loss: 208.45590209960938 - Score: 39.62835693359375
+INFO:root:90/400 - Loss: 196.8838348388672 - Score: 39.423118591308594
+INFO:root:90/400 - Loss: 188.8480682373047 - Score: 39.217796325683594
+INFO:root:90/400 - Loss: 209.26052856445312 - Score: 39.36893081665039
+INFO:root:90/400 - Loss: 202.30947875976562 - Score: 39.39796829223633
+INFO:root:90/400 - Loss: 203.37420654296875 - Score: 39.19893264770508
+INFO:root:90/400 - Loss: 233.0261688232422 - Score: 40.09185791015625
+INFO:root:90/400 - Loss: 202.92098999023438 - Score: 39.44938278198242
+INFO:root:90/400 - Loss: 229.671630859375 - Score: 40.29176330566406
+INFO:root:90/400 - Loss: 203.58656311035156 - Score: 39.31946563720703
+INFO:root:90/400 - Loss: 205.5044708251953 - Score: 39.67677688598633
+INFO:root:90/400 - Loss: 178.85096740722656 - Score: 38.331974029541016
+INFO:root:90/400 - Loss: 176.28878784179688 - Score: 38.19904327392578
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 38.17227554321289 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.17227554321289.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 60 - num_samples: 9 - batch_size:2048 - num_inducing: 60 - lr: 0.000530124464457663
+INFO:root:0/400 - Loss: 16507.154296875 - Score: 118.56241607666016
+INFO:root:90/400 - Loss: 172.490478515625 - Score: 37.90057373046875
+INFO:optuna.study._optimize:Trial 1 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 329 - num_samples: 2 - batch_size:1024 - num_inducing: 329 - lr: 0.001986934153527166
+INFO:root:0/400 - Loss: 16178.537109375 - Score: 118.48697662353516
+INFO:root:100/400 - Loss: 167.74710083007812 - Score: 38.76168441772461
+INFO:root:100/400 - Loss: 167.03472900390625 - Score: 38.72991180419922
+INFO:root:100/400 - Loss: 173.16012573242188 - Score: 38.48117446899414
+INFO:root:100/400 - Loss: 161.62612915039062 - Score: 38.648406982421875
+INFO:root:100/400 - Loss: 170.42300415039062 - Score: 38.77501678466797
+INFO:root:100/400 - Loss: 175.3655548095703 - Score: 38.711551666259766
+INFO:root:100/400 - Loss: 164.0131378173828 - Score: 38.006996154785156
+INFO:root:100/400 - Loss: 205.44534301757812 - Score: 39.78584289550781
+INFO:root:100/400 - Loss: 170.4227752685547 - Score: 38.84995651245117
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 659 - num_samples: 15 - batch_size:1024 - num_inducing: 659 - lr: 0.031048572767630418
+INFO:root:100/400 - Loss: 194.21153259277344 - Score: 39.714622497558594
+INFO:root:100/400 - Loss: 166.8433380126953 - Score: 38.288604736328125
+INFO:root:100/400 - Loss: 175.0736846923828 - Score: 38.85353088378906
+INFO:root:100/400 - Loss: 181.07737731933594 - Score: 39.229984283447266
+INFO:root:100/400 - Loss: 168.5883026123047 - Score: 38.022342681884766
+INFO:root:100/400 - Loss: 158.06802368164062 - Score: 37.55342102050781
+INFO:root:110/400 - Loss: 147.6352996826172 - Score: 38.20804977416992
+INFO:root:110/400 - Loss: 154.45472717285156 - Score: 38.62531280517578
+INFO:root:110/400 - Loss: 151.7377471923828 - Score: 38.172542572021484
+INFO:root:110/400 - Loss: 150.02806091308594 - Score: 38.29671859741211
+INFO:root:110/400 - Loss: 158.1146240234375 - Score: 38.393863677978516
+INFO:root:110/400 - Loss: 153.81454467773438 - Score: 38.390235900878906
+INFO:root:110/400 - Loss: 151.72109985351562 - Score: 38.001251220703125
+INFO:root:110/400 - Loss: 168.24252319335938 - Score: 38.723934173583984
+INFO:root:110/400 - Loss: 159.3905487060547 - Score: 38.50023651123047
+INFO:root:110/400 - Loss: 151.71128845214844 - Score: 37.801597595214844
+INFO:root:110/400 - Loss: 175.27694702148438 - Score: 39.0444221496582
+INFO:root:110/400 - Loss: 154.42544555664062 - Score: 38.301334381103516
+INFO:root:110/400 - Loss: 180.36849975585938 - Score: 39.329627990722656
+INFO:root:110/400 - Loss: 156.83627319335938 - Score: 37.90044403076172
+INFO:root:0/400 - Loss: 11900.853515625 - Score: 116.80323791503906
+INFO:root:110/400 - Loss: 150.27163696289062 - Score: 37.34178924560547
+INFO:root:120/400 - Loss: 149.80825805664062 - Score: 38.50832748413086
+INFO:root:120/400 - Loss: 144.19659423828125 - Score: 38.42976379394531
+INFO:root:120/400 - Loss: 143.75601196289062 - Score: 38.01523971557617
+INFO:root:120/400 - Loss: 144.20419311523438 - Score: 38.21498107910156
+INFO:root:120/400 - Loss: 146.6033172607422 - Score: 38.008705139160156
+INFO:root:120/400 - Loss: 152.7524871826172 - Score: 38.414703369140625
+INFO:root:120/400 - Loss: 145.22604370117188 - Score: 37.72156524658203
+INFO:root:120/400 - Loss: 140.9547119140625 - Score: 37.89565658569336
+INFO:root:120/400 - Loss: 149.8555450439453 - Score: 38.38864517211914
+INFO:root:120/400 - Loss: 136.78213500976562 - Score: 37.64033126831055
+INFO:root:120/400 - Loss: 145.27011108398438 - Score: 38.17081069946289
+INFO:root:120/400 - Loss: 166.03871154785156 - Score: 39.02592086791992
+INFO:root:120/400 - Loss: 139.40866088867188 - Score: 38.26071548461914
+INFO:root:120/400 - Loss: 145.32150268554688 - Score: 37.898643493652344
+INFO:root:120/400 - Loss: 144.42849731445312 - Score: 37.478694915771484
+INFO:root:130/400 - Loss: 135.1513671875 - Score: 38.28968811035156
+INFO:root:130/400 - Loss: 129.705322265625 - Score: 37.90888595581055
+INFO:root:130/400 - Loss: 132.07876586914062 - Score: 37.79640197753906
+INFO:root:130/400 - Loss: 129.7274169921875 - Score: 37.90920639038086
+INFO:root:130/400 - Loss: 136.2208709716797 - Score: 37.82093811035156
+INFO:root:130/400 - Loss: 140.94284057617188 - Score: 37.85714340209961
+INFO:root:130/400 - Loss: 149.86329650878906 - Score: 38.04178237915039
+INFO:root:130/400 - Loss: 134.089111328125 - Score: 37.81462860107422
+INFO:root:130/400 - Loss: 137.8520050048828 - Score: 38.17348861694336
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.90920639038086 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.90920639038086.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 68 - num_samples: 8 - batch_size:2048 - num_inducing: 68 - lr: 0.007987353252504565
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.98957824707031 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.98957824707031.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 375 - num_samples: 4 - batch_size:1024 - num_inducing: 375 - lr: 0.0077083125917856935
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.70381546020508 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.70381546020508.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 5 - num_inducing: 167 - num_samples: 7 - batch_size:1024 - num_inducing: 167 - lr: 0.00045754546576201393
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.85197830200195 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.85197830200195.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 537 - num_samples: 14 - batch_size:2048 - num_inducing: 537 - lr: 0.04479814923865835
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.79494857788086 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.79494857788086.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 69 - num_samples: 8 - batch_size:2048 - num_inducing: 69 - lr: 0.00045620258330781037
+INFO:root:130/400 - Loss: 128.79937744140625 - Score: 37.61423110961914
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.545196533203125 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.545196533203125.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 158 - num_samples: 4 - batch_size:1024 - num_inducing: 158 - lr: 0.01069747257706085
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.55686569213867 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.55686569213867.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 75 - num_samples: 13 - batch_size:512 - num_inducing: 75 - lr: 0.009620458665835267
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.82093811035156 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.82093811035156.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 312 - num_samples: 9 - batch_size:512 - num_inducing: 312 - lr: 0.0012485835973172722
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.304439544677734 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.304439544677734.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 89 - num_samples: 10 - batch_size:2048 - num_inducing: 89 - lr: 0.0660968541540321
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 38.12601852416992 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.12601852416992.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 277 - num_samples: 6 - batch_size:1024 - num_inducing: 277 - lr: 0.03230738965178223
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.804405212402344 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.804405212402344.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 262 - num_samples: 12 - batch_size:2048 - num_inducing: 262 - lr: 0.00020866101022175407
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.77363586425781 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.77363586425781.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 633 - num_samples: 3 - batch_size:2048 - num_inducing: 633 - lr: 0.0014946769748262624
+INFO:root:130/400 - Loss: 154.07435607910156 - Score: 38.699947357177734
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 38.560447692871094 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.560447692871094.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 195 - num_samples: 4 - batch_size:512 - num_inducing: 195 - lr: 0.04729338216636208
+INFO:root:130/400 - Loss: 135.03453063964844 - Score: 37.93191909790039
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 37.92942428588867 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 37.92942428588867.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 2 - num_inducing: 50 - num_samples: 14 - batch_size:2048 - num_inducing: 50 - lr: 0.006652497426893072
+INFO:root:130/400 - Loss: 130.91500854492188 - Score: 38.1454963684082
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 0 finished with value: 38.06056594848633 and parameters: {'lr': 0.01, 'batch_size': 1024, 'num_inducing': 128, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 0 with value: 38.06056594848633.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 166 - num_samples: 14 - batch_size:512 - num_inducing: 166 - lr: 0.0555442770834226
+INFO:root:0/400 - Loss: 6937.16162109375 - Score: 110.3821029663086
+INFO:root:0/400 - Loss: 11470.474609375 - Score: 116.7071533203125
+INFO:root:0/400 - Loss: 6148.69873046875 - Score: 108.30158233642578
+INFO:root:0/400 - Loss: 15814.5732421875 - Score: 118.49147033691406
+INFO:root:0/400 - Loss: 14689.2451171875 - Score: 118.31179809570312
+INFO:root:0/400 - Loss: 15139.5400390625 - Score: 118.21782684326172
+INFO:root:0/400 - Loss: 11566.8623046875 - Score: 116.19776153564453
+INFO:root:0/400 - Loss: 16414.501953125 - Score: 118.54226684570312
+INFO:root:0/400 - Loss: 13416.8603515625 - Score: 117.89276123046875
+INFO:root:0/400 - Loss: 16537.771484375 - Score: 118.56735229492188
+INFO:root:0/400 - Loss: 15937.1416015625 - Score: 118.5037612915039
+INFO:root:10/400 - Loss: 243.70700073242188 - Score: 38.942787170410156
+INFO:root:0/400 - Loss: 16514.435546875 - Score: 118.5660400390625
+INFO:root:10/400 - Loss: 3045.210693359375 - Score: 70.15513610839844
+INFO:root:10/400 - Loss: 371.1353454589844 - Score: 43.20956802368164
+INFO:root:10/400 - Loss: 198.12648010253906 - Score: 39.25997543334961
+INFO:optuna.study._optimize:Trial 1 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 381 - num_samples: 7 - batch_size:1024 - num_inducing: 381 - lr: 0.0009838037196798991
+INFO:root:20/400 - Loss: 376.4603271484375 - Score: 45.31280517578125
+INFO:root:0/400 - Loss: 16368.369140625 - Score: 118.53272247314453
+INFO:root:10/400 - Loss: 9879.5439453125 - Score: 113.38414764404297
+INFO:root:20/400 - Loss: 795.3071899414062 - Score: 46.417747497558594
+INFO:root:30/400 - Loss: 142.1138153076172 - Score: 38.066322326660156
+INFO:root:20/400 - Loss: 175.44325256347656 - Score: 39.15863037109375
+INFO:root:10/400 - Loss: 281.6822814941406 - Score: 38.60236740112305
+INFO:root:20/400 - Loss: 188.64918518066406 - Score: 38.90864944458008
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 90 - num_samples: 7 - batch_size:512 - num_inducing: 90 - lr: 0.0011210578610494416
+INFO:root:30/400 - Loss: 351.7706298828125 - Score: 40.02610397338867
+INFO:root:10/400 - Loss: 4185.22265625 - Score: 77.46383666992188
+INFO:root:40/400 - Loss: 147.44068908691406 - Score: 40.314292907714844
+INFO:root:20/400 - Loss: 5470.76708984375 - Score: 91.81055450439453
+INFO:root:0/400 - Loss: 16138.1318359375 - Score: 118.50331115722656
+INFO:root:30/400 - Loss: 118.049072265625 - Score: 37.265811920166016
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.58218002319336 and parameters: {'lr': 0.04729338216636208, 'batch_size': 512, 'num_inducing': 195, 'num_samples': 4, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.58218002319336.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 74 - num_samples: 3 - batch_size:1024 - num_inducing: 74 - lr: 0.07550793663000266
+INFO:root:10/400 - Loss: 1970.6495361328125 - Score: 63.78292465209961
+INFO:root:10/400 - Loss: 14921.3857421875 - Score: 118.15892791748047
+INFO:root:0/400 - Loss: 7434.88037109375 - Score: 108.7010269165039
+INFO:root:40/400 - Loss: 238.66041564941406 - Score: 38.28886413574219
+INFO:root:30/400 - Loss: 199.85203552246094 - Score: 38.743980407714844
+INFO:optuna.study._optimize:Trial 1 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 392 - num_samples: 12 - batch_size:1024 - num_inducing: 392 - lr: 0.003710056138013894
+INFO:root:0/400 - Loss: 16471.685546875 - Score: 118.5630111694336
+INFO:root:30/400 - Loss: 3475.076904296875 - Score: 77.14175415039062
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 57 - num_samples: 13 - batch_size:512 - num_inducing: 57 - lr: 0.0012126114273368056
+INFO:optuna.study._optimize:Trial 3 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 78 - num_samples: 11 - batch_size:1024 - num_inducing: 78 - lr: 0.03220710772728541
+INFO:root:0/400 - Loss: 15864.30859375 - Score: 118.439453125
+INFO:root:0/400 - Loss: 11669.0302734375 - Score: 116.93399047851562
+INFO:root:40/400 - Loss: 108.8411865234375 - Score: 37.363929748535156
+INFO:root:0/400 - Loss: 16111.224609375 - Score: 118.52222442626953
+INFO:root:10/400 - Loss: 10448.599609375 - Score: 113.41789245605469
+INFO:root:50/400 - Loss: 275.0434265136719 - Score: 38.18922424316406
+INFO:root:20/400 - Loss: 241.9931182861328 - Score: 39.037471771240234
+INFO:root:40/400 - Loss: 162.3809356689453 - Score: 37.88779830932617
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 385 - num_samples: 9 - batch_size:512 - num_inducing: 385 - lr: 0.009351728912121783
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.265811920166016 and parameters: {'lr': 0.0660968541540321, 'batch_size': 2048, 'num_inducing': 89, 'num_samples': 10, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 1 with value: 37.265811920166016.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 522 - num_samples: 8 - batch_size:512 - num_inducing: 522 - lr: 0.004977057554696798
+INFO:root:40/400 - Loss: 2296.5751953125 - Score: 66.22076416015625
+INFO:root:0/400 - Loss: 16096.267578125 - Score: 118.5203857421875
+INFO:root:0/400 - Loss: 13391.908203125 - Score: 117.2795181274414
+INFO:root:10/400 - Loss: 457.5072326660156 - Score: 44.12786102294922
+INFO:root:60/400 - Loss: 156.59951782226562 - Score: 37.404136657714844
+INFO:root:20/400 - Loss: 1042.3486328125 - Score: 48.42905807495117
+INFO:root:0/400 - Loss: 14769.919921875 - Score: 118.04621124267578
+INFO:root:50/400 - Loss: 138.0565948486328 - Score: 38.31381607055664
+INFO:root:50/400 - Loss: 1561.0845947265625 - Score: 58.19588851928711
+INFO:root:70/400 - Loss: 145.26034545898438 - Score: 37.45818328857422
+INFO:root:20/400 - Loss: 215.24935913085938 - Score: 38.41202163696289
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.78729248046875 and parameters: {'lr': 0.0555442770834226, 'batch_size': 512, 'num_inducing': 166, 'num_samples': 14, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 209 - num_samples: 2 - batch_size:2048 - num_inducing: 209 - lr: 0.0008845636266002723
+INFO:root:10/400 - Loss: 11894.8330078125 - Score: 113.50981903076172
+INFO:root:20/400 - Loss: 513.8096313476562 - Score: 44.622276306152344
+INFO:root:20/400 - Loss: 13613.9091796875 - Score: 117.52589416503906
+INFO:root:20/400 - Loss: 7137.75732421875 - Score: 102.98509979248047
+INFO:root:30/400 - Loss: 124.54598999023438 - Score: 37.01084899902344
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.39690017700195 and parameters: {'lr': 0.01069747257706085, 'batch_size': 1024, 'num_inducing': 158, 'num_samples': 4, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 1 with value: 37.39690017700195.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 527 - num_samples: 9 - batch_size:1024 - num_inducing: 527 - lr: 0.0053847428520667675
+INFO:root:0/400 - Loss: 16473.69921875 - Score: 118.56238555908203
+INFO:root:60/400 - Loss: 1088.1075439453125 - Score: 52.287071228027344
+INFO:root:10/400 - Loss: 1499.9942626953125 - Score: 56.474327087402344
+INFO:root:30/400 - Loss: 174.97425842285156 - Score: 37.70919418334961
+INFO:root:20/400 - Loss: 8964.568359375 - Score: 106.51445770263672
+INFO:root:30/400 - Loss: 426.6088562011719 - Score: 40.40033721923828
+INFO:root:70/400 - Loss: 779.1713256835938 - Score: 48.001346588134766
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 267 - num_samples: 12 - batch_size:1024 - num_inducing: 267 - lr: 0.07219496614262014
+INFO:root:40/400 - Loss: 156.32052612304688 - Score: 38.506752014160156
+INFO:root:40/400 - Loss: 108.10425567626953 - Score: 37.118186950683594
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 36.760799407958984 and parameters: {'lr': 0.03230738965178223, 'batch_size': 1024, 'num_inducing': 277, 'num_samples': 6, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 1 with value: 36.760799407958984.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 4 - num_inducing: 494 - num_samples: 4 - batch_size:2048 - num_inducing: 494 - lr: 0.009174164242214905
+INFO:root:30/400 - Loss: 5221.55224609375 - Score: 94.06096649169922
+INFO:root:80/400 - Loss: 578.7413330078125 - Score: 44.93598937988281
+INFO:root:20/400 - Loss: 332.0753479003906 - Score: 40.12175750732422
+INFO:root:0/400 - Loss: 8095.78369140625 - Score: 113.90644836425781
+INFO:root:30/400 - Loss: 7083.361328125 - Score: 100.91692352294922
+INFO:root:50/400 - Loss: 111.2129135131836 - Score: 37.303741455078125
+INFO:root:30/400 - Loss: 12479.9033203125 - Score: 116.64051055908203
+INFO:root:30/400 - Loss: 262.3905029296875 - Score: 39.87832260131836
+INFO:root:90/400 - Loss: 446.5007019042969 - Score: 42.76404571533203
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 37.21852111816406 and parameters: {'lr': 0.03220710772728541, 'batch_size': 1024, 'num_inducing': 78, 'num_samples': 11, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 4 with value: 37.21852111816406.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 598 - num_samples: 11 - batch_size:1024 - num_inducing: 598 - lr: 0.04502895027106956
+INFO:root:40/400 - Loss: 474.1111145019531 - Score: 40.122314453125
+INFO:root:40/400 - Loss: 5708.3837890625 - Score: 95.36473083496094
+INFO:root:30/400 - Loss: 235.6407012939453 - Score: 37.94082260131836
+INFO:root:100/400 - Loss: 359.0181884765625 - Score: 41.28072738647461
+INFO:root:40/400 - Loss: 3934.240966796875 - Score: 85.14472961425781
+INFO:root:0/400 - Loss: 10206.337890625 - Score: 115.46440887451172
+INFO:root:50/400 - Loss: 4658.4091796875 - Score: 89.29410552978516
+INFO:root:110/400 - Loss: 297.51129150390625 - Score: 40.26322555541992
+INFO:root:10/400 - Loss: 15577.1103515625 - Score: 118.45500183105469
+INFO:root:40/400 - Loss: 11466.8564453125 - Score: 115.46061706542969
+INFO:root:40/400 - Loss: 197.8849334716797 - Score: 38.27227783203125
+INFO:root:50/400 - Loss: 214.48341369628906 - Score: 37.834495544433594
+INFO:root:40/400 - Loss: 213.83111572265625 - Score: 37.61728286743164
+INFO:root:120/400 - Loss: 254.9112091064453 - Score: 39.53813171386719
+INFO:root:60/400 - Loss: 3836.37890625 - Score: 83.931884765625
+INFO:root:10/400 - Loss: 501.7091369628906 - Score: 38.01689529418945
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 37.44314193725586 and parameters: {'lr': 0.031048572767630418, 'batch_size': 1024, 'num_inducing': 659, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 3 with value: 37.44314193725586.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 492 - num_samples: 10 - batch_size:1024 - num_inducing: 492 - lr: 0.00017423894766871548
+INFO:root:50/400 - Loss: 3021.46142578125 - Score: 77.51117706298828
+INFO:root:130/400 - Loss: 224.00018310546875 - Score: 39.03825759887695
+INFO:root:0/400 - Loss: 16524.265625 - Score: 118.56368255615234
+INFO:root:70/400 - Loss: 3178.02490234375 - Score: 78.94234466552734
+INFO:root:50/400 - Loss: 239.25140380859375 - Score: 38.21388244628906
+INFO:root:140/400 - Loss: 201.70413208007812 - Score: 38.682411193847656
+INFO:root:60/400 - Loss: 184.11627197265625 - Score: 37.78339385986328
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 37.525611877441406 and parameters: {'lr': 0.009351728912121783, 'batch_size': 512, 'num_inducing': 385, 'num_samples': 9, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 3 with value: 37.525611877441406.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 59 - num_samples: 2 - batch_size:2048 - num_inducing: 59 - lr: 0.015704829937141285
+INFO:root:0/400 - Loss: 15101.84765625 - Score: 118.22010803222656
+INFO:root:50/400 - Loss: 10566.0263671875 - Score: 114.0052261352539
+INFO:root:10/400 - Loss: 6816.36328125 - Score: 107.91291809082031
+INFO:root:50/400 - Loss: 157.91488647460938 - Score: 38.107601165771484
+INFO:root:60/400 - Loss: 2349.083251953125 - Score: 70.7561264038086
+INFO:root:20/400 - Loss: 4066.712890625 - Score: 95.17263793945312
+INFO:optuna.study._optimize:Trial 3 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 546 - num_samples: 12 - batch_size:2048 - num_inducing: 546 - lr: 0.00011753168870194569
+INFO:root:150/400 - Loss: 183.68807983398438 - Score: 38.42697525024414
+INFO:root:30/400 - Loss: 2641.52587890625 - Score: 81.24655151367188
+INFO:root:80/400 - Loss: 2640.984619140625 - Score: 74.30868530273438
+INFO:root:0/400 - Loss: 15580.5400390625 - Score: 118.4711685180664
+INFO:root:40/400 - Loss: 1768.8182373046875 - Score: 69.89246368408203
+INFO:root:20/400 - Loss: 14728.451171875 - Score: 118.14785766601562
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 38.294349670410156 and parameters: {'lr': 0.007987353252504565, 'batch_size': 2048, 'num_inducing': 68, 'num_samples': 8, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 0 with value: 37.90920639038086.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 106 - num_samples: 11 - batch_size:1024 - num_inducing: 106 - lr: 0.0008586713192096651
+INFO:root:50/400 - Loss: 1200.078857421875 - Score: 60.82554626464844
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.736331939697266 and parameters: {'lr': 0.0077083125917856935, 'batch_size': 1024, 'num_inducing': 375, 'num_samples': 4, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 3}. Best is trial 1 with value: 37.736331939697266.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 182 - num_samples: 5 - batch_size:2048 - num_inducing: 182 - lr: 0.007706499296604288
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:0/400 - Loss: 16396.353515625 - Score: 118.55449676513672
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 67.71727752685547 and parameters: {'lr': 0.006652497426893072, 'batch_size': 2048, 'num_inducing': 50, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 2}. Best is trial 0 with value: 37.92942428588867.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 59 - num_samples: 11 - batch_size:1024 - num_inducing: 59 - lr: 0.0014545778886978535
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 37.933349609375 and parameters: {'lr': 0.009620458665835267, 'batch_size': 512, 'num_inducing': 75, 'num_samples': 13, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 4}. Best is trial 0 with value: 37.55686569213867.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 6 - num_inducing: 125 - num_samples: 6 - batch_size:2048 - num_inducing: 125 - lr: 0.0002849533367718103
+INFO:root:0/400 - Loss: 16282.837890625 - Score: 118.53646850585938
+INFO:root:0/400 - Loss: 15840.5185546875 - Score: 118.46995544433594
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 113.21566009521484 and parameters: {'lr': 0.0014946769748262624, 'batch_size': 2048, 'num_inducing': 633, 'num_samples': 3, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 0 with value: 37.77363586425781.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 341 - num_samples: 15 - batch_size:2048 - num_inducing: 341 - lr: 0.0017067760794386166
+INFO:root:60/400 - Loss: 839.19970703125 - Score: 54.23422622680664
+INFO:optuna.study._optimize:Trial 4 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 155 - num_samples: 3 - batch_size:2048 - num_inducing: 155 - lr: 0.030635374128837965
+INFO:optuna.study._optimize:Trial 2 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 6 - num_inducing: 79 - num_samples: 15 - batch_size:2048 - num_inducing: 79 - lr: 0.03115672861376341
+INFO:root:0/400 - Loss: 13875.0400390625 - Score: 117.82931518554688
+INFO:root:70/400 - Loss: 585.71826171875 - Score: 49.241233825683594
+INFO:root:90/400 - Loss: 2198.12548828125 - Score: 69.9207763671875
+INFO:root:80/400 - Loss: 428.16046142578125 - Score: 45.799156188964844
+INFO:root:10/400 - Loss: 9604.2861328125 - Score: 110.41236114501953
+INFO:root:90/400 - Loss: 326.220947265625 - Score: 43.08901596069336
+INFO:root:10/400 - Loss: 14827.8818359375 - Score: 118.29711151123047
+INFO:root:100/400 - Loss: 269.40594482421875 - Score: 41.72488784790039
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 118.52850341796875 and parameters: {'lr': 0.00045754546576201393, 'batch_size': 1024, 'num_inducing': 167, 'num_samples': 7, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 5}. Best is trial 0 with value: 37.70381546020508.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 278 - num_samples: 3 - batch_size:1024 - num_inducing: 278 - lr: 0.000771984192477562
+INFO:root:10/400 - Loss: 3260.280517578125 - Score: 84.5890121459961
+INFO:root:110/400 - Loss: 234.71556091308594 - Score: 41.05886459350586
+INFO:root:20/400 - Loss: 5083.4794921875 - Score: 86.85325622558594
+INFO:root:100/400 - Loss: 1829.263916015625 - Score: 65.86280059814453
+INFO:root:120/400 - Loss: 196.95509338378906 - Score: 40.16946029663086
+INFO:root:20/400 - Loss: 13429.1865234375 - Score: 117.50399017333984
+INFO:root:130/400 - Loss: 184.9036102294922 - Score: 39.70649719238281
+INFO:root:0/400 - Loss: 16412.017578125 - Score: 118.5555191040039
+INFO:root:20/400 - Loss: 1335.7996826171875 - Score: 61.326751708984375
+INFO:root:140/400 - Loss: 162.5740203857422 - Score: 39.0279426574707
+INFO:root:30/400 - Loss: 2804.82568359375 - Score: 68.60098266601562
+INFO:root:150/400 - Loss: 140.58509826660156 - Score: 38.71320724487305
+INFO:root:0/400 - Loss: 16530.873046875 - Score: 118.56827545166016
+INFO:root:110/400 - Loss: 1520.3671875 - Score: 62.182342529296875
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 61.81217956542969 and parameters: {'lr': 0.0012126114273368056, 'batch_size': 512, 'num_inducing': 57, 'num_samples': 13, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 1 with value: 37.58218002319336.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 87 - num_samples: 13 - batch_size:512 - num_inducing: 87 - lr: 0.031404351093330576
+INFO:root:160/400 - Loss: 168.388671875 - Score: 39.67409896850586
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 1 finished with value: 118.09937286376953 and parameters: {'lr': 0.0012485835973172722, 'batch_size': 512, 'num_inducing': 312, 'num_samples': 9, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 3}. Best is trial 0 with value: 37.82093811035156.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 108 - num_samples: 10 - batch_size:1024 - num_inducing: 108 - lr: 0.02650057776141841
+INFO:root:0/400 - Loss: 8728.109375 - Score: 112.63907623291016
+INFO:root:30/400 - Loss: 12070.35546875 - Score: 115.24979400634766
+INFO:root:30/400 - Loss: 506.2469177246094 - Score: 46.51181411743164
+INFO:root:170/400 - Loss: 133.11692810058594 - Score: 38.479469299316406
+INFO:root:30/400 - Loss: 13923.80859375 - Score: 117.60868835449219
+INFO:optuna.study._optimize:Trial 4 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 322 - num_samples: 4 - batch_size:1024 - num_inducing: 322 - lr: 0.0013868454448543732
+INFO:root:0/400 - Loss: 12203.71484375 - Score: 116.33039855957031
+INFO:root:40/400 - Loss: 1594.57470703125 - Score: 56.577579498291016
+INFO:root:0/400 - Loss: 16289.8916015625 - Score: 118.50774383544922
+INFO:root:180/400 - Loss: 121.711181640625 - Score: 38.11587905883789
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 437 - num_samples: 6 - batch_size:1024 - num_inducing: 437 - lr: 0.006459051988309766
+INFO:root:190/400 - Loss: 136.68478393554688 - Score: 38.751007080078125
+INFO:root:200/400 - Loss: 112.33995819091797 - Score: 37.82332992553711
+INFO:root:50/400 - Loss: 943.2142333984375 - Score: 49.026161193847656
+INFO:root:40/400 - Loss: 401.0069274902344 - Score: 44.13679885864258
+INFO:root:210/400 - Loss: 116.00108337402344 - Score: 38.07823181152344
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 37.82332992553711 and parameters: {'lr': 0.015704829937141285, 'batch_size': 2048, 'num_inducing': 59, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 1}. Best is trial 3 with value: 37.525611877441406.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 760 - num_samples: 2 - batch_size:1024 - num_inducing: 760 - lr: 0.036878794387688874
+INFO:root:40/400 - Loss: 10640.4052734375 - Score: 110.91310119628906
+INFO:root:0/400 - Loss: 11102.4609375 - Score: 116.55115509033203
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 117.1639404296875 and parameters: {'lr': 0.0008845636266002723, 'batch_size': 2048, 'num_inducing': 209, 'num_samples': 2, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 6}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 126 - num_samples: 9 - batch_size:512 - num_inducing: 126 - lr: 0.00036329806217656285
+INFO:root:60/400 - Loss: 631.533935546875 - Score: 44.53333282470703
+INFO:root:50/400 - Loss: 348.8469543457031 - Score: 43.60485076904297
+INFO:root:0/400 - Loss: 16419.015625 - Score: 118.54601287841797
+INFO:root:50/400 - Loss: 9244.83203125 - Score: 106.15288543701172
+INFO:root:70/400 - Loss: 433.56121826171875 - Score: 41.806922912597656
+INFO:root:10/400 - Loss: 360.3171081542969 - Score: 42.5200309753418
+WARNING:optuna.study._optimize:Trial 5 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+INFO:root:60/400 - Loss: 297.5600280761719 - Score: 42.62505340576172
+INFO:root:0/400 - Loss: 15357.921875 - Score: 118.26345825195312
+INFO:root:10/400 - Loss: 1233.8206787109375 - Score: 57.97996520996094
+INFO:root:80/400 - Loss: 334.36676025390625 - Score: 40.27827835083008
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 118.33453369140625 and parameters: {'lr': 0.0053847428520667675, 'batch_size': 1024, 'num_inducing': 527, 'num_samples': 9, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 5}. Best is trial 1 with value: 37.39690017700195.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 205 - num_samples: 8 - batch_size:512 - num_inducing: 205 - lr: 0.002963329123066735
+INFO:root:0/400 - Loss: 15489.865234375 - Score: 118.38369750976562
+INFO:root:60/400 - Loss: 8168.45458984375 - Score: 102.07451629638672
+INFO:root:70/400 - Loss: 181.64068603515625 - Score: 39.833805084228516
+INFO:optuna.study._optimize:Trial 3 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 88 - num_samples: 2 - batch_size:512 - num_inducing: 88 - lr: 0.0007388168409667129
+INFO:root:0/400 - Loss: 16280.650390625 - Score: 118.52704620361328
+INFO:root:10/400 - Loss: 13807.791015625 - Score: 117.7876205444336
+INFO:root:10/400 - Loss: 14939.96484375 - Score: 118.16626739501953
+INFO:root:90/400 - Loss: 271.5666809082031 - Score: 39.40462112426758
+INFO:root:20/400 - Loss: 11840.5361328125 - Score: 115.9834976196289
+INFO:root:30/400 - Loss: 10115.05859375 - Score: 112.73934173583984
+INFO:root:40/400 - Loss: 8777.796875 - Score: 109.87186431884766
+INFO:root:50/400 - Loss: 7718.35888671875 - Score: 107.28080749511719
+INFO:root:60/400 - Loss: 6851.45703125 - Score: 104.82563018798828
+INFO:root:70/400 - Loss: 6116.8115234375 - Score: 102.42053985595703
+INFO:root:80/400 - Loss: 139.09962463378906 - Score: 38.28111267089844
+INFO:root:80/400 - Loss: 5482.724609375 - Score: 100.04637908935547
+INFO:root:100/400 - Loss: 236.66812133789062 - Score: 38.89560317993164
+INFO:root:90/400 - Loss: 4940.9931640625 - Score: 97.65757751464844
+INFO:root:70/400 - Loss: 7277.10107421875 - Score: 98.41020965576172
+INFO:root:100/400 - Loss: 4463.375 - Score: 95.26361083984375
+INFO:root:110/400 - Loss: 4039.9521484375 - Score: 92.8980941772461
+INFO:root:120/400 - Loss: 3663.22705078125 - Score: 90.53881072998047
+INFO:root:130/400 - Loss: 3329.36279296875 - Score: 88.1920394897461
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 5 finished with value: 39.87487030029297 and parameters: {'lr': 0.04502895027106956, 'batch_size': 1024, 'num_inducing': 598, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 4 with value: 37.21852111816406.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 4 - num_inducing: 146 - num_samples: 15 - batch_size:2048 - num_inducing: 146 - lr: 0.011292275682458155
+INFO:root:140/400 - Loss: 3025.8642578125 - Score: 85.88494873046875
+INFO:root:150/400 - Loss: 2753.55810546875 - Score: 83.6059799194336
+INFO:root:110/400 - Loss: 210.7423858642578 - Score: 38.5453987121582
+INFO:root:90/400 - Loss: 127.59432220458984 - Score: 38.17631149291992
+INFO:root:160/400 - Loss: 2503.5361328125 - Score: 81.34500885009766
+INFO:root:170/400 - Loss: 2278.41064453125 - Score: 79.1285171508789
+INFO:root:180/400 - Loss: 2072.95849609375 - Score: 76.95528411865234
+INFO:root:190/400 - Loss: 1884.931884765625 - Score: 74.8170394897461
+INFO:root:20/400 - Loss: 13254.25 - Score: 115.2006607055664
+INFO:root:200/400 - Loss: 1713.26904296875 - Score: 72.72955322265625
+INFO:root:80/400 - Loss: 6514.05419921875 - Score: 95.01419067382812
+INFO:root:210/400 - Loss: 1558.021240234375 - Score: 70.70038604736328
+INFO:root:120/400 - Loss: 190.23483276367188 - Score: 38.2801513671875
+INFO:root:220/400 - Loss: 1412.213623046875 - Score: 68.71324157714844
+INFO:root:20/400 - Loss: 307.15216064453125 - Score: 41.48884963989258
+INFO:root:230/400 - Loss: 1282.225341796875 - Score: 66.79731750488281
+INFO:root:100/400 - Loss: 121.56033325195312 - Score: 38.07097244262695
+INFO:root:240/400 - Loss: 1160.783203125 - Score: 64.92752075195312
+INFO:root:250/400 - Loss: 1052.19580078125 - Score: 63.10421371459961
+INFO:root:0/400 - Loss: 15507.462890625 - Score: 118.38126373291016
+INFO:root:260/400 - Loss: 949.3255615234375 - Score: 61.357662200927734
+INFO:root:270/400 - Loss: 857.5872192382812 - Score: 59.67455291748047
+INFO:root:280/400 - Loss: 774.8521118164062 - Score: 58.07556915283203
+INFO:root:130/400 - Loss: 172.81594848632812 - Score: 38.18095779418945
+INFO:root:290/400 - Loss: 697.4879150390625 - Score: 56.50987243652344
+INFO:root:110/400 - Loss: 114.26436614990234 - Score: 37.91142272949219
+INFO:root:300/400 - Loss: 628.74609375 - Score: 55.050804138183594
+INFO:root:310/400 - Loss: 565.8209228515625 - Score: 53.64253616333008
+INFO:root:90/400 - Loss: 5867.03076171875 - Score: 91.72364807128906
+INFO:root:320/400 - Loss: 508.2922668457031 - Score: 52.30632019042969
+INFO:root:330/400 - Loss: 456.15704345703125 - Score: 51.02800369262695
+INFO:root:120/400 - Loss: 107.81340789794922 - Score: 37.97402572631836
+INFO:root:340/400 - Loss: 409.828125 - Score: 49.84482192993164
+INFO:root:350/400 - Loss: 367.4381103515625 - Score: 48.681400299072266
+INFO:root:140/400 - Loss: 159.03590393066406 - Score: 38.08528518676758
+INFO:root:360/400 - Loss: 329.8058776855469 - Score: 47.62876892089844
+INFO:root:30/400 - Loss: 11704.140625 - Score: 111.30673217773438
+INFO:root:10/400 - Loss: 15062.919921875 - Score: 117.9483642578125
+INFO:root:370/400 - Loss: 296.155517578125 - Score: 46.63853454589844
+INFO:root:380/400 - Loss: 266.62530517578125 - Score: 45.70460891723633
+INFO:root:130/400 - Loss: 115.2079086303711 - Score: 39.97279357910156
+INFO:root:390/400 - Loss: 240.0410614013672 - Score: 44.847633361816406
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 5 finished with value: 37.87373733520508 and parameters: {'lr': 0.030635374128837965, 'batch_size': 2048, 'num_inducing': 155, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 3 with value: 37.44314193725586.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 68 - num_samples: 8 - batch_size:2048 - num_inducing: 68 - lr: 0.0007103501453459978
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 44.12959671020508 and parameters: {'lr': 0.0007388168409667129, 'batch_size': 512, 'num_inducing': 88, 'num_samples': 2, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.39690017700195.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 334 - num_samples: 7 - batch_size:512 - num_inducing: 334 - lr: 0.027241899050823876
+INFO:root:0/400 - Loss: 16489.111328125 - Score: 118.55894470214844
+INFO:root:0/400 - Loss: 9274.1923828125 - Score: 112.57820892333984
+INFO:root:100/400 - Loss: 5302.63623046875 - Score: 88.58185577392578
+INFO:root:150/400 - Loss: 150.47976684570312 - Score: 38.02311325073242
+INFO:root:10/400 - Loss: 15742.708984375 - Score: 118.42085266113281
+INFO:root:160/400 - Loss: 140.80029296875 - Score: 38.00244140625
+INFO:root:30/400 - Loss: 199.89163208007812 - Score: 38.875892639160156
+INFO:root:20/400 - Loss: 15049.9833984375 - Score: 118.23617553710938
+INFO:root:110/400 - Loss: 4801.42138671875 - Score: 85.58118438720703
+INFO:root:10/400 - Loss: 6199.37939453125 - Score: 92.93574523925781
+INFO:root:40/400 - Loss: 10480.2431640625 - Score: 108.1866455078125
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 37.91103744506836 and parameters: {'lr': 0.007706499296604288, 'batch_size': 2048, 'num_inducing': 182, 'num_samples': 5, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 1 with value: 37.736331939697266.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 4 - num_inducing: 70 - num_samples: 15 - batch_size:2048 - num_inducing: 70 - lr: 0.028420149826047063
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 84.7150650024414 and parameters: {'lr': 0.0008586713192096651, 'batch_size': 1024, 'num_inducing': 106, 'num_samples': 11, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 0 with value: 37.90920639038086.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 62 - num_samples: 14 - batch_size:1024 - num_inducing: 62 - lr: 0.0003467275099530408
+INFO:root:10/400 - Loss: 376.8541564941406 - Score: 43.560272216796875
+INFO:root:0/400 - Loss: 16491.64453125 - Score: 118.55894470214844
+INFO:optuna.study._optimize:Trial 3 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 596 - num_samples: 15 - batch_size:1024 - num_inducing: 596 - lr: 0.06704678381845867
+INFO:root:30/400 - Loss: 14397.869140625 - Score: 117.97321319580078
+INFO:root:40/400 - Loss: 13790.134765625 - Score: 117.60132598876953
+INFO:root:0/400 - Loss: 8041.275390625 - Score: 110.87281799316406
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 105.89946746826172 and parameters: {'lr': 0.000771984192477562, 'batch_size': 1024, 'num_inducing': 278, 'num_samples': 3, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 2}. Best is trial 0 with value: 37.70381546020508.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 50 - num_samples: 13 - batch_size:2048 - num_inducing: 50 - lr: 0.013101681052409928
+INFO:root:0/400 - Loss: 15360.181640625 - Score: 118.36109161376953
+INFO:root:50/400 - Loss: 13213.7900390625 - Score: 117.09346771240234
+INFO:root:20/400 - Loss: 192.72291564941406 - Score: 39.981834411621094
+INFO:root:10/400 - Loss: 7871.12158203125 - Score: 112.68174743652344
+INFO:root:20/400 - Loss: 4724.4755859375 - Score: 97.86917877197266
+INFO:root:60/400 - Loss: 12654.7265625 - Score: 116.46199035644531
+INFO:root:20/400 - Loss: 13759.0068359375 - Score: 116.53877258300781
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 118.55390167236328 and parameters: {'lr': 0.0002849533367718103, 'batch_size': 2048, 'num_inducing': 125, 'num_samples': 6, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 6}. Best is trial 0 with value: 37.55686569213867.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 179 - num_samples: 14 - batch_size:512 - num_inducing: 179 - lr: 0.012139959464094277
+INFO:root:30/400 - Loss: 3098.210693359375 - Score: 84.381103515625
+INFO:root:0/400 - Loss: 12509.9794921875 - Score: 116.13619995117188
+INFO:root:40/400 - Loss: 157.21185302734375 - Score: 38.0660285949707
+INFO:root:40/400 - Loss: 2097.142333984375 - Score: 72.9545669555664
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 748 - num_samples: 10 - batch_size:512 - num_inducing: 748 - lr: 0.0072293396260077105
+INFO:root:70/400 - Loss: 12100.021484375 - Score: 115.74954986572266
+INFO:root:50/400 - Loss: 1430.6297607421875 - Score: 63.33047103881836
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 2 finished with value: 37.68682861328125 and parameters: {'lr': 0.02650057776141841, 'batch_size': 1024, 'num_inducing': 108, 'num_samples': 10, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 2 with value: 37.68682861328125.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 125 - num_samples: 10 - batch_size:1024 - num_inducing: 125 - lr: 0.0046461677008078905
+INFO:root:60/400 - Loss: 1004.546142578125 - Score: 56.426822662353516
+INFO:root:0/400 - Loss: 14038.052734375 - Score: 117.69749450683594
+INFO:root:0/400 - Loss: 15690.6845703125 - Score: 118.42681884765625
+INFO:root:80/400 - Loss: 11610.0556640625 - Score: 115.13558197021484
+INFO:root:70/400 - Loss: 723.7223510742188 - Score: 51.340736389160156
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 6 finished with value: 71.98878479003906 and parameters: {'lr': 0.006459051988309766, 'batch_size': 1024, 'num_inducing': 437, 'num_samples': 6, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 37.58218002319336.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 177 - num_samples: 11 - batch_size:512 - num_inducing: 177 - lr: 0.00035492910494277667
+INFO:root:80/400 - Loss: 537.6732177734375 - Score: 47.54750061035156
+INFO:optuna.study._optimize:Trial 3 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 56 - num_samples: 14 - batch_size:512 - num_inducing: 56 - lr: 0.003982627922137281
+INFO:root:0/400 - Loss: 16422.91015625 - Score: 118.54618072509766
+INFO:root:0/400 - Loss: 15158.5205078125 - Score: 118.40385437011719
+INFO:root:90/400 - Loss: 11158.5205078125 - Score: 114.5546875
+INFO:root:10/400 - Loss: 2178.24755859375 - Score: 72.78398895263672
+INFO:root:90/400 - Loss: 414.3960266113281 - Score: 44.726844787597656
+INFO:root:30/400 - Loss: 12445.775390625 - Score: 114.24108123779297
+INFO:root:10/400 - Loss: 6067.64599609375 - Score: 95.46356201171875
+INFO:root:100/400 - Loss: 334.2208251953125 - Score: 42.994747161865234
+INFO:root:100/400 - Loss: 10734.3525390625 - Score: 113.98448944091797
+INFO:root:110/400 - Loss: 284.82843017578125 - Score: 41.623836517333984
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 113.0516128540039 and parameters: {'lr': 0.00036329806217656285, 'batch_size': 512, 'num_inducing': 126, 'num_samples': 9, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 167 - num_samples: 13 - batch_size:512 - num_inducing: 167 - lr: 0.022887875102484422
+INFO:root:20/400 - Loss: 2833.432373046875 - Score: 72.25293731689453
+INFO:optuna.study._optimize:Trial 6 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 248 - num_samples: 12 - batch_size:512 - num_inducing: 248 - lr: 0.000281552769834617
+INFO:root:120/400 - Loss: 234.83428955078125 - Score: 41.10983657836914
+INFO:root:0/400 - Loss: 16450.84765625 - Score: 118.54994201660156
+INFO:root:110/400 - Loss: 10341.43359375 - Score: 113.43256378173828
+INFO:optuna.study._optimize:Trial 7 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 96 - num_samples: 12 - batch_size:512 - num_inducing: 96 - lr: 0.018889785867090263
+INFO:root:130/400 - Loss: 209.07020568847656 - Score: 40.0804443359375
+INFO:root:0/400 - Loss: 10176.005859375 - Score: 114.51910400390625
+INFO:root:0/400 - Loss: 10757.6806640625 - Score: 113.82151794433594
+INFO:optuna.study._optimize:Trial 7 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 159 - num_samples: 5 - batch_size:1024 - num_inducing: 159 - lr: 0.0012911590924113163
+INFO:root:30/400 - Loss: 1495.5784912109375 - Score: 58.339542388916016
+INFO:root:0/400 - Loss: 16314.904296875 - Score: 118.53760528564453
+INFO:root:140/400 - Loss: 192.29287719726562 - Score: 39.38298034667969
+INFO:root:120/400 - Loss: 9973.234375 - Score: 112.89616394042969
+INFO:root:150/400 - Loss: 183.51976013183594 - Score: 39.168540954589844
+INFO:root:40/400 - Loss: 843.2719116210938 - Score: 49.82335662841797
+INFO:root:20/400 - Loss: 614.45556640625 - Score: 48.22916793823242
+INFO:root:10/400 - Loss: 13984.3828125 - Score: 117.63001251220703
+INFO:root:160/400 - Loss: 187.64248657226562 - Score: 39.17247009277344
+INFO:root:130/400 - Loss: 9626.650390625 - Score: 112.36377716064453
+INFO:root:170/400 - Loss: 172.4609375 - Score: 38.944969177246094
+INFO:root:10/400 - Loss: 500.6288757324219 - Score: 44.97340774536133
+INFO:root:50/400 - Loss: 515.7836303710938 - Score: 44.70255661010742
+INFO:optuna.study._optimize:Trial 4 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 4 - num_inducing: 88 - num_samples: 6 - batch_size:2048 - num_inducing: 88 - lr: 0.0239800932793171
+INFO:root:180/400 - Loss: 159.69451904296875 - Score: 38.65980911254883
+INFO:root:20/400 - Loss: 11793.4169921875 - Score: 113.66557312011719
+INFO:root:140/400 - Loss: 9298.5419921875 - Score: 111.83805084228516
+INFO:root:60/400 - Loss: 349.36724853515625 - Score: 41.687740325927734
+INFO:root:190/400 - Loss: 128.24066162109375 - Score: 37.95547103881836
+INFO:root:200/400 - Loss: 126.68061828613281 - Score: 37.92510223388672
+INFO:root:0/400 - Loss: 14462.6298828125 - Score: 118.33212280273438
+INFO:root:30/400 - Loss: 9534.357421875 - Score: 106.2764892578125
+INFO:root:70/400 - Loss: 265.94134521484375 - Score: 39.9998664855957
+INFO:root:20/400 - Loss: 265.8807067871094 - Score: 40.77724075317383
+INFO:root:150/400 - Loss: 8989.2001953125 - Score: 111.31725311279297
+INFO:root:210/400 - Loss: 122.17247009277344 - Score: 37.83540725708008
+INFO:root:30/400 - Loss: 390.5364074707031 - Score: 43.52883529663086
+INFO:root:220/400 - Loss: 116.99152374267578 - Score: 37.827205657958984
+INFO:root:80/400 - Loss: 226.9480438232422 - Score: 38.99080276489258
+INFO:root:40/400 - Loss: 7841.99755859375 - Score: 99.68309020996094
+INFO:root:160/400 - Loss: 8698.361328125 - Score: 110.79309844970703
+INFO:root:230/400 - Loss: 114.84591674804688 - Score: 37.78871154785156
+INFO:root:240/400 - Loss: 111.17189025878906 - Score: 37.79035568237305
+INFO:root:90/400 - Loss: 244.23365783691406 - Score: 38.68558883666992
+INFO:root:30/400 - Loss: 191.8235321044922 - Score: 38.431800842285156
+INFO:root:170/400 - Loss: 8421.5400390625 - Score: 110.27627563476562
+INFO:root:250/400 - Loss: 109.78498840332031 - Score: 37.758602142333984
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 37.737003326416016 and parameters: {'lr': 0.013101681052409928, 'batch_size': 2048, 'num_inducing': 50, 'num_samples': 13, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 0 with value: 37.70381546020508.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 330 - num_samples: 6 - batch_size:2048 - num_inducing: 330 - lr: 0.026448299678632495
+INFO:root:50/400 - Loss: 6545.1767578125 - Score: 93.75855255126953
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 776 - num_samples: 5 - batch_size:512 - num_inducing: 776 - lr: 0.000873188533237095
+INFO:root:0/400 - Loss: 14192.1474609375 - Score: 117.83345794677734
+INFO:root:100/400 - Loss: 183.7035369873047 - Score: 38.07923126220703
+INFO:root:180/400 - Loss: 8155.4853515625 - Score: 109.75654602050781
+INFO:root:60/400 - Loss: 5513.89501953125 - Score: 88.05545043945312
+INFO:root:10/400 - Loss: 301.85247802734375 - Score: 38.32732391357422
+INFO:root:40/400 - Loss: 221.69410705566406 - Score: 40.24517059326172
+INFO:root:110/400 - Loss: 163.75906372070312 - Score: 37.84927749633789
+INFO:root:40/400 - Loss: 154.97914123535156 - Score: 39.81450653076172
+INFO:root:70/400 - Loss: 4683.5498046875 - Score: 82.78406524658203
+INFO:root:190/400 - Loss: 7907.083984375 - Score: 109.23839569091797
+INFO:root:120/400 - Loss: 149.53762817382812 - Score: 37.755943298339844
+INFO:root:80/400 - Loss: 3985.97802734375 - Score: 77.97207641601562
+INFO:root:200/400 - Loss: 7668.50830078125 - Score: 108.71797180175781
+INFO:root:130/400 - Loss: 138.488037109375 - Score: 37.69511032104492
+INFO:root:50/400 - Loss: 142.59886169433594 - Score: 37.79994201660156
+INFO:root:90/400 - Loss: 3401.35302734375 - Score: 73.60707092285156
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 6 finished with value: 108.34200286865234 and parameters: {'lr': 0.0007103501453459978, 'batch_size': 2048, 'num_inducing': 68, 'num_samples': 8, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 3 with value: 37.44314193725586.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 472 - num_samples: 14 - batch_size:2048 - num_inducing: 472 - lr: 0.0038264654731326032
+INFO:root:140/400 - Loss: 128.31884765625 - Score: 37.62627029418945
+INFO:root:0/400 - Loss: 16185.0556640625 - Score: 118.48163604736328
+INFO:root:50/400 - Loss: 187.1746826171875 - Score: 39.024776458740234
+INFO:root:100/400 - Loss: 2905.904296875 - Score: 69.66522216796875
+INFO:root:10/400 - Loss: 3784.4716796875 - Score: 89.95394134521484
+INFO:root:150/400 - Loss: 118.19654846191406 - Score: 37.58064651489258
+INFO:root:60/400 - Loss: 130.9049530029297 - Score: 37.71372985839844
+INFO:optuna.study._optimize:Trial 7 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 176 - num_samples: 11 - batch_size:1024 - num_inducing: 176 - lr: 0.005995703439109793
+INFO:root:110/400 - Loss: 2496.400146484375 - Score: 66.092529296875
+INFO:root:0/400 - Loss: 15426.6806640625 - Score: 118.21644592285156
+INFO:root:160/400 - Loss: 110.95610809326172 - Score: 37.540069580078125
+INFO:root:120/400 - Loss: 2143.96728515625 - Score: 62.8255615234375
+INFO:root:170/400 - Loss: 103.07662200927734 - Score: 37.55080795288086
+INFO:root:10/400 - Loss: 8297.8564453125 - Score: 109.99288177490234
+INFO:root:130/400 - Loss: 1843.605224609375 - Score: 59.853416442871094
+INFO:root:70/400 - Loss: 101.26740264892578 - Score: 40.12153625488281
+INFO:root:60/400 - Loss: 172.3414764404297 - Score: 39.22465515136719
+INFO:root:180/400 - Loss: 97.1130599975586 - Score: 37.503623962402344
+INFO:root:20/400 - Loss: 5312.52685546875 - Score: 99.78710174560547
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 37.52021408081055 and parameters: {'lr': 0.06704678381845867, 'batch_size': 1024, 'num_inducing': 596, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 4 with value: 37.52021408081055.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 56 - num_samples: 11 - batch_size:1024 - num_inducing: 56 - lr: 0.057083238070506304
+INFO:root:0/400 - Loss: 9296.0078125 - Score: 115.74030303955078
+INFO:root:190/400 - Loss: 91.12138366699219 - Score: 37.47568893432617
+INFO:root:140/400 - Loss: 1585.341064453125 - Score: 57.15970230102539
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 464 - num_samples: 15 - batch_size:1024 - num_inducing: 464 - lr: 0.03822827340683878
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 37.46335983276367 and parameters: {'lr': 0.003982627922137281, 'batch_size': 512, 'num_inducing': 56, 'num_samples': 14, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 4 with value: 37.46335983276367.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 161 - num_samples: 8 - batch_size:1024 - num_inducing: 161 - lr: 0.0019104506694399884
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 3 finished with value: 39.024776458740234 and parameters: {'lr': 0.012139959464094277, 'batch_size': 512, 'num_inducing': 179, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 0 with value: 37.55686569213867.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 96 - num_samples: 12 - batch_size:1024 - num_inducing: 96 - lr: 0.03791480521203901
+INFO:root:0/400 - Loss: 11041.7841796875 - Score: 116.74943542480469
+INFO:root:20/400 - Loss: 1451.3751220703125 - Score: 67.73709869384766
+INFO:root:30/400 - Loss: 3633.984130859375 - Score: 88.12698364257812
+INFO:root:0/400 - Loss: 10873.3154296875 - Score: 115.41902160644531
+INFO:root:150/400 - Loss: 1365.9696044921875 - Score: 54.74717712402344
+INFO:root:80/400 - Loss: 108.4317398071289 - Score: 37.56166458129883
+WARNING:optuna.study._optimize:Trial 4 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+INFO:root:160/400 - Loss: 1173.8377685546875 - Score: 52.57709503173828
+INFO:root:10/400 - Loss: 283.8981628417969 - Score: 40.283199310302734
+INFO:root:40/400 - Loss: 2560.660888671875 - Score: 77.94939422607422
+INFO:root:0/400 - Loss: 16201.0458984375 - Score: 118.53592681884766
+INFO:root:170/400 - Loss: 1015.5784301757812 - Score: 50.617767333984375
+INFO:root:90/400 - Loss: 101.20877075195312 - Score: 37.56943130493164
+INFO:root:20/400 - Loss: 258.563232421875 - Score: 37.72502899169922
+INFO:root:50/400 - Loss: 1828.3668212890625 - Score: 68.78343963623047
+INFO:root:180/400 - Loss: 876.9581909179688 - Score: 48.86080551147461
+INFO:root:30/400 - Loss: 123.25594329833984 - Score: 37.23435592651367
+INFO:root:190/400 - Loss: 759.7184448242188 - Score: 47.31332778930664
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 8 finished with value: 37.49007034301758 and parameters: {'lr': 0.018889785867090263, 'batch_size': 512, 'num_inducing': 96, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 37.39690017700195.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 118 - num_samples: 13 - batch_size:512 - num_inducing: 118 - lr: 0.011721091069876455
+INFO:root:60/400 - Loss: 1313.4991455078125 - Score: 61.289093017578125
+INFO:root:0/400 - Loss: 12775.5693359375 - Score: 117.17183685302734
+INFO:root:40/400 - Loss: 123.81436157226562 - Score: 37.30384063720703
+INFO:optuna.study._optimize:Trial 9 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 623 - num_samples: 11 - batch_size:2048 - num_inducing: 623 - lr: 0.0010073639605119244
+INFO:root:200/400 - Loss: 662.7296142578125 - Score: 45.928565979003906
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 4 finished with value: 37.11784744262695 and parameters: {'lr': 0.03791480521203901, 'batch_size': 1024, 'num_inducing': 96, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 6}. Best is trial 4 with value: 37.11784744262695.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 5 - num_inducing: 630 - num_samples: 15 - batch_size:512 - num_inducing: 630 - lr: 0.04956909084151764
+INFO:root:0/400 - Loss: 16460.728515625 - Score: 118.55235290527344
+INFO:root:70/400 - Loss: 950.0913696289062 - Score: 55.329227447509766
+INFO:root:210/400 - Loss: 577.583984375 - Score: 44.69087600708008
+INFO:root:220/400 - Loss: 509.46234130859375 - Score: 43.62723159790039
+INFO:root:80/400 - Loss: 696.171630859375 - Score: 50.72986602783203
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 8 finished with value: 43.3186149597168 and parameters: {'lr': 0.0012911590924113163, 'batch_size': 1024, 'num_inducing': 159, 'num_samples': 5, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 1 with value: 37.58218002319336.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 399 - num_samples: 2 - batch_size:512 - num_inducing: 399 - lr: 0.00011272661706555473
+INFO:root:0/400 - Loss: 16514.794921875 - Score: 118.56228637695312
+INFO:root:0/400 - Loss: 16234.505859375 - Score: 118.53927612304688
+INFO:root:10/400 - Loss: 366.7979736328125 - Score: 37.004764556884766
+INFO:root:90/400 - Loss: 520.7557983398438 - Score: 47.227108001708984
+INFO:optuna.study._optimize:Trial 9 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 259 - num_samples: 6 - batch_size:2048 - num_inducing: 259 - lr: 0.04347378146278114
+INFO:root:0/400 - Loss: 12907.8154296875 - Score: 117.18585205078125
+INFO:optuna.study._optimize:Trial 10 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 82 - num_samples: 7 - batch_size:512 - num_inducing: 82 - lr: 0.01788533951505762
+INFO:root:0/400 - Loss: 11376.2861328125 - Score: 116.75786590576172
+INFO:optuna.study._optimize:Trial 11 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 73 - num_samples: 2 - batch_size:512 - num_inducing: 73 - lr: 0.00031587589944159235
+INFO:root:0/400 - Loss: 16439.4140625 - Score: 118.55819702148438
+INFO:root:100/400 - Loss: 402.7168273925781 - Score: 44.623905181884766
+INFO:optuna.study._optimize:Trial 12 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 58 - num_samples: 12 - batch_size:512 - num_inducing: 58 - lr: 0.011509807913064806
+INFO:root:0/400 - Loss: 12865.5966796875 - Score: 117.40738677978516
+INFO:root:10/400 - Loss: 2597.62939453125 - Score: 77.70841217041016
+INFO:root:110/400 - Loss: 320.2290344238281 - Score: 42.68607711791992
+INFO:root:20/400 - Loss: 872.9423217773438 - Score: 54.86582946777344
+INFO:root:120/400 - Loss: 268.0802917480469 - Score: 41.486732482910156
+INFO:root:30/400 - Loss: 378.3272705078125 - Score: 45.34888458251953
+INFO:optuna.study._optimize:Trial 5 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 90 - num_samples: 14 - batch_size:2048 - num_inducing: 90 - lr: 0.00014210071401296966
+INFO:root:10/400 - Loss: 15424.7587890625 - Score: 118.33150482177734
+INFO:root:40/400 - Loss: 238.0033416748047 - Score: 41.21868896484375
+INFO:root:130/400 - Loss: 225.40647888183594 - Score: 40.49543380737305
+INFO:root:0/400 - Loss: 4120.671875 - Score: 83.36383056640625
+INFO:root:50/400 - Loss: 190.1916046142578 - Score: 39.48274230957031
+INFO:root:60/400 - Loss: 148.22035217285156 - Score: 38.78461837768555
+INFO:root:0/400 - Loss: 16544.59765625 - Score: 118.56975555419922
+INFO:root:140/400 - Loss: 192.608154296875 - Score: 39.69008255004883
+INFO:root:70/400 - Loss: 140.31373596191406 - Score: 38.31772994995117
+INFO:root:150/400 - Loss: 178.96849060058594 - Score: 39.43062973022461
+INFO:root:80/400 - Loss: 123.6102066040039 - Score: 38.05268478393555
+INFO:root:20/400 - Loss: 139.6118927001953 - Score: 37.01579666137695
+INFO:root:90/400 - Loss: 124.2392578125 - Score: 38.625694274902344
+INFO:root:160/400 - Loss: 163.58946228027344 - Score: 39.15703201293945
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 13 finished with value: 37.91056442260742 and parameters: {'lr': 0.011509807913064806, 'batch_size': 512, 'num_inducing': 58, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 1 with value: 37.58218002319336.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 449 - num_samples: 5 - batch_size:1024 - num_inducing: 449 - lr: 0.00013594801509408103
+INFO:root:170/400 - Loss: 146.86927795410156 - Score: 38.787715911865234
+INFO:root:0/400 - Loss: 16531.541015625 - Score: 118.5644760131836
+INFO:root:20/400 - Loss: 14478.27734375 - Score: 117.97496795654297
+INFO:root:180/400 - Loss: 136.1113739013672 - Score: 38.38225173950195
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 8 finished with value: 38.38225173950195 and parameters: {'lr': 0.005995703439109793, 'batch_size': 1024, 'num_inducing': 176, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 3 with value: 37.44314193725586.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 139 - num_samples: 10 - batch_size:512 - num_inducing: 139 - lr: 0.019030110321815612
+INFO:root:0/400 - Loss: 11065.6787109375 - Score: 116.25907135009766
+INFO:optuna.study._optimize:Trial 9 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 734 - num_samples: 10 - batch_size:2048 - num_inducing: 734 - lr: 0.00016888307293738678
+INFO:root:0/400 - Loss: 16541.47265625 - Score: 118.56683349609375
+INFO:optuna.study._optimize:Trial 14 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 92 - num_samples: 9 - batch_size:512 - num_inducing: 92 - lr: 0.03957630522557885
+INFO:root:0/400 - Loss: 7824.1005859375 - Score: 112.89716339111328
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 6 finished with value: 36.753379821777344 and parameters: {'lr': 0.03822827340683878, 'batch_size': 1024, 'num_inducing': 464, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 6 with value: 36.753379821777344.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 97 - num_samples: 10 - batch_size:512 - num_inducing: 97 - lr: 0.030919798258844864
+INFO:root:0/400 - Loss: 8740.126953125 - Score: 112.4298324584961
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 6 finished with value: 118.50518798828125 and parameters: {'lr': 0.000873188533237095, 'batch_size': 512, 'num_inducing': 776, 'num_samples': 5, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 4}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 86 - num_samples: 12 - batch_size:2048 - num_inducing: 86 - lr: 0.00012059173479237476
+INFO:optuna.study._optimize:Trial 7 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 177 - num_samples: 5 - batch_size:2048 - num_inducing: 177 - lr: 0.00025632776947322986
+INFO:root:10/400 - Loss: 331.4270324707031 - Score: 43.45268249511719
+INFO:root:0/400 - Loss: 16546.466796875 - Score: 118.56924438476562
+INFO:root:0/400 - Loss: 16533.66015625 - Score: 118.56835174560547
+INFO:root:20/400 - Loss: 164.22531127929688 - Score: 38.62384033203125
+INFO:root:30/400 - Loss: 136.12660217285156 - Score: 38.04743194580078
+INFO:root:30/400 - Loss: 13583.443359375 - Score: 117.3107681274414
+INFO:root:40/400 - Loss: 139.57827758789062 - Score: 38.14645004272461
+INFO:optuna.study._optimize:Trial 7 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 86 - num_samples: 15 - batch_size:512 - num_inducing: 86 - lr: 0.0012157154599340566
+INFO:root:50/400 - Loss: 131.5663299560547 - Score: 38.419246673583984
+INFO:root:60/400 - Loss: 110.76590728759766 - Score: 38.27850341796875
+INFO:optuna.study._optimize:Trial 10 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 53 - num_samples: 11 - batch_size:2048 - num_inducing: 53 - lr: 0.007666949631081359
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 10 finished with value: 116.99560546875 and parameters: {'lr': 0.0010073639605119244, 'batch_size': 2048, 'num_inducing': 623, 'num_samples': 11, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 1 with value: 37.39690017700195.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 293 - num_samples: 2 - batch_size:1024 - num_inducing: 293 - lr: 0.0075067136919158865
+INFO:root:0/400 - Loss: 15841.724609375 - Score: 118.45645141601562
+INFO:root:0/400 - Loss: 15209.6533203125 - Score: 118.29737854003906
+INFO:root:0/400 - Loss: 16109.400390625 - Score: 118.52458953857422
+INFO:root:70/400 - Loss: 113.01716613769531 - Score: 37.59455490112305
+INFO:optuna.study._optimize:Trial 11 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 77 - num_samples: 10 - batch_size:2048 - num_inducing: 77 - lr: 0.00017953395593612882
+INFO:root:10/400 - Loss: 5294.79296875 - Score: 87.52481842041016
+INFO:root:80/400 - Loss: 100.18521881103516 - Score: 37.831905364990234
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 5 finished with value: 42.05530548095703 and parameters: {'lr': 0.04956909084151764, 'batch_size': 512, 'num_inducing': 630, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 5}. Best is trial 4 with value: 37.11784744262695.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 276 - num_samples: 12 - batch_size:512 - num_inducing: 276 - lr: 0.01543640589813031
+INFO:root:0/400 - Loss: 11820.7333984375 - Score: 116.46210479736328
+INFO:root:20/400 - Loss: 1566.485107421875 - Score: 55.14099884033203
+INFO:root:10/400 - Loss: 16263.271484375 - Score: 118.53958129882812
+INFO:root:90/400 - Loss: 94.04537963867188 - Score: 37.70794677734375
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 15 finished with value: 37.577857971191406 and parameters: {'lr': 0.03957630522557885, 'batch_size': 512, 'num_inducing': 92, 'num_samples': 9, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 232 - num_samples: 7 - batch_size:512 - num_inducing: 232 - lr: 0.0006319141047525357
+INFO:root:30/400 - Loss: 619.1621704101562 - Score: 43.550209045410156
+INFO:root:0/400 - Loss: 16541.015625 - Score: 118.56949615478516
+INFO:root:0/400 - Loss: 16313.845703125 - Score: 118.5067367553711
+INFO:root:40/400 - Loss: 370.47369384765625 - Score: 39.65699005126953
+INFO:root:10/400 - Loss: 358.1434326171875 - Score: 39.58043670654297
+INFO:root:50/400 - Loss: 283.34307861328125 - Score: 38.458499908447266
+INFO:optuna.study._optimize:Trial 16 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 180 - num_samples: 14 - batch_size:2048 - num_inducing: 180 - lr: 0.021586903333274444
+INFO:root:60/400 - Loss: 264.6854248046875 - Score: 37.893306732177734
+INFO:optuna.study._optimize:Trial 8 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 296 - num_samples: 10 - batch_size:2048 - num_inducing: 296 - lr: 0.0012534406512879628
+INFO:root:0/400 - Loss: 14577.6162109375 - Score: 117.88085174560547
+INFO:root:20/400 - Loss: 300.27899169921875 - Score: 37.439212799072266
+INFO:root:0/400 - Loss: 16434.64453125 - Score: 118.54023742675781
+INFO:root:70/400 - Loss: 194.58013916015625 - Score: 37.50746536254883
+INFO:root:80/400 - Loss: 168.1689453125 - Score: 37.47565841674805
+INFO:root:90/400 - Loss: 163.4585723876953 - Score: 37.291175842285156
+INFO:root:30/400 - Loss: 233.49310302734375 - Score: 37.738121032714844
+INFO:root:20/400 - Loss: 16001.875 - Score: 118.50505065917969
+INFO:root:100/400 - Loss: 140.80654907226562 - Score: 37.465293884277344
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 11 finished with value: 37.291175842285156 and parameters: {'lr': 0.0075067136919158865, 'batch_size': 1024, 'num_inducing': 293, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 11 with value: 37.291175842285156.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 770 - num_samples: 8 - batch_size:512 - num_inducing: 770 - lr: 0.0001155824264172615
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 6 finished with value: 37.17204666137695 and parameters: {'lr': 0.01543640589813031, 'batch_size': 512, 'num_inducing': 276, 'num_samples': 12, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 4 with value: 37.11784744262695.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 166 - num_samples: 5 - batch_size:1024 - num_inducing: 166 - lr: 0.00010663109589553259
+INFO:root:0/400 - Loss: 16537.6484375 - Score: 118.567626953125
+INFO:optuna.study._optimize:Trial 9 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 401 - num_samples: 14 - batch_size:2048 - num_inducing: 401 - lr: 0.08093685049448869
+INFO:root:0/400 - Loss: 10582.5625 - Score: 115.53388977050781
+INFO:root:0/400 - Loss: 16513.384765625 - Score: 118.56114196777344
+INFO:root:10/400 - Loss: 16321.3564453125 - Score: 118.53012084960938
+INFO:root:30/400 - Loss: 15747.171875 - Score: 118.45718383789062
+INFO:optuna.study._optimize:Trial 10 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 260 - num_samples: 10 - batch_size:2048 - num_inducing: 260 - lr: 0.035730508305645024
+INFO:root:0/400 - Loss: 13510.6748046875 - Score: 117.70684051513672
+INFO:root:20/400 - Loss: 16109.90625 - Score: 118.48706817626953
+INFO:optuna.study._optimize:Trial 11 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 416 - num_samples: 8 - batch_size:2048 - num_inducing: 416 - lr: 0.010247135543856357
+INFO:root:0/400 - Loss: 15592.080078125 - Score: 118.3567123413086
+INFO:optuna.study._optimize:Trial 12 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 392 - num_samples: 3 - batch_size:1024 - num_inducing: 392 - lr: 0.039338593636438914
+INFO:optuna.study._optimize:Trial 12 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 71 - num_samples: 8 - batch_size:1024 - num_inducing: 71 - lr: 0.004528094259855304
+INFO:root:0/400 - Loss: 10795.8974609375 - Score: 116.00566864013672
+INFO:root:0/400 - Loss: 15728.7001953125 - Score: 118.4599609375
+INFO:root:30/400 - Loss: 15902.177734375 - Score: 118.43663024902344
+INFO:root:40/400 - Loss: 15494.0654296875 - Score: 118.3870620727539
+INFO:optuna.study._optimize:Trial 13 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 72 - num_samples: 14 - batch_size:2048 - num_inducing: 72 - lr: 0.00041513530702190374
+INFO:optuna.study._optimize:Trial 17 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 781 - num_samples: 6 - batch_size:512 - num_inducing: 781 - lr: 0.0661742641313344
+INFO:root:0/400 - Loss: 16517.658203125 - Score: 118.56297302246094
+INFO:root:10/400 - Loss: 349.8543395996094 - Score: 39.05561065673828
+INFO:root:0/400 - Loss: 4761.89794921875 - Score: 94.58729553222656
+INFO:root:40/400 - Loss: 15697.9501953125 - Score: 118.37838745117188
+INFO:root:20/400 - Loss: 298.1360168457031 - Score: 37.771484375
+INFO:root:30/400 - Loss: 232.95542907714844 - Score: 37.36870193481445
+INFO:optuna.study._optimize:Trial 12 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 188 - num_samples: 3 - batch_size:512 - num_inducing: 188 - lr: 0.08036885830207145
+INFO:root:0/400 - Loss: 4238.68408203125 - Score: 100.16117095947266
+INFO:root:50/400 - Loss: 15237.8515625 - Score: 118.28950500488281
+INFO:root:50/400 - Loss: 15496.595703125 - Score: 118.30961608886719
+INFO:optuna.study._optimize:Trial 13 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 2 - num_inducing: 401 - num_samples: 11 - batch_size:1024 - num_inducing: 401 - lr: 0.0002915949708661932
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 13 finished with value: 37.22980880737305 and parameters: {'lr': 0.039338593636438914, 'batch_size': 1024, 'num_inducing': 392, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 13 with value: 37.22980880737305.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 160 - num_samples: 8 - batch_size:2048 - num_inducing: 160 - lr: 0.002848593399442831
+INFO:root:0/400 - Loss: 16283.6533203125 - Score: 118.52477264404297
+INFO:optuna.study._optimize:Trial 14 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 60 - num_samples: 3 - batch_size:1024 - num_inducing: 60 - lr: 0.09493154779610616
+INFO:root:0/400 - Loss: 6320.33984375 - Score: 106.32154083251953
+INFO:root:0/400 - Loss: 16501.88671875 - Score: 118.55896759033203
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 8 finished with value: 118.22862243652344 and parameters: {'lr': 0.00025632776947322986, 'batch_size': 2048, 'num_inducing': 177, 'num_samples': 5, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 3}. Best is trial 6 with value: 36.753379821777344.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 131 - num_samples: 5 - batch_size:1024 - num_inducing: 131 - lr: 0.00011969592007035675
+INFO:root:0/400 - Loss: 16535.328125 - Score: 118.5682144165039
+INFO:root:60/400 - Loss: 15297.8466796875 - Score: 118.2311782836914
+INFO:root:10/400 - Loss: 186.12554931640625 - Score: 40.63766860961914
+INFO:optuna.study._optimize:Trial 9 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 188 - num_samples: 12 - batch_size:512 - num_inducing: 188 - lr: 0.0006451402906792897
+INFO:root:0/400 - Loss: 16311.1962890625 - Score: 118.52068328857422
+INFO:root:20/400 - Loss: 143.78643798828125 - Score: 43.39331817626953
+INFO:root:10/400 - Loss: 14084.4072265625 - Score: 117.741943359375
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 15 finished with value: 38.891990661621094 and parameters: {'lr': 0.09493154779610616, 'batch_size': 1024, 'num_inducing': 60, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 4, 'n_gp_out': 3}. Best is trial 13 with value: 37.22980880737305.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 484 - num_samples: 11 - batch_size:512 - num_inducing: 484 - lr: 0.0008437992889992047
+INFO:optuna.study._optimize:Trial 14 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 6 - num_inducing: 756 - num_samples: 15 - batch_size:1024 - num_inducing: 756 - lr: 0.09093543517896557
+INFO:root:70/400 - Loss: 15098.3984375 - Score: 118.14177703857422
+INFO:root:20/400 - Loss: 12295.671875 - Score: 116.43878936767578
+INFO:root:10/400 - Loss: 16070.7216796875 - Score: 118.46085357666016
+INFO:root:0/400 - Loss: 16243.4375 - Score: 118.5311508178711
+INFO:root:30/400 - Loss: 10754.9794921875 - Score: 114.18810272216797
+INFO:root:40/400 - Loss: 9335.5361328125 - Score: 110.77328491210938
+INFO:root:80/400 - Loss: 14904.7783203125 - Score: 118.03722381591797
+INFO:root:50/400 - Loss: 8194.5126953125 - Score: 107.52940368652344
+INFO:root:60/400 - Loss: 7247.13916015625 - Score: 104.55403137207031
+INFO:root:90/400 - Loss: 14710.7265625 - Score: 117.91883087158203
+INFO:root:10/400 - Loss: 317.4815979003906 - Score: 38.5187873840332
+INFO:root:70/400 - Loss: 6459.865234375 - Score: 101.6543960571289
+INFO:root:80/400 - Loss: 5768.44287109375 - Score: 98.74535369873047
+INFO:root:90/400 - Loss: 5159.54443359375 - Score: 95.8077163696289
+INFO:root:100/400 - Loss: 14515.548828125 - Score: 117.78617858886719
+INFO:root:100/400 - Loss: 4631.23388671875 - Score: 92.93701934814453
+WARNING:optuna.study._optimize:Trial 10 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+INFO:root:20/400 - Loss: 15637.9482421875 - Score: 118.30455017089844
+INFO:optuna.study._optimize:Trial 16 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 101 - num_samples: 3 - batch_size:1024 - num_inducing: 101 - lr: 0.0007974413177825174
+INFO:root:0/400 - Loss: 16407.09375 - Score: 118.55494689941406
+INFO:root:110/400 - Loss: 14328.166015625 - Score: 117.63900756835938
+INFO:optuna.study._optimize:Trial 17 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 3 - num_inducing: 75 - num_samples: 5 - batch_size:1024 - num_inducing: 75 - lr: 0.026238740216636743
+INFO:root:0/400 - Loss: 12301.5595703125 - Score: 116.63471221923828
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 7 finished with value: 117.49380493164062 and parameters: {'lr': 0.00010663109589553259, 'batch_size': 1024, 'num_inducing': 166, 'num_samples': 5, 'kernel_type': 'matern0.5', 'n_gp_layers': 2, 'n_gp_out': 4}. Best is trial 4 with value: 37.11784744262695.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 63 - num_samples: 7 - batch_size:1024 - num_inducing: 63 - lr: 0.00021254874706633808
+INFO:root:0/400 - Loss: 16517.544921875 - Score: 118.56513977050781
+INFO:root:10/400 - Loss: 16092.6318359375 - Score: 118.49055480957031
+INFO:optuna.study._optimize:Trial 18 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 132 - num_samples: 15 - batch_size:512 - num_inducing: 132 - lr: 0.004101198340681486
+INFO:root:20/400 - Loss: 15683.3916015625 - Score: 118.39186096191406
+INFO:root:30/400 - Loss: 15289.7802734375 - Score: 118.26764678955078
+INFO:root:0/400 - Loss: 15121.162109375 - Score: 118.36348724365234
+INFO:root:40/400 - Loss: 14906.8212890625 - Score: 118.11837005615234
+INFO:root:50/400 - Loss: 14539.712890625 - Score: 117.94581604003906
+INFO:root:60/400 - Loss: 14179.8681640625 - Score: 117.75300598144531
+INFO:root:70/400 - Loss: 13841.771484375 - Score: 117.5464096069336
+INFO:root:30/400 - Loss: 15201.515625 - Score: 118.0112075805664
+INFO:root:80/400 - Loss: 13504.7197265625 - Score: 117.31112670898438
+INFO:root:90/400 - Loss: 13178.3486328125 - Score: 117.0530014038086
+INFO:root:100/400 - Loss: 12858.8798828125 - Score: 116.7658462524414
+INFO:root:110/400 - Loss: 12545.2158203125 - Score: 116.45005798339844
+INFO:root:20/400 - Loss: 236.4484100341797 - Score: 38.20918273925781
+INFO:root:120/400 - Loss: 12236.1103515625 - Score: 116.10699462890625
+INFO:root:130/400 - Loss: 11940.0576171875 - Score: 115.75891876220703
+INFO:root:140/400 - Loss: 11657.951171875 - Score: 115.41670227050781
+INFO:root:150/400 - Loss: 11384.3955078125 - Score: 115.07683563232422
+INFO:root:10/400 - Loss: 5850.98193359375 - Score: 94.44070434570312
+INFO:root:160/400 - Loss: 11115.955078125 - Score: 114.75127410888672
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 14 finished with value: 117.7249526977539 and parameters: {'lr': 0.00041513530702190374, 'batch_size': 2048, 'num_inducing': 72, 'num_samples': 14, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 172 - num_samples: 5 - batch_size:2048 - num_inducing: 172 - lr: 0.004495140201661371
+INFO:root:170/400 - Loss: 10867.6171875 - Score: 114.43614959716797
+INFO:root:0/400 - Loss: 16131.1904296875 - Score: 118.49557495117188
+INFO:root:180/400 - Loss: 10625.0771484375 - Score: 114.12765502929688
+INFO:optuna.study._optimize:Trial 15 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 210 - num_samples: 3 - batch_size:512 - num_inducing: 210 - lr: 0.00021819985766906828
+INFO:root:190/400 - Loss: 10383.7294921875 - Score: 113.79621887207031
+INFO:root:0/400 - Loss: 16474.365234375 - Score: 118.55427551269531
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 18 finished with value: 37.789554595947266 and parameters: {'lr': 0.0661742641313344, 'batch_size': 512, 'num_inducing': 781, 'num_samples': 6, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 166 - num_samples: 2 - batch_size:2048 - num_inducing: 166 - lr: 0.005831704188776239
+INFO:root:200/400 - Loss: 10153.8701171875 - Score: 113.48552703857422
+INFO:root:0/400 - Loss: 16007.5986328125 - Score: 118.4684829711914
+INFO:root:210/400 - Loss: 9935.7861328125 - Score: 113.18543243408203
+INFO:optuna.study._optimize:Trial 19 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 752 - num_samples: 10 - batch_size:512 - num_inducing: 752 - lr: 0.09962932134654698
+INFO:root:220/400 - Loss: 9721.8017578125 - Score: 112.88860321044922
+INFO:root:230/400 - Loss: 9515.8720703125 - Score: 112.60060119628906
+INFO:root:240/400 - Loss: 9317.298828125 - Score: 112.32360076904297
+INFO:root:10/400 - Loss: 15644.5390625 - Score: 118.3036880493164
+INFO:root:0/400 - Loss: 3704.38134765625 - Score: 74.82129669189453
+INFO:root:250/400 - Loss: 9118.5625 - Score: 112.04019927978516
+INFO:root:260/400 - Loss: 8931.251953125 - Score: 111.76231384277344
+INFO:root:20/400 - Loss: 2761.918701171875 - Score: 71.97134399414062
+INFO:root:270/400 - Loss: 8745.556640625 - Score: 111.48009490966797
+INFO:root:280/400 - Loss: 8567.74609375 - Score: 111.19989013671875
+INFO:root:290/400 - Loss: 8393.4052734375 - Score: 110.92060089111328
+INFO:root:20/400 - Loss: 14782.8916015625 - Score: 117.49308776855469
+INFO:root:300/400 - Loss: 8224.5029296875 - Score: 110.6406478881836
+INFO:root:310/400 - Loss: 8061.3974609375 - Score: 110.3621597290039
+INFO:root:320/400 - Loss: 7900.37060546875 - Score: 110.08281707763672
+INFO:root:330/400 - Loss: 7742.94873046875 - Score: 109.79838562011719
+INFO:root:340/400 - Loss: 7589.96923828125 - Score: 109.51371765136719
+INFO:root:30/400 - Loss: 13986.2861328125 - Score: 116.6059799194336
+INFO:root:350/400 - Loss: 7441.05126953125 - Score: 109.23223876953125
+INFO:root:360/400 - Loss: 7295.9599609375 - Score: 108.94684600830078
+INFO:root:370/400 - Loss: 7153.61865234375 - Score: 108.6594467163086
+INFO:root:380/400 - Loss: 7015.08251953125 - Score: 108.3690185546875
+INFO:root:30/400 - Loss: 1369.864013671875 - Score: 56.78107452392578
+INFO:root:390/400 - Loss: 6880.0380859375 - Score: 108.08402252197266
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 8 finished with value: 107.82142639160156 and parameters: {'lr': 0.00021254874706633808, 'batch_size': 1024, 'num_inducing': 63, 'num_samples': 7, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 4 with value: 37.11784744262695.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 375 - num_samples: 8 - batch_size:2048 - num_inducing: 375 - lr: 0.003338993146701226
+INFO:root:40/400 - Loss: 13284.7060546875 - Score: 115.91980743408203
+INFO:root:0/400 - Loss: 16234.15625 - Score: 118.50991821289062
+INFO:root:50/400 - Loss: 12651.6376953125 - Score: 115.30988311767578
+INFO:optuna.study._optimize:Trial 9 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 511 - num_samples: 15 - batch_size:1024 - num_inducing: 511 - lr: 0.0003828111859740216
+INFO:root:40/400 - Loss: 712.3873901367188 - Score: 47.80815887451172
+INFO:root:60/400 - Loss: 12068.421875 - Score: 114.72831726074219
+INFO:root:0/400 - Loss: 16485.3359375 - Score: 118.55939483642578
+INFO:root:70/400 - Loss: 11523.4580078125 - Score: 114.15863037109375
+INFO:optuna.study._optimize:Trial 10 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 6 - num_inducing: 660 - num_samples: 15 - batch_size:2048 - num_inducing: 660 - lr: 0.00012888383502010866
+INFO:root:10/400 - Loss: 185.4634552001953 - Score: 38.10215377807617
+INFO:root:80/400 - Loss: 11015.5625 - Score: 113.59129333496094
+INFO:root:50/400 - Loss: 422.6778564453125 - Score: 42.879398345947266
+INFO:root:90/400 - Loss: 10538.486328125 - Score: 113.02217102050781
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 19 finished with value: 41.460391998291016 and parameters: {'lr': 0.004101198340681486, 'batch_size': 512, 'num_inducing': 132, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 2}. Best is trial 13 with value: 37.22980880737305.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 2 - num_inducing: 83 - num_samples: 8 - batch_size:512 - num_inducing: 83 - lr: 0.009183640344838952
+INFO:root:0/400 - Loss: 13516.6708984375 - Score: 117.7862548828125
+INFO:optuna.study._optimize:Trial 20 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 6 - num_inducing: 144 - num_samples: 15 - batch_size:1024 - num_inducing: 144 - lr: 0.0011788474504491483
+INFO:root:100/400 - Loss: 10089.1181640625 - Score: 112.44743347167969
+INFO:root:110/400 - Loss: 9664.2138671875 - Score: 111.86434173583984
+INFO:root:120/400 - Loss: 9263.359375 - Score: 111.27582550048828
+INFO:root:130/400 - Loss: 8881.5849609375 - Score: 110.67769622802734
+INFO:root:0/400 - Loss: 16336.259765625 - Score: 118.54965209960938
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 16 finished with value: 110.6175765991211 and parameters: {'lr': 0.00021819985766906828, 'batch_size': 512, 'num_inducing': 210, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 110 - num_samples: 13 - batch_size:2048 - num_inducing: 110 - lr: 0.00012102223019997164
+INFO:root:20/400 - Loss: 190.68728637695312 - Score: 37.82963943481445
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 20 finished with value: 37.77137756347656 and parameters: {'lr': 0.09962932134654698, 'batch_size': 512, 'num_inducing': 752, 'num_samples': 10, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 389 - num_samples: 15 - batch_size:2048 - num_inducing: 389 - lr: 0.06264552332447494
+INFO:root:0/400 - Loss: 16546.62109375 - Score: 118.5699691772461
+INFO:root:0/400 - Loss: 11625.166015625 - Score: 116.35575103759766
+INFO:root:10/400 - Loss: 1822.1856689453125 - Score: 75.36566925048828
+INFO:optuna.study._optimize:Trial 21 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 94 - num_samples: 5 - batch_size:2048 - num_inducing: 94 - lr: 0.024181949944233245
+INFO:root:0/400 - Loss: 14390.109375 - Score: 117.95285034179688
+INFO:optuna.study._optimize:Trial 22 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 310 - num_samples: 11 - batch_size:1024 - num_inducing: 310 - lr: 0.0846908461538859
+INFO:root:0/400 - Loss: 7025.34716796875 - Score: 109.26473999023438
+INFO:root:10/400 - Loss: 377.1677551269531 - Score: 37.803165435791016
+INFO:root:20/400 - Loss: 208.19769287109375 - Score: 38.00360870361328
+INFO:root:30/400 - Loss: 190.16990661621094 - Score: 37.29485321044922
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 21 finished with value: 49.504390716552734 and parameters: {'lr': 0.06264552332447494, 'batch_size': 2048, 'num_inducing': 389, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 1}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 669 - num_samples: 10 - batch_size:512 - num_inducing: 669 - lr: 0.0029781764083732032
+INFO:root:40/400 - Loss: 220.04396057128906 - Score: 37.76364517211914
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 17 finished with value: 118.55948638916016 and parameters: {'lr': 0.00012102223019997164, 'batch_size': 2048, 'num_inducing': 110, 'num_samples': 13, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 5}. Best is trial 1 with value: 37.78729248046875.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 602 - num_samples: 12 - batch_size:1024 - num_inducing: 602 - lr: 0.04046915447575169
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 23 finished with value: 37.10303497314453 and parameters: {'lr': 0.0846908461538859, 'batch_size': 1024, 'num_inducing': 310, 'num_samples': 11, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 3}. Best is trial 23 with value: 37.10303497314453.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 325 - num_samples: 5 - batch_size:1024 - num_inducing: 325 - lr: 0.08800519297054002
+INFO:root:0/400 - Loss: 15472.40625 - Score: 118.30768585205078
+INFO:root:0/400 - Loss: 6936.5185546875 - Score: 110.23934173583984
+INFO:root:0/400 - Loss: 10457.9931640625 - Score: 113.80074310302734
+INFO:root:10/400 - Loss: 316.20184326171875 - Score: 37.6264762878418
+INFO:root:20/400 - Loss: 283.6768493652344 - Score: 38.25891876220703
+INFO:optuna.study._optimize:Trial 24 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 380 - num_samples: 2 - batch_size:1024 - num_inducing: 380 - lr: 0.05244317979104497
+INFO:root:0/400 - Loss: 9474.978515625 - Score: 114.14794158935547
+INFO:optuna.study._optimize:Trial 22 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 410 - num_samples: 14 - batch_size:512 - num_inducing: 410 - lr: 0.08624047729563256
+INFO:root:10/400 - Loss: 338.547119140625 - Score: 37.32309341430664
+INFO:root:20/400 - Loss: 282.7290954589844 - Score: 37.31944274902344
+INFO:root:30/400 - Loss: 170.05850219726562 - Score: 37.104793548583984
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 25 finished with value: 36.6922492980957 and parameters: {'lr': 0.05244317979104497, 'batch_size': 1024, 'num_inducing': 380, 'num_samples': 2, 'kernel_type': 'rbf', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 25 with value: 36.6922492980957.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 4 - num_inducing: 460 - num_samples: 12 - batch_size:2048 - num_inducing: 460 - lr: 0.0497599000884628
+INFO:root:0/400 - Loss: 12463.2294921875 - Score: 116.94493865966797
+INFO:root:0/400 - Loss: 2236.005126953125 - Score: 74.48797607421875
+INFO:optuna.study._optimize:Trial 26 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 610 - num_samples: 2 - batch_size:512 - num_inducing: 610 - lr: 0.01880717582430647
+INFO:root:10/400 - Loss: 482.0475158691406 - Score: 38.14781188964844
+INFO:root:0/400 - Loss: 11095.07421875 - Score: 116.19927978515625
+WARNING:optuna.study._optimize:Trial 27 failed because of the following error: NotPSDError('Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.',)
+Traceback (most recent call last):
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 400, in <lambda>
+    metric=mae),
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/HPO_DGP.py", line 263, in objective_train_test
+    output = model(X_batch)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 145, in forward
+    output = layer(output)
+  File "/home/linyuhan/Dokumente/Masterarbeit/dataset/CMAPSS/code/DGP_Yuhan/src/deep_gp.py", line 91, in __call__
+    return super().__call__(x, are_samples=bool(len(other_inputs)))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/deep_gps/deep_gp.py", line 99, in __call__
+    output = ApproximateGP.__call__(self, inputs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/models/approximate_gp.py", line 81, in __call__
+    return self.variational_strategy(inputs, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 169, in __call__
+    return super().__call__(x, prior=prior, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/_variational_strategy.py", line 129, in __call__
+    **kwargs,
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/module.py", line 30, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 103, in forward
+    L = self._cholesky_factor(induc_induc_covar)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/memoize.py", line 76, in g
+    return _add_to_cache_ignore_args(self, cache_name, method(self, *args, **kwargs))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/variational/variational_strategy.py", line 72, in _cholesky_factor
+    L = psd_safe_cholesky(delazify(induc_induc_covar).type(_linalg_dtype_cholesky.value()))
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 63, in psd_safe_cholesky
+    L = _psd_safe_cholesky(A, out=out, jitter=jitter, max_tries=max_tries)
+  File "/home/linyuhan/my_project/venv_CMAPSS/lib64/python3.6/site-packages/gpytorch/utils/cholesky.py", line 45, in _psd_safe_cholesky
+    raise NotPSDError(f"Matrix not positive definite after repeatedly adding jitter up to {jitter_new:.1e}.")
+gpytorch.utils.errors.NotPSDError: Matrix not positive definite after repeatedly adding jitter up to 1.0e-06.
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 18 finished with value: 36.90489959716797 and parameters: {'lr': 0.04046915447575169, 'batch_size': 1024, 'num_inducing': 602, 'num_samples': 12, 'kernel_type': 'matern0.5', 'n_gp_layers': 1, 'n_gp_out': 4}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 128 - num_samples: 14 - batch_size:1024 - num_inducing: 128 - lr: 0.022565828939460707
+INFO:root:0/400 - Loss: 12964.9931640625 - Score: 117.7354965209961
+INFO:optuna.study._optimize:Trial 19 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 2 - num_inducing: 635 - num_samples: 12 - batch_size:512 - num_inducing: 635 - lr: 0.00011843007251446763
+INFO:root:0/400 - Loss: 16512.771484375 - Score: 118.56245422363281
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 23 finished with value: 41.694679260253906 and parameters: {'lr': 0.08624047729563256, 'batch_size': 512, 'num_inducing': 410, 'num_samples': 14, 'kernel_type': 'matern1.5', 'n_gp_layers': 4, 'n_gp_out': 3}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 581 - num_samples: 12 - batch_size:2048 - num_inducing: 581 - lr: 0.0011048815595595027
+INFO:optuna.study._optimize:Trial 20 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 128 - num_samples: 2 - batch_size:1024 - num_inducing: 128 - lr: 0.09314111687601007
+INFO:root:0/400 - Loss: 6802.349609375 - Score: 111.28678131103516
+INFO:optuna.study._optimize:Trial 21 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 120 - num_samples: 11 - batch_size:1024 - num_inducing: 120 - lr: 0.0011844318588460595
+INFO:root:0/400 - Loss: 16328.4228515625 - Score: 118.5248794555664
+INFO:optuna.study._optimize:Trial 22 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 56 - num_samples: 10 - batch_size:512 - num_inducing: 56 - lr: 0.012136263972245438
+INFO:root:0/400 - Loss: 12633.23046875 - Score: 116.92668151855469
+INFO:optuna.study._optimize:Trial 23 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 237 - num_samples: 15 - batch_size:1024 - num_inducing: 237 - lr: 0.0012479502590399803
+INFO:root:0/400 - Loss: 16323.6904296875 - Score: 118.5455093383789
+INFO:root:0/400 - Loss: 16452.75 - Score: 118.56049346923828
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 24 finished with value: 118.56049346923828 and parameters: {'lr': 0.0011048815595595027, 'batch_size': 2048, 'num_inducing': 581, 'num_samples': 12, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 187 - num_samples: 11 - batch_size:512 - num_inducing: 187 - lr: 0.023452103522694254
+INFO:root:0/400 - Loss: 10182.5283203125 - Score: 114.93305206298828
+INFO:optuna.study._optimize:Trial 25 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 135 - num_samples: 9 - batch_size:512 - num_inducing: 135 - lr: 0.010929423235701098
+INFO:root:0/400 - Loss: 13007.0009765625 - Score: 117.52189636230469
+INFO:optuna.study._optimize:Trial 26 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 399 - num_samples: 12 - batch_size:2048 - num_inducing: 399 - lr: 0.00036674510906121316
+INFO:optuna.study._optimize:Trial 24 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 123 - num_samples: 12 - batch_size:512 - num_inducing: 123 - lr: 0.0458276342197687
+INFO:root:0/400 - Loss: 6792.04248046875 - Score: 107.81092071533203
+INFO:root:0/400 - Loss: 16522.123046875 - Score: 118.56267547607422
+INFO:optuna.study._optimize:Trial 25 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 799 - num_samples: 8 - batch_size:1024 - num_inducing: 799 - lr: 0.003125954467676169
+INFO:root:0/400 - Loss: 15969.3271484375 - Score: 118.4486083984375
+INFO:optuna.study._optimize:Trial 27 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 105 - num_samples: 15 - batch_size:512 - num_inducing: 105 - lr: 0.00296705139816177
+INFO:root:0/400 - Loss: 15473.265625 - Score: 118.35655212402344
+INFO:root:10/400 - Loss: 8516.068359375 - Score: 109.88457489013672
+INFO:root:20/400 - Loss: 5384.31298828125 - Score: 98.03455352783203
+INFO:root:30/400 - Loss: 3736.667724609375 - Score: 87.94389343261719
+INFO:root:40/400 - Loss: 2705.213134765625 - Score: 79.190185546875
+INFO:root:50/400 - Loss: 2001.549072265625 - Score: 71.54351806640625
+INFO:root:60/400 - Loss: 1495.04931640625 - Score: 64.94798278808594
+INFO:root:70/400 - Loss: 1123.9586181640625 - Score: 59.379730224609375
+INFO:root:80/400 - Loss: 847.6424560546875 - Score: 54.735626220703125
+INFO:root:90/400 - Loss: 643.542236328125 - Score: 50.970394134521484
+INFO:root:100/400 - Loss: 492.45672607421875 - Score: 47.918418884277344
+INFO:root:110/400 - Loss: 383.5777282714844 - Score: 45.51622772216797
+INFO:root:120/400 - Loss: 301.68365478515625 - Score: 43.60072326660156
+INFO:root:130/400 - Loss: 245.44992065429688 - Score: 42.144710540771484
+INFO:optuna.study._optimize:Trial 26 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 303 - num_samples: 6 - batch_size:1024 - num_inducing: 303 - lr: 0.011089503152622096
+INFO:root:140/400 - Loss: 196.66578674316406 - Score: 40.671775817871094
+INFO:root:0/400 - Loss: 14530.0615234375 - Score: 117.7879867553711
+INFO:root:150/400 - Loss: 169.4424591064453 - Score: 39.89293670654297
+INFO:root:160/400 - Loss: 155.44064331054688 - Score: 39.28904342651367
+INFO:root:170/400 - Loss: 152.13865661621094 - Score: 38.818511962890625
+INFO:optuna.study._optimize:Trial 27 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 183 - num_samples: 9 - batch_size:1024 - num_inducing: 183 - lr: 0.00022124774437749494
+INFO:root:0/400 - Loss: 16515.7578125 - Score: 118.56401062011719
+INFO:root:180/400 - Loss: 155.03819274902344 - Score: 38.649322509765625
+INFO:optuna.study._optimize:Trial 28 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 50 - num_samples: 8 - batch_size:2048 - num_inducing: 50 - lr: 0.012921723287923906
+INFO:root:190/400 - Loss: 129.0175323486328 - Score: 38.24687957763672
+INFO:root:0/400 - Loss: 15366.734375 - Score: 118.37831115722656
+INFO:root:200/400 - Loss: 117.79454803466797 - Score: 38.04115295410156
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 28 finished with value: 37.96625518798828 and parameters: {'lr': 0.00296705139816177, 'batch_size': 512, 'num_inducing': 105, 'num_samples': 15, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 5 - num_inducing: 348 - num_samples: 15 - batch_size:2048 - num_inducing: 348 - lr: 0.0027708492095716397
+INFO:root:10/400 - Loss: 7252.5263671875 - Score: 105.61732482910156
+INFO:root:20/400 - Loss: 4121.8701171875 - Score: 89.45254516601562
+INFO:root:30/400 - Loss: 2513.40380859375 - Score: 74.21027374267578
+INFO:root:0/400 - Loss: 16295.4716796875 - Score: 118.54237365722656
+INFO:root:40/400 - Loss: 1574.831298828125 - Score: 62.692230224609375
+INFO:root:50/400 - Loss: 1008.9490966796875 - Score: 54.55918884277344
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 29 finished with value: 53.22675704956055 and parameters: {'lr': 0.012921723287923906, 'batch_size': 2048, 'num_inducing': 50, 'num_samples': 8, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 2}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 103 - num_samples: 9 - batch_size:512 - num_inducing: 103 - lr: 0.03776051191061001
+INFO:root:0/400 - Loss: 8106.56005859375 - Score: 113.88990020751953
+INFO:root:10/400 - Loss: 245.23193359375 - Score: 42.045753479003906
+INFO:root:20/400 - Loss: 155.72239685058594 - Score: 38.36397933959961
+INFO:root:30/400 - Loss: 180.59561157226562 - Score: 38.39607238769531
+INFO:root:40/400 - Loss: 118.51455688476562 - Score: 38.076393127441406
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 30 finished with value: 37.67537307739258 and parameters: {'lr': 0.03776051191061001, 'batch_size': 512, 'num_inducing': 103, 'num_samples': 9, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 1}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 52 - num_samples: 3 - batch_size:512 - num_inducing: 52 - lr: 0.0030328634659360573
+INFO:root:0/400 - Loss: 15457.7607421875 - Score: 118.37289428710938
+INFO:optuna.study._optimize:Trial 31 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 3 - num_inducing: 59 - num_samples: 2 - batch_size:1024 - num_inducing: 59 - lr: 0.0022012757757184434
+INFO:root:0/400 - Loss: 16144.46875 - Score: 118.51789855957031
+INFO:optuna.study._optimize:Trial 32 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 766 - num_samples: 4 - batch_size:2048 - num_inducing: 766 - lr: 0.014719717311642854
+INFO:root:0/400 - Loss: 15207.046875 - Score: 118.23086547851562
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 29 finished with value: 118.51107025146484 and parameters: {'lr': 0.0027708492095716397, 'batch_size': 2048, 'num_inducing': 348, 'num_samples': 15, 'kernel_type': 'rbf', 'n_gp_layers': 2, 'n_gp_out': 5}. Best is trial 15 with value: 37.577857971191406.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 3 - num_inducing: 606 - num_samples: 8 - batch_size:512 - num_inducing: 606 - lr: 0.0042451491938729005
+INFO:optuna.study._optimize:Trial 33 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 5 - num_inducing: 349 - num_samples: 15 - batch_size:1024 - num_inducing: 349 - lr: 0.09950491896378591
+INFO:root:0/400 - Loss: 15040.681640625 - Score: 118.35174560546875
+INFO:root:0/400 - Loss: 5638.1259765625 - Score: 99.7242431640625
+INFO:optuna.study._optimize:Trial 30 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 5 - num_inducing: 154 - num_samples: 3 - batch_size:1024 - num_inducing: 154 - lr: 0.04226454854439315
+INFO:root:0/400 - Loss: 10560.4697265625 - Score: 116.206787109375
+INFO:root:10/400 - Loss: 303.2950744628906 - Score: 38.08363723754883
+INFO:root:20/400 - Loss: 163.42539978027344 - Score: 37.09345626831055
+INFO:root:30/400 - Loss: 122.08289337158203 - Score: 37.089229583740234
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 31 finished with value: 36.95566177368164 and parameters: {'lr': 0.04226454854439315, 'batch_size': 1024, 'num_inducing': 154, 'num_samples': 3, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 5}. Best is trial 31 with value: 36.95566177368164.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 358 - num_samples: 4 - batch_size:512 - num_inducing: 358 - lr: 0.001989483390134316
+INFO:root:0/400 - Loss: 15794.751953125 - Score: 118.31109619140625
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 34 finished with value: 47.31935119628906 and parameters: {'lr': 0.09950491896378591, 'batch_size': 1024, 'num_inducing': 349, 'num_samples': 15, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 5}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 102 - num_samples: 13 - batch_size:1024 - num_inducing: 102 - lr: 0.04331950428436437
+INFO:root:0/400 - Loss: 10403.5791015625 - Score: 115.7749252319336
+INFO:optuna.study._optimize:Trial 35 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 229 - num_samples: 12 - batch_size:512 - num_inducing: 229 - lr: 0.0950648102487626
+INFO:root:0/400 - Loss: 2459.4619140625 - Score: 76.58399200439453
+INFO:root:10/400 - Loss: 169.1263885498047 - Score: 38.80662536621094
+INFO:root:10/400 - Loss: 9397.1865234375 - Score: 106.35948944091797
+INFO:root:20/400 - Loss: 199.1315460205078 - Score: 39.784061431884766
+INFO:optuna.study._optimize:Trial 36 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 149 - num_samples: 11 - batch_size:512 - num_inducing: 149 - lr: 0.008152765742285947
+INFO:root:0/400 - Loss: 13770.3759765625 - Score: 117.61458587646484
+INFO:optuna.study._optimize:Trial 37 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 123 - num_samples: 13 - batch_size:512 - num_inducing: 123 - lr: 0.045912780483279195
+INFO:root:0/400 - Loss: 7034.349609375 - Score: 111.42864990234375
+INFO:root:20/400 - Loss: 5884.2802734375 - Score: 92.91716003417969
+INFO:optuna.study._optimize:Trial 38 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 231 - num_samples: 12 - batch_size:512 - num_inducing: 231 - lr: 0.021187421059643437
+INFO:root:0/400 - Loss: 10307.4404296875 - Score: 113.6375732421875
+INFO:optuna.study._optimize:Trial 39 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 113 - num_samples: 9 - batch_size:2048 - num_inducing: 113 - lr: 0.0011919376155619726
+INFO:root:0/400 - Loss: 16444.40234375 - Score: 118.55261993408203
+INFO:root:10/400 - Loss: 15244.2138671875 - Score: 118.27809143066406
+INFO:optuna.study._optimize:Trial 32 pruned. 
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 4 - num_inducing: 116 - num_samples: 2 - batch_size:512 - num_inducing: 116 - lr: 0.09232614343879755
+INFO:root:20/400 - Loss: 14139.3408203125 - Score: 117.7948989868164
+INFO:root:0/400 - Loss: 2623.170654296875 - Score: 80.40003967285156
+INFO:optuna.study._optimize:Trial 40 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 290 - num_samples: 7 - batch_size:2048 - num_inducing: 290 - lr: 0.006661991008405749
+INFO:root:0/400 - Loss: 15921.9775390625 - Score: 118.43333435058594
+INFO:optuna.study._optimize:Trial 33 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 136 - num_samples: 12 - batch_size:1024 - num_inducing: 136 - lr: 0.008994816734279692
+INFO:root:0/400 - Loss: 14922.89453125 - Score: 118.1685562133789
+INFO:root:10/400 - Loss: 10622.181640625 - Score: 114.12867736816406
+INFO:root:10/400 - Loss: 5539.86181640625 - Score: 95.67583465576172
+INFO:root:20/400 - Loss: 7032.25390625 - Score: 102.0733871459961
+INFO:root:20/400 - Loss: 2651.7626953125 - Score: 73.67337036132812
+INFO:optuna.study._optimize:Trial 34 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 51 - num_samples: 15 - batch_size:2048 - num_inducing: 51 - lr: 0.0330555236370571
+INFO:root:0/400 - Loss: 13743.1650390625 - Score: 117.96045684814453
+INFO:optuna.study._optimize:Trial 41 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 6 - num_inducing: 74 - num_samples: 14 - batch_size:512 - num_inducing: 74 - lr: 0.057235021652224126
+INFO:optuna.study._optimize:Trial 35 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 4 - num_inducing: 296 - num_samples: 9 - batch_size:512 - num_inducing: 296 - lr: 0.01368296709874267
+INFO:root:0/400 - Loss: 5069.90625 - Score: 97.17623138427734
+INFO:root:0/400 - Loss: 12078.4501953125 - Score: 115.52273559570312
+INFO:optuna.study._optimize:Trial 36 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 772 - num_samples: 5 - batch_size:512 - num_inducing: 772 - lr: 0.05062560502774791
+INFO:root:0/400 - Loss: 6088.63671875 - Score: 102.51917266845703
+INFO:optuna.study._optimize:Trial 42 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 131 - num_samples: 3 - batch_size:1024 - num_inducing: 131 - lr: 0.0006944162760014645
+INFO:root:0/400 - Loss: 16424.033203125 - Score: 118.54350280761719
+INFO:root:10/400 - Loss: 15061.1259765625 - Score: 117.99769592285156
+INFO:root:20/400 - Loss: 13797.2646484375 - Score: 116.89374542236328
+INFO:root:30/400 - Loss: 12699.7060546875 - Score: 115.73662567138672
+INFO:root:40/400 - Loss: 11753.9111328125 - Score: 114.6639633178711
+INFO:root:50/400 - Loss: 10924.1650390625 - Score: 113.62014770507812
+INFO:root:60/400 - Loss: 10187.35546875 - Score: 112.57109069824219
+INFO:root:70/400 - Loss: 9526.1015625 - Score: 111.50572204589844
+INFO:root:80/400 - Loss: 8927.6435546875 - Score: 110.42339324951172
+INFO:optuna.study._optimize:Trial 37 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 528 - num_samples: 4 - batch_size:512 - num_inducing: 528 - lr: 0.04831359541890845
+INFO:root:0/400 - Loss: 6369.564453125 - Score: 104.45415496826172
+INFO:root:90/400 - Loss: 8383.7529296875 - Score: 109.32115936279297
+INFO:root:100/400 - Loss: 7886.5703125 - Score: 108.20376586914062
+INFO:root:110/400 - Loss: 7430.166015625 - Score: 107.07355499267578
+INFO:root:120/400 - Loss: 7007.56884765625 - Score: 105.91455841064453
+INFO:optuna.study._optimize:Trial 38 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 591 - num_samples: 10 - batch_size:512 - num_inducing: 591 - lr: 0.0031325682981115655
+INFO:root:130/400 - Loss: 6617.84228515625 - Score: 104.75525665283203
+INFO:root:140/400 - Loss: 6256.16943359375 - Score: 103.59073638916016
+INFO:root:0/400 - Loss: 15389.8359375 - Score: 118.19796752929688
+INFO:root:150/400 - Loss: 5919.57958984375 - Score: 102.41976928710938
+INFO:root:160/400 - Loss: 5605.65869140625 - Score: 101.23566436767578
+INFO:root:170/400 - Loss: 5312.130859375 - Score: 99.95486450195312
+INFO:root:180/400 - Loss: 5037.48291015625 - Score: 98.57281494140625
+INFO:root:190/400 - Loss: 4778.49169921875 - Score: 97.12165832519531
+INFO:root:200/400 - Loss: 4534.75390625 - Score: 95.72782897949219
+INFO:root:210/400 - Loss: 4305.3310546875 - Score: 94.38766479492188
+INFO:root:220/400 - Loss: 4088.906982421875 - Score: 93.08460235595703
+INFO:root:230/400 - Loss: 3884.663818359375 - Score: 91.77652740478516
+INFO:root:240/400 - Loss: 3691.216796875 - Score: 90.49120330810547
+INFO:root:250/400 - Loss: 3508.146728515625 - Score: 89.19741821289062
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 43 finished with value: 88.68636322021484 and parameters: {'lr': 0.0006944162760014645, 'batch_size': 1024, 'num_inducing': 131, 'num_samples': 3, 'kernel_type': 'rbf', 'n_gp_layers': 3, 'n_gp_out': 1}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 1 - num_inducing: 197 - num_samples: 6 - batch_size:512 - num_inducing: 197 - lr: 0.09124390105094086
+INFO:root:0/400 - Loss: 3839.8935546875 - Score: 97.364990234375
+INFO:root:10/400 - Loss: 165.78729248046875 - Score: 40.58203887939453
+INFO:root:20/400 - Loss: 140.03993225097656 - Score: 39.25811004638672
+INFO:root:30/400 - Loss: 115.00484466552734 - Score: 39.334007263183594
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 44 finished with value: 39.06793975830078 and parameters: {'lr': 0.09124390105094086, 'batch_size': 512, 'num_inducing': 197, 'num_samples': 6, 'kernel_type': 'matern0.5', 'n_gp_layers': 3, 'n_gp_out': 1}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 146 - num_samples: 11 - batch_size:512 - num_inducing: 146 - lr: 0.019930511011222573
+INFO:root:0/400 - Loss: 10831.1953125 - Score: 115.9681625366211
+INFO:optuna.study._optimize:Trial 45 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 6 - num_inducing: 492 - num_samples: 7 - batch_size:512 - num_inducing: 492 - lr: 0.01480851245720875
+INFO:optuna.study._optimize:Trial 39 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 4 - num_inducing: 395 - num_samples: 2 - batch_size:1024 - num_inducing: 395 - lr: 0.00022863354010200105
+INFO:root:0/400 - Loss: 11842.427734375 - Score: 115.69068145751953
+INFO:root:0/400 - Loss: 16514.8984375 - Score: 118.56635284423828
+INFO:root:10/400 - Loss: 408.64410400390625 - Score: 39.26057815551758
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 46 finished with value: 38.796295166015625 and parameters: {'lr': 0.01480851245720875, 'batch_size': 512, 'num_inducing': 492, 'num_samples': 7, 'kernel_type': 'matern1.5', 'n_gp_layers': 2, 'n_gp_out': 6}. Best is trial 18 with value: 36.90489959716797.
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 149 - num_samples: 11 - batch_size:512 - num_inducing: 149 - lr: 0.008988959455709754
+INFO:root:0/400 - Loss: 13397.255859375 - Score: 116.72505187988281
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 40 finished with value: 118.52717590332031 and parameters: {'lr': 0.00022863354010200105, 'batch_size': 1024, 'num_inducing': 395, 'num_samples': 2, 'kernel_type': 'matern1.5', 'n_gp_layers': 3, 'n_gp_out': 4}. Best is trial 31 with value: 36.95566177368164.
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 335 - num_samples: 8 - batch_size:512 - num_inducing: 335 - lr: 0.00023913511800445004
+INFO:root:0/400 - Loss: 16465.951171875 - Score: 118.54975128173828
+INFO:optuna.study._optimize:Trial 47 pruned. 
+INFO:root:Current Configuration: n_gp_layers:2 - n_gp_out: 1 - num_inducing: 108 - num_samples: 9 - batch_size:512 - num_inducing: 108 - lr: 0.09329935346784006
+INFO:root:0/400 - Loss: 3577.98046875 - Score: 93.40788269042969
+INFO:optuna.study._optimize:Trial 48 pruned. 
+INFO:root:Current Configuration: n_gp_layers:3 - n_gp_out: 2 - num_inducing: 323 - num_samples: 12 - batch_size:1024 - num_inducing: 323 - lr: 0.00240598920217297
+INFO:optuna.study._optimize:Trial 41 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 2 - num_inducing: 176 - num_samples: 14 - batch_size:1024 - num_inducing: 176 - lr: 0.009196272591328367
+INFO:root:0/400 - Loss: 14892.7724609375 - Score: 118.18180847167969
+INFO:root:10/400 - Loss: 4562.30322265625 - Score: 84.71823120117188
+INFO:root:0/400 - Loss: 16092.5595703125 - Score: 118.4373779296875
+INFO:root:20/400 - Loss: 1521.0345458984375 - Score: 56.75259780883789
+INFO:root:30/400 - Loss: 575.9015502929688 - Score: 44.18034744262695
+INFO:root:40/400 - Loss: 320.59063720703125 - Score: 39.794490814208984
+INFO:optuna.study._optimize:Trial 49 pruned. 
+INFO:root:Best trials: 
+INFO:root:Value: 36.90489959716797
+INFO:root:params: 
+INFO:root:    lr: 0.04046915447575169
+INFO:root:    batch_size: 1024
+INFO:root:    num_inducing: 602
+INFO:root:    num_samples: 12
+INFO:root:    kernel_type: matern0.5
+INFO:root:    n_gp_layers: 1
+INFO:root:    n_gp_out: 4
+INFO:root:After final model training
+INFO:root:50/400 - Loss: 290.8806457519531 - Score: 38.3803596496582
+INFO:root:60/400 - Loss: 205.813720703125 - Score: 37.88991165161133
+INFO:root:70/400 - Loss: 175.98428344726562 - Score: 37.66334533691406
+INFO:root:80/400 - Loss: 161.5052490234375 - Score: 37.597251892089844
+INFO:root:90/400 - Loss: 151.1004638671875 - Score: 37.55903625488281
+INFO:root:100/400 - Loss: 141.45957946777344 - Score: 37.50967025756836
+INFO:root:110/400 - Loss: 134.91326904296875 - Score: 37.433441162109375
+INFO:root:120/400 - Loss: 125.94355010986328 - Score: 37.468589782714844
+INFO:root:130/400 - Loss: 118.72628021240234 - Score: 37.40553283691406
+INFO:root:140/400 - Loss: 112.42951202392578 - Score: 37.38096618652344
+INFO:root:Early stopping
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 42 finished with value: 37.343597412109375 and parameters: {'lr': 0.009196272591328367, 'batch_size': 1024, 'num_inducing': 176, 'num_samples': 14, 'kernel_type': 'matern1.5', 'n_gp_layers': 1, 'n_gp_out': 2}. Best is trial 31 with value: 36.95566177368164.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 6 - num_inducing: 114 - num_samples: 7 - batch_size:1024 - num_inducing: 114 - lr: 0.09200988160039257
+INFO:root:0/400 - Loss: 6332.6650390625 - Score: 104.88264465332031
+INFO:root:10/400 - Loss: 229.31846618652344 - Score: 40.76942825317383
+INFO:root:20/400 - Loss: 176.85841369628906 - Score: 37.56009292602539
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 43 finished with value: 37.56009292602539 and parameters: {'lr': 0.09200988160039257, 'batch_size': 1024, 'num_inducing': 114, 'num_samples': 7, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 6}. Best is trial 31 with value: 36.95566177368164.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 6 - num_inducing: 106 - num_samples: 6 - batch_size:1024 - num_inducing: 106 - lr: 0.09115798306460197
+INFO:root:0/400 - Loss: 6765.41259765625 - Score: 109.15895080566406
+INFO:root:10/400 - Loss: 178.0788116455078 - Score: 38.94864273071289
+INFO:root:20/400 - Loss: 161.75502014160156 - Score: 38.50606918334961
+INFO:root:30/400 - Loss: 121.9419937133789 - Score: 40.261451721191406
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 44 finished with value: 37.87307357788086 and parameters: {'lr': 0.09115798306460197, 'batch_size': 1024, 'num_inducing': 106, 'num_samples': 6, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 6}. Best is trial 31 with value: 36.95566177368164.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 1 - num_inducing: 284 - num_samples: 8 - batch_size:2048 - num_inducing: 284 - lr: 0.000842257458608892
+INFO:root:0/400 - Loss: 16477.369140625 - Score: 118.55856323242188
+INFO:root:10/400 - Loss: 15601.4912109375 - Score: 118.36740112304688
+INFO:root:20/400 - Loss: 14764.962890625 - Score: 117.96024322509766
+INFO:root:30/400 - Loss: 13935.392578125 - Score: 117.0839614868164
+INFO:root:40/400 - Loss: 13128.875 - Score: 115.98356628417969
+INFO:root:Time Budget run out. Pruning Trial
+INFO:root:After model training
+INFO:root:After memory clearing
+INFO:optuna.study.study:Trial 45 finished with value: 115.78546905517578 and parameters: {'lr': 0.000842257458608892, 'batch_size': 2048, 'num_inducing': 284, 'num_samples': 8, 'kernel_type': 'matern0.5', 'n_gp_layers': 4, 'n_gp_out': 1}. Best is trial 31 with value: 36.95566177368164.
+INFO:root:Current Configuration: n_gp_layers:4 - n_gp_out: 2 - num_inducing: 116 - num_samples: 6 - batch_size:1024 - num_inducing: 116 - lr: 0.08594844454359388
+INFO:root:0/400 - Loss: 6707.845703125 - Score: 106.5030746459961
+INFO:root:10/400 - Loss: 203.4784698486328 - Score: 41.003875732421875
+INFO:root:20/400 - Loss: 165.36618041992188 - Score: 38.574832916259766
+INFO:optuna.study._optimize:Trial 46 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 3 - num_inducing: 725 - num_samples: 7 - batch_size:512 - num_inducing: 725 - lr: 0.08990759449687416
+INFO:root:0/400 - Loss: 1984.110107421875 - Score: 60.33108139038086
+INFO:optuna.study._optimize:Trial 47 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 6 - num_inducing: 105 - num_samples: 8 - batch_size:1024 - num_inducing: 105 - lr: 0.026403471850720638
+INFO:root:0/400 - Loss: 12458.8662109375 - Score: 117.72501373291016
+INFO:optuna.study._optimize:Trial 48 pruned. 
+INFO:root:Current Configuration: n_gp_layers:1 - n_gp_out: 1 - num_inducing: 538 - num_samples: 5 - batch_size:512 - num_inducing: 538 - lr: 0.024549980246400684
+INFO:root:0/400 - Loss: 10048.0205078125 - Score: 115.83067321777344

@@ -81,6 +81,7 @@ class EarlyStoppingWithModelSave:
         self.val_loss_min = val_loss
 
 class EarlyStopping():
+    """Early stops the training if validation loss doesn't improve after a given patience."""
     """
     Args:
         patience: How long to wait after last time validation loss improved.

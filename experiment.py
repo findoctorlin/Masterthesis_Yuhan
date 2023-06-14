@@ -19,7 +19,7 @@ if __name__ == "__main__":
     pruner_type = "HB"
     # Maximum number of seconds before cancel a HPO trial
     # time_tolerance = int(input("Enter time tolerance: "))
-    time_tolerance = 3600
+    time_tolerance = 4800
 
     if hpo == "DGP":
         HPO_DGP(n_trials=n_trials,

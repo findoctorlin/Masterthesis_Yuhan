@@ -15,7 +15,7 @@ import file_read
 
 num_epochs = 400
 
-output_dims = [5] * 1
+output_dims = [10] * 1
 num_inducing = 154
 kernel_type = 'matern1.5'
 num_samples = 3
@@ -63,23 +63,26 @@ for epoch in range(num_epochs):
     print("Epoch: {} - Loss: {:.4f}".format(epoch, avg_epoch_loss))
 writer.close()
 
-# plot of result
-# evaluation
-model.eval()
-predictive_means, predictive_variances, test_lls = model.predict(val_loader)
-pred_mean = predictive_means.mean(0)
-pred_var = predictive_variances.mean(0)
-test_lls = test_lls.mean(0)
+torch.save(model.state_dict(), 'model_state_after.pth')
 
-rmse = torch.mean(torch.pow(predictive_means.mean(0) - Val_y, 2)).sqrt()
-print(f"RMSE: {rmse.item()}, NLL: {-test_lls.mean().item()}")
 
-sample_Val_y = Val_y[::20]
-sample_pred = predictive_means.mean(0)[::20]
+# # plot of result
+# # evaluation
+# model.eval()
+# predictive_means, predictive_variances, test_lls = model.predict(val_loader)
+# pred_mean = predictive_means.mean(0)
+# pred_var = predictive_variances.mean(0)
+# test_lls = test_lls.mean(0)
 
-x_scatter = range(len(sample_Val_y))
-idx_sorted = np.argsort(-sample_Val_y, axis=0)
+# rmse = torch.mean(torch.pow(predictive_means.mean(0) - Val_y, 2)).sqrt()
+# print(f"RMSE: {rmse.item()}, NLL: {-test_lls.mean().item()}")
 
-plt.plot(x_scatter, sample_pred[idx_sorted], c='r')
-plt.plot(x_scatter, sample_Val_y[idx_sorted], c='b')
-plt.legend(['prediction','test RUL'])
+# sample_Val_y = Val_y[::20]
+# sample_pred = predictive_means.mean(0)[::20]
+
+# x_scatter = range(len(sample_Val_y))
+# idx_sorted = np.argsort(-sample_Val_y, axis=0)
+
+# plt.plot(x_scatter, sample_pred[idx_sorted], c='r')
+# plt.plot(x_scatter, sample_Val_y[idx_sorted], c='b')
+# plt.legend(['prediction','test RUL'])

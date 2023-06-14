@@ -21,173 +21,6 @@ from src.deep_gp import DeepGPRegression
 import gc
 
 
-def objective_time_prune(trial, X, y, kf,
-                         epochs_inner, patience,
-                         time_tolerance=1800,
-                         metric=mse):
-    """
-    Optuna trial. Performs n_splits CV to calculate a score for a given Hyperparameter Config
-
-    Args:
-        trial: Optuna trial
-        X: features
-        y: labels
-        kf: Sklearn Kfold object
-        epochs_inner: Number of inner epochs
-        patience: Number of early stopping iterations
-        time_tolerance:  Maximum number of seconds before cancel the trial
-        metric: Evaluation metric to be optimized
-
-    Returns:
-        Average score of chosen metric of n_splits CV folds
-    """
-    # trial parameters
-    lr = trial.suggest_float("lr", 1e-4, 1e-1, log=True)
-    kernel_type = trial.suggest_categorical("kernel_type", ["rbf", "matern0.5", "matern1.5"])
-    batch_size = trial.suggest_categorical("batch_size", [256, 512, 1024])
-    num_inducing = trial.suggest_int("num_inducing", 50, 1000, log=True)
-    num_samples = trial.suggest_int("num_samples", 2, 15)
-    n_gp_layers = trial.suggest_int("n_gp_layers", 1, 5, log=True) # len(output_dims)
-    n_gp_out = trial.suggest_int("n_gp_out", 1, 4, log=True)  # log = True?
-
-    print(
-        f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
-        f'num_samples: {num_samples} - kernel_type: {kernel_type} - lr: {lr}')
-
-    logging.info(
-        f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - \
-        num_samples: {num_samples} - kernel_type: {kernel_type} - lr: {lr}')
-
-    start_time = time.time()
-    early_stopping = EarlyStopping(patience=patience)
-    
-    # Inner Nested Resampling Split
-    for epoch in range(epochs_inner):
-        cur_split_nr = 1
-        scores = []
-        for train_inner, val_inner in kf_inner.split(X): # 改动kf->kf_inner
-            # Temp model name for this cv split to load and save
-            temp_model_name = './models/temp/DGP_temp_split_' + str(cur_split_nr) + '.pt'
-
-            # Train/Val Split
-            X_train_inner, X_val_inner, y_train_inner, y_val_inner = X[train_inner], X[val_inner], y[train_inner], y[
-                val_inner]
-
-            # if torch.cuda.is_available():
-            #     X_train_inner, X_val_inner, y_train_inner, y_val_inner = X_train_inner.cuda(), X_val_inner.cuda(), \
-            #                                                              y_train_inner.cuda(), y_val_inner.cuda()
-
-            train_inner_dataset = TensorDataset(X_train_inner, y_train_inner)
-            train_inner_loader = DataLoader(train_inner_dataset, batch_size=batch_size, shuffle=False)
-
-            test_inner_dataset = TensorDataset(X_val_inner, y_val_inner)
-            test_inner_loader = DataLoader(test_inner_dataset, batch_size=batch_size, shuffle=False)
-
-            # initialize likelihood and model
-            # initialize model
-            output_dims = [n_gp_out] * n_gp_layers
-            model = DeepGPRegression(train_x_shape=X_train_inner.shape, output_dims=output_dims,
-                                     num_inducing=num_inducing, kernel_type=kernel_type)
-
-            # Load existing model if not the first epoch
-            if epoch != 0:
-                state_dict = torch.load(temp_model_name)
-                model.load_state_dict(state_dict)
-
-            # if torch.cuda.is_available():
-            #     model = model.cuda()
-
-            # Use the adam optimizer
-            optimizer = torch.optim.AdamW([
-                {'params': model.parameters()},
-            ], lr=lr)
-
-            # "Loss" for GPs - the marginal log likelihood
-            mll = gpytorch.mlls.DeepApproximateMLL(
-                gpytorch.mlls.VariationalELBO(model.likelihood, model, X_train_inner.shape[-2]))
-
-            # Train Model for 1 epochs
-            for i in range(1):
-                # set to train mode
-                model.train()
-                for batch, (X_batch, y_batch) in enumerate(train_inner_loader):
-                    with gpytorch.settings.num_likelihood_samples(num_samples):
-                        # Zero gradient
-                        optimizer.zero_grad()
-                        # Output from model
-                        output = model(X_batch)
-                        # Calc loss and backprop gradients
-                        loss = -mll(output, y_batch)
-                        loss.backward()
-                        # adjust learning weights
-                        optimizer.step()
-
-            # Get into evaluation (predictive posterior) mode
-            model.eval()
-
-            # Make predictions by feeding model through likelihood
-            with torch.no_grad(), gpytorch.settings.fast_pred_var():
-                predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
-                score = metric(predictions.mean(0), y_val_inner)
-
-            # Append Model Scores
-            scores.append(score.cpu().item())
-
-            # Save model
-            torch.save(model.state_dict(), temp_model_name)
-            # Increase cur_split_nr by 1
-            cur_split_nr += 1
-
-            # Clear cache
-            del X_train_inner, y_train_inner, X_val_inner, y_val_inner, loss, optimizer, model,\
-                predictions, predictive_variances, test_lls, output, mll
-            gc.collect()
-            # torch.cuda.empty_cache()
-
-        # average Scores
-        average_scores = np.mean(scores)
-
-        # Early Stopping
-        early_stopping(average_scores)
-        if early_stopping.early_stop:
-            print("Early stopping")
-            break
-
-        # Time based pruner
-        train_time = time.time()
-        if train_time - start_time > time_tolerance:
-            print("Time Budget run out. Pruning Trial")
-            break
-
-        print(f"{epoch}/{epochs_inner} - Score: {average_scores}")
-
-    cur_split_nr = 1
-    for _, _ in kf_inner.split(X):
-        # Temp model name for this cv split to load and save
-        temp_model_name = './models/temp/DGP_temp_split_' + str(cur_split_nr) + '.pt'
-        os.remove(temp_model_name)
-        cur_split_nr += 1
-
-    # Memory Tracking
-    logging.info("After model training")
-    # logging.info(torch.cuda.memory_allocated() / 1024 ** 2)
-    # logging.info(torch.cuda.memory_reserved() / 1024 ** 2)
-
-    # Set max epochs
-    # Max iteration reached
-    if epoch == epochs_inner - 1:
-        max_epochs = epochs_inner
-    # Early stopping
-    else:
-        max_epochs = max(1, epoch - patience + 1)
-    trial.set_user_attr("MAX_EPOCHS", int(max_epochs))
-
-    # Have to take negative due to early stopping logic
-    best_score = -early_stopping.best_score
-
-    return best_score
-
-
 def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=1800, metric=mae):
     """
     Optuna trial. Performs n_splits CV to calculate a score for a given Hyperparameter Config
@@ -211,7 +44,7 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
     num_samples = trial.suggest_int("num_samples", 2, 15)
     kernel_type = trial.suggest_categorical("kernel_type", ["rbf", "matern0.5", "matern1.5"])
     n_gp_layers = trial.suggest_int("n_gp_layers", 1, 4, log=True) # len(output_dims)
-    n_gp_out = trial.suggest_int("n_gp_out", 1, 6, log=True)  # output_dims[i], log = True? 
+    n_gp_out = trial.suggest_int("n_gp_out", 1, 16, log=True)  # output_dims[i], log = True? 
 
     print(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
@@ -283,8 +116,10 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
             break
 
         if epoch % 10 == 0:
+            cur_time = time.time()
+            cur_duration = cur_time - start_time
             print(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score}")
-            logging.info(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score}")
+            logging.info(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score} - Time: {cur_duration}")
 
         # Pruner
         trial.report(score, epoch)
@@ -350,7 +185,9 @@ def HPO_DGP(n_trials=30,
     dataset_name = 'CMAPSS'
 
     # File names
-    log_filename = "./log/HPO_DGP_log_" + dataset_name + ".log"
+    today = datetime.date.today()
+    today_str = today.strftime("%Y-%m-%d")
+    log_filename = "./log/HPO_DGP_log_" + today_str + dataset_name + ".log"
     savedir = './data/experiments/DGP'
     if not os.path.exists(savedir):
         os.mkdir(savedir)
@@ -358,8 +195,8 @@ def HPO_DGP(n_trials=30,
     nested_resampling_infos_file = savedir + '/nested_resampling_infos_DGP_' + dataset_name + '.csv'
     # Python 3.6版本的logging模块中，basicConfig函数不支持encoding和force参数
     # logging.basicConfig(filename=log_filename, encoding='utf-8', level=logging.INFO, force=True)
-    logging.basicConfig(filename=log_filename, level=logging.INFO)
-    optuna.logging.enable_propagation() # # Propagate logs to the root logger 'logging'
+    logging.basicConfig(filename=log_filename, filemode='w', level=logging.INFO)
+    optuna.logging.enable_propagation() # Propagate logs to the root logger 'logging'
 
     # data preprocess
     X=torch.Tensor(X.values)
@@ -382,8 +219,6 @@ def HPO_DGP(n_trials=30,
         pruner = optuna.pruners.NopPruner()
 
     # Create Study Obj For Optuna
-    today = datetime.date.today()
-    today_str = today.strftime("%Y-%m-%d")
     study_name = "DGP " + today_str
     study = optuna.create_study(direction="minimize",
                                 study_name=study_name,

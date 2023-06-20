@@ -44,40 +44,42 @@ def objective_time_prune(trial, X, y, kf, epochs_inner, patience, time_tolerance
     num_inducing = trial.suggest_int("num_inducing", 50, 500, log=True)
     num_samples = trial.suggest_int("num_samples", 2, 10)
     kernel_type = trial.suggest_categorical("kernel_type", ["rbf", "matern0.5", "matern1.5"])
-    n_gp_layers = trial.suggest_int("n_gp_layers", 1, 4, log=True) # len(output_dims)
+    n_gp_layers = trial.suggest_int("n_gp_layers", 1, 3, log=True) # len(output_dims)
     n_gp_out = trial.suggest_int("n_gp_out", 1, 10, log=True)  # output_dims[i], log = True? 
 
     print(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
-        f'num_samples: {num_samples} - batch_size:{batch_size} - num_inducing: {num_inducing} - lr: {lr}')
+        f'num_samples: {num_samples} - batch_size:{batch_size} - lr: {lr}')
     logging.info(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
-        f'num_samples: {num_samples} - batch_size:{batch_size} - num_inducing: {num_inducing} - lr: {lr}')
-    
-    # initialize likelihood and model
-    output_dims = [n_gp_out] * n_gp_layers # list obj
-    model = DeepGPRegression(train_x_shape=X.shape, output_dims=output_dims,
-                             num_inducing=num_inducing, kernel_type=kernel_type)
-    # Use the adam type optimizer
-    optimizer = torch.optim.AdamW([
-        {'params': model.parameters()},
-    ], lr=lr)
-    # "Loss" for GPs - the marginal log likelihood
-    mll = gpytorch.mlls.DeepApproximateMLL(
-        gpytorch.mlls.VariationalELBO(model.likelihood, model, X.shape[-2]))
+        f'num_samples: {num_samples} - batch_size:{batch_size} - lr: {lr}')
 
     # Model Evaluation on Train/Test Split
     scores=[]
     nc_split = 0
     for train_inner, val_inner in kf.split(X):
         nc_split = nc_split + 1
+
         print(f"{nc_split} split:")
         logging.info(f"{nc_split} split:")
+
         X_train_inner, X_val_inner, y_train_inner, y_val_inner = X[train_inner], X[val_inner], y[train_inner], y[val_inner]
         train_inner_dataset = TensorDataset(X_train_inner, y_train_inner)
         train_inner_loader = DataLoader(train_inner_dataset, batch_size=batch_size, shuffle=False)
         test_inner_dataset = TensorDataset(X_val_inner, y_val_inner)
         test_inner_loader = DataLoader(test_inner_dataset, batch_size=batch_size, shuffle=False)
+
+        # initialize likelihood and model
+        output_dims = [n_gp_out] * n_gp_layers # list obj
+        model = DeepGPRegression(train_x_shape=X.shape, output_dims=output_dims,
+                                num_inducing=num_inducing, kernel_type=kernel_type)
+        # Use the adam type optimizer
+        optimizer = torch.optim.AdamW([
+            {'params': model.parameters()},
+        ], lr=lr)
+        # "Loss" for GPs - the marginal log likelihood
+        mll = gpytorch.mlls.DeepApproximateMLL(
+            gpytorch.mlls.VariationalELBO(model.likelihood, model, X.shape[-2]))
 
         start_time = time.time()
         # initialize early stopping
@@ -163,11 +165,11 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
     # trial parameters
     lr = trial.suggest_float("lr", 1e-4, 1e-1, log=True)
     batch_size = trial.suggest_categorical("batch_size", [512, 1024, 2048])
-    num_inducing = trial.suggest_int("num_inducing", 50, 800, log=True)
-    num_samples = trial.suggest_int("num_samples", 2, 15)
+    num_inducing = trial.suggest_int("num_inducing", 50, 500, log=True)
+    num_samples = trial.suggest_int("num_samples", 2, 10)
     kernel_type = trial.suggest_categorical("kernel_type", ["rbf", "matern0.5", "matern1.5"])
-    n_gp_layers = trial.suggest_int("n_gp_layers", 1, 4, log=True) # len(output_dims)
-    n_gp_out = trial.suggest_int("n_gp_out", 1, 16, log=True)  # output_dims[i], log = True? 
+    n_gp_layers = trial.suggest_int("n_gp_layers", 1, 3, log=True) # len(output_dims)
+    n_gp_out = trial.suggest_int("n_gp_out", 1, 10, log=True)  # output_dims[i], log = True? 
 
     print(
         f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '

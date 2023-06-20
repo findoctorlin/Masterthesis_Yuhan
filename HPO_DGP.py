@@ -71,7 +71,7 @@ def objective_time_prune(trial, X, y, kf, epochs_inner, patience, time_tolerance
 
         # initialize likelihood and model
         output_dims = [n_gp_out] * n_gp_layers # list obj
-        model = DeepGPRegression(train_x_shape=X.shape, output_dims=output_dims,
+        model = DeepGPRegression(train_x_shape=X_train_inner.shape, output_dims=output_dims,
                                 num_inducing=num_inducing, kernel_type=kernel_type)
         # Use the adam type optimizer
         optimizer = torch.optim.AdamW([
@@ -79,7 +79,7 @@ def objective_time_prune(trial, X, y, kf, epochs_inner, patience, time_tolerance
         ], lr=lr)
         # "Loss" for GPs - the marginal log likelihood
         mll = gpytorch.mlls.DeepApproximateMLL(
-            gpytorch.mlls.VariationalELBO(model.likelihood, model, X.shape[-2]))
+            gpytorch.mlls.VariationalELBO(model.likelihood, model, X_train_inner.shape[-2]))
 
         start_time = time.time()
         # initialize early stopping
@@ -325,7 +325,7 @@ def HPO_DGP(n_trials=50,
     '''
     Commit comment on this new submitted task!!!!!!
     '''
-    COMMIT = 'cross validation' # Comment on what u have changed on this task being submitted
+    COMMIT = 'cross validation & move the model initialize in begining of train split' # Comment on what u have changed on this task being submitted
     logging.info(COMMIT)
 
     optuna.logging.enable_propagation() # Propagate logs to the root logger 'logging'

@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
-
 import sklearn
 from sklearn.metrics import mean_squared_error, r2_score
 import os
@@ -46,6 +45,12 @@ def drop_col(df):
     return df
 
 
+# clip the rows where RUL > RUL_clip_value
+def clip_row(df, RUL_clip_value):
+    df_clip = df[df['RUL'] <= RUL_clip_value]
+    df_clip = df_clip.reset_index(drop=True)
+    return df_clip
+
 # Adding new past data as new features
 def add_history_data(df, window_size):
     df_new = pd.DataFrame()
@@ -78,6 +83,15 @@ def drop_n_split(df, split_ratio):
     y_val = y_val.to_frame().values.reshape(-1,1)
 
     return X_train, X_val, y_train, y_val
+
+# dropping RUL row but not split dataset into train/validation
+def drop_not_split(df):
+    y_train = df['RUL']
+    X_train = df.drop('RUL', axis=1)
+    
+    y_train = y_train.to_frame().values.reshape(-1,1) # transfer y from (xxx, ) to (xxx, 1)
+
+    return X_train, y_train
 
 # scalling the data
 def data_scale(df):

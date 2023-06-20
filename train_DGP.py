@@ -13,13 +13,13 @@ import matplotlib.pyplot as plt
 from src.deep_gp import DeepGPRegression
 import file_read
 
-num_epochs = 400
+num_epochs = 80
 
 output_dims = [10] * 1
-num_inducing = 154
+num_inducing = 128
 kernel_type = 'matern1.5'
-num_samples = 3
-lr = 0.04226454854439315
+num_samples = 10
+lr = 0.01
 
 
 Train_X = file_read.Train_X
@@ -41,7 +41,7 @@ optimizer = torch.optim.AdamW([
 
 today = datetime.date.today()
 today_str = today.strftime("%Y-%m-%d")
-writer = SummaryWriter("logs/" + today_str + "_v1")
+writer = SummaryWriter("./tensorboard_logs/" + today_str + "_v1")
 
 # training process
 for epoch in range(num_epochs):
@@ -63,7 +63,7 @@ for epoch in range(num_epochs):
     print("Epoch: {} - Loss: {:.4f}".format(epoch, avg_epoch_loss))
 writer.close()
 
-torch.save(model.state_dict(), 'model_state_after.pth')
+torch.save(model.state_dict(), file_read.model_state_file_name)
 
 
 # # plot of result

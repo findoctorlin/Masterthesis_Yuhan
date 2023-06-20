@@ -17,136 +17,13 @@ from src.utils.train_utils import EarlyStopping, EarlyStoppingWithModelSave
 from src.deep_gp import DeepGPRegression
 import src.utils.file_utils as file_utils
 import file_read
-import file_read_nosplit
 
 import gc
-
-def objective_time_prune(trial, X, y, kf, epochs_inner, patience, time_tolerance=6000, metric=rmse):
-    """
-    Optuna trial. Performs n_splits CV to calculate a score for a given Hyperparameter Config
-
-    Args:
-        trial: Optuna trial
-        X: features
-        y: labels
-        kf: Sklearn Kfold object
-        epochs_inner: Number of inner epochs
-        patience: Number of early stopping iterations
-        time_tolerance:  Maximum number of seconds before cancel the trial
-        metric: Evaluation metric to be optimized
-
-    Returns:
-        Average score of chosen metric of n_splits CV folds
-    """
-    # trial parameters
-    lr = trial.suggest_float("lr", 1e-3, 1e-1, log=True)
-    batch_size = trial.suggest_categorical("batch_size", [512, 1024, 2048])
-    num_inducing = trial.suggest_int("num_inducing", 50, 500, log=True)
-    num_samples = trial.suggest_int("num_samples", 2, 10)
-    kernel_type = trial.suggest_categorical("kernel_type", ["rbf", "matern0.5", "matern1.5"])
-    n_gp_layers = trial.suggest_int("n_gp_layers", 1, 4, log=True) # len(output_dims)
-    n_gp_out = trial.suggest_int("n_gp_out", 1, 10, log=True)  # output_dims[i], log = True? 
-
-    print(
-        f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
-        f'num_samples: {num_samples} - batch_size:{batch_size} - num_inducing: {num_inducing} - lr: {lr}')
-    logging.info(
-        f'Current Configuration: n_gp_layers:{n_gp_layers} - n_gp_out: {n_gp_out} - num_inducing: {num_inducing} - '
-        f'num_samples: {num_samples} - batch_size:{batch_size} - num_inducing: {num_inducing} - lr: {lr}')
-    
-    # initialize likelihood and model
-    output_dims = [n_gp_out] * n_gp_layers # list obj
-    model = DeepGPRegression(train_x_shape=X.shape, output_dims=output_dims,
-                             num_inducing=num_inducing, kernel_type=kernel_type)
-    # Use the adam type optimizer
-    optimizer = torch.optim.AdamW([
-        {'params': model.parameters()},
-    ], lr=lr)
-    # "Loss" for GPs - the marginal log likelihood
-    mll = gpytorch.mlls.DeepApproximateMLL(
-        gpytorch.mlls.VariationalELBO(model.likelihood, model, X.shape[-2]))
-
-    # Model Evaluation on Train/Test Split
-    scores=[]
-    nc_split = 0
-    for train_inner, val_inner in kf.split(X):
-        nc_split = nc_split + 1
-        print(f"{nc_split} split:")
-        logging.info(f"{nc_split} split:")
-        X_train_inner, X_val_inner, y_train_inner, y_val_inner = X[train_inner], X[val_inner], y[train_inner], y[val_inner]
-        train_inner_dataset = TensorDataset(X_train_inner, y_train_inner)
-        train_inner_loader = DataLoader(train_inner_dataset, batch_size=batch_size, shuffle=False)
-        test_inner_dataset = TensorDataset(X_val_inner, y_val_inner)
-        test_inner_loader = DataLoader(test_inner_dataset, batch_size=batch_size, shuffle=False)
-
-        start_time = time.time()
-        # initialize early stopping
-        early_stopping = EarlyStopping(patience=patience)
-
-        for epoch in range(epochs_inner):
-            # set to train mode
-            model.train()
-            for batch, (X_batch, y_batch) in enumerate(train_inner_loader):
-                with gpytorch.settings.num_likelihood_samples(num_samples):
-                    optimizer.zero_grad()
-                    output = model(X_batch)
-                    loss = -mll(output, y_batch)
-                    loss.backward()
-                    # adjust learning weights
-                    optimizer.step()
-
-            # Get into evaluation (predictive posterior) mode
-            model.eval()
-            # Make predictions
-            with torch.no_grad(), gpytorch.settings.fast_pred_var():
-                predictions, predictive_variances, test_lls = model.predict(test_inner_loader)
-                score = metric(predictions.mean(0), y_val_inner)
-
-            # Early Stopping
-            early_stopping(score)
-
-            if early_stopping.early_stop:
-                print("Early stopping")
-                logging.info("Early stopping")
-                break
-
-            if epoch % 10 == 0:
-                cur_time = time.time()
-                cur_duration = cur_time - start_time
-                print(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score} - Time: {cur_duration}")
-                logging.info(f"{epoch}/{epochs_inner} - Loss: {loss} - Score: {score} - Time: {cur_duration}")
-
-            # Pruner
-            trial.report(score, epoch)
-            if trial.should_prune():
-                raise optuna.exceptions.TrialPruned()
-
-            # Time based pruner
-            train_time = time.time()
-            if train_time - start_time > time_tolerance:
-                print("Time Budget run out. Pruning Trial")
-                logging.info("Time Budget run out. Pruning Trial")
-                break
-
-        # Set max epochs, as the maximum epoch over all inner splits
-        # Max iteration reached
-        if epoch == epochs_inner - 1:
-            max_epochs = epochs_inner
-        else:
-            max_epochs = max(1, epoch - patience + 1)
-
-        trial.set_user_attr("MAX_EPOCHS", int(max_epochs))
-
-        # Have to take negative due to early stopping logic
-        best_score = -early_stopping.best_score
-        scores.append(best_score)
-
-    return np.mean(scores)
 
 
 def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=1800, metric=rmse):
     """
-    Optuna trial. Performs normal validation to calculate a score for a given Hyperparameter Config
+    Optuna trial. Performs n_splits CV to calculate a score for a given Hyperparameter Config
 
     Args:
         trial: Optuna trial
@@ -264,25 +141,25 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
     else:
         max_epochs = max(1, epoch - patience + 1)
 
-    # Memory Tracking
-    logging.info("After model training")
-    # logging.info(torch.cuda.memory_allocated() / 1024 ** 2)
-    # logging.info(torch.cuda.memory_reserved() / 1024 ** 2)
-    X_train_inner.detach()
-    y_train_inner.detach()
-    X_val_inner.detach()
-    y_val_inner.detach()
-    loss.detach()
-    optimizer.zero_grad(set_to_none=True)
-    mll.zero_grad(set_to_none=True)
-    del X_train_inner, y_train_inner, X_val_inner, y_val_inner, train_inner_dataset, train_inner_loader,\
-        test_inner_dataset, test_inner_loader, loss, optimizer, model, predictions, predictive_variances,\
-        test_lls, output, mll
-    gc.collect()
-    # torch.cuda.empty_cache()
-    logging.info("After memory clearing")
-    # logging.info(torch.cuda.memory_allocated() / 1024 ** 2)
-    # logging.info(torch.cuda.memory_reserved() / 1024 ** 2)
+    # # Memory Tracking
+    # logging.info("After model training")
+    # # logging.info(torch.cuda.memory_allocated() / 1024 ** 2)
+    # # logging.info(torch.cuda.memory_reserved() / 1024 ** 2)
+    # X_train_inner.detach()
+    # y_train_inner.detach()
+    # X_val_inner.detach()
+    # y_val_inner.detach()
+    # loss.detach()
+    # optimizer.zero_grad(set_to_none=True)
+    # mll.zero_grad(set_to_none=True)
+    # del X_train_inner, y_train_inner, X_val_inner, y_val_inner, train_inner_dataset, train_inner_loader,\
+    #     test_inner_dataset, test_inner_loader, loss, optimizer, model, predictions, predictive_variances,\
+    #     test_lls, output, mll
+    # gc.collect()
+    # # torch.cuda.empty_cache()
+    # logging.info("After memory clearing")
+    # # logging.info(torch.cuda.memory_allocated() / 1024 ** 2)
+    # # logging.info(torch.cuda.memory_reserved() / 1024 ** 2)
 
     trial.set_user_attr("MAX_EPOCHS", int(max_epochs))
 
@@ -292,19 +169,37 @@ def objective_train_test(trial, X, y, epochs_inner, patience, time_tolerance=180
     return best_score
 
 
-def HPO_DGP(n_trials=50,
-            epochs_inner=200,
+def HPO_DGP(n_trials=30,
+            epochs_inner=500,
             patience=10,
             file=None,
             pruner_type="None",
-            time_tolerance=6000):
+            time_tolerance=1800):
+    # if file == "CMAPSS":
+    #     file_path = '../../train_CMAPSS.csv'
+    #     df = pd.read_csv(file_path, sep=',', index_col=0)
+
+    # # prepare data for training
+    # X = df.iloc[:, 0:14]
+    # y = df.iloc[:, -1]
+
+    # # data preprocess
+    # X=torch.Tensor(X.values)
+    # y=torch.Tensor(y.values)
+
+    # # scaler applied to features
+    # scaler = StandardScaler()
+    # X_train_scaler = scaler.fit_transform(X)
+    # X_train = torch.from_numpy(X_train_scaler).float()
 
     dataset_name = 'CMAPSS'
 
-    Train_X = file_read_nosplit.Train_X
-    Train_y = file_read_nosplit.Train_y
-
-    kf = KFold(n_splits=5, shuffle=False)
+    Train_X = file_read.Train_X
+    Train_y = file_read.Train_y
+    Val_X = file_read.Val_X
+    Val_y = file_read.Val_y
+    train_loader = file_read.train_loader
+    val_loader = file_read.val_loader
 
     # File names
     today = datetime.date.today()
@@ -323,7 +218,7 @@ def HPO_DGP(n_trials=50,
     '''
     Commit comment on this new submitted task!!!!!!
     '''
-    COMMIT = 'cross validation' # Comment on what u have changed on this task being submitted
+    COMMIT = 'Window size=10 & clipped' # Comment on what u have changed on this task being submitted
     logging.info(COMMIT)
 
     optuna.logging.enable_propagation() # Propagate logs to the root logger 'logging'
@@ -349,13 +244,12 @@ def HPO_DGP(n_trials=50,
     study.enqueue_trial({"n_gp_layers": 1, 'n_gp_out': 2, 'num_inducing': 128, 'batch_size': 1024,
                         'lr': 0.01, 'num_samples': 10, 'kernel_type': 'rbf'})
 
-    study.optimize(lambda trial: objective_time_prune(trial, X=Train_X, y=Train_y,
-                                                    kf=kf, 
-                                                    epochs_inner=epochs_inner,
-                                                    patience=patience,
-                                                    time_tolerance=time_tolerance,
-                                                    metric=rmse),
-                                                    n_trials=n_trials)  # n_trials=N_TRIALS
+    study.optimize(lambda trial: objective_train_test(trial, X=Train_X, y=Train_y,
+                                                epochs_inner=epochs_inner,
+                                                patience=patience,
+                                                time_tolerance=time_tolerance,
+                                                metric=rmse),
+                                                n_trials=n_trials)  # n_trials=N_TRIALS
 
     # # empty cuda cache to prevent memory issues
     # torch.cuda.empty_cache()
@@ -410,7 +304,7 @@ def HPO_DGP(n_trials=50,
 
 if __name__ == "__main__":
     HPO_DGP(n_trials=30,
-            epochs_inner=200,
+            epochs_inner=500,
             patience=15,
             file="None",
             pruner_type="HB",

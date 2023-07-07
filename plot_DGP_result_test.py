@@ -16,16 +16,20 @@ test_loader = file_read.test_loader
 df_test_raw_RUL = file_read.df_test_raw_RUL
 df_unit_RUL = df_test_raw_RUL[['unit_number', 'RUL']].copy()
 selected_units = []
-for unit in range(1,101):
+max_unit_number = df_test_raw_RUL['unit_number'].max()
+for unit in range(1, max_unit_number+1):
     unit_df = df_unit_RUL[df_unit_RUL['unit_number'] == unit]
     min_rul = unit_df['RUL'].min()
     if min_rul > 105:
         selected_units.append(unit)
 
+all_units = list(range(1,max_unit_number+1))
+clipped_units = [x for x in all_units if x not in selected_units] # remaining unit's number
+
 ### initialization of hpyerparameters ###
-output_dims = [4] * 3
+output_dims = [3] * 3
 num_inducing = 55
-kernel_type = 'rbf'
+kernel_type = 'matern0.5'
 
 model_after = DeepGPRegression(train_x_shape=Train_X.shape, output_dims=output_dims,
                             num_inducing=num_inducing, kernel_type=kernel_type)
@@ -84,10 +88,10 @@ def plot_corvariance_engine(Test_y, pred_mean, pred_var, test_lls, loc_start, lo
     lower = sample_pred - sample_pred_var.sqrt() * 2.576
     upper = sample_pred + sample_pred_var.sqrt() * 2.576
 
-    # plt.plot(x_scatter, sample_Test_y[idx_sorted], c='b')
-    # plt.plot(x_scatter, sample_pred[idx_sorted], c='r')
-    plt.scatter(x_scatter, sample_Test_y[idx_sorted], c='b', s=10)
-    plt.scatter(x_scatter, sample_pred[idx_sorted], c='r', s=10)
+    plt.plot(x_scatter, sample_Test_y[idx_sorted], c='b')
+    plt.plot(x_scatter, sample_pred[idx_sorted], c='r')
+    # plt.scatter(x_scatter, sample_Test_y[idx_sorted], c='b', s=10)
+    # plt.scatter(x_scatter, sample_pred[idx_sorted], c='r', s=10)
     plt.fill_between(x_scatter, lower[idx_sorted].detach().cpu().numpy(), upper[idx_sorted].detach().cpu().numpy(), alpha=0.5)
     
     rmse_engine = torch.mean(torch.pow(pred_mean[loc_start:loc_end+1] - Test_y[loc_start:loc_end+1], 2)).sqrt()
@@ -96,28 +100,32 @@ def plot_corvariance_engine(Test_y, pred_mean, pred_var, test_lls, loc_start, lo
     plt.title(f'engine {id_engine}: RMSE={rmse_engine.item():.4f}, NLL={NLL_engine:.4f}')
     plt.show()
 
-# 68 test engine [0,67], number 67 is last one, need manually plot
+# 68 test engine [0,67], number 67 is last one
 def get_group_index(data):
-    result_dict = {0: [0, 0]}
+    result_dict = {}
     start_index = 0
     end_index = 0
     num_group = 0
     for i in range(len(data)):
-        if i == 3531:
-            break
-        if data[i+1] < data[start_index]:
+        if i == 0:
             continue
-        else:
+        if i == len(data)-1:
             end_index = i
             result_dict[num_group] = [start_index, end_index]
-            start_index = i+1
+        if data[i] < 105:
+            continue
+        else:
+            end_index = i-1
+            result_dict[num_group] = [start_index, end_index]
+            start_index = i
             num_group += 1
     return result_dict
 
 # plot_mean(Test_y, pred_mean, 10)
 # plot_corvariance(Test_y, pred_mean, pred_var, 30)
 
-group_dict = get_group_index(Test_y)
-plot_corvariance_engine(Test_y, pred_mean, pred_var, test_lls, 3446, 3531, 67)
-for id_engine in range(0,67):
+result_dict = get_group_index(Test_y)
+group_dict = {key: result_dict[value] for key, value in zip(clipped_units, result_dict.keys())}
+
+for id_engine in clipped_units:
     plot_corvariance_engine(Test_y, pred_mean, pred_var, test_lls, group_dict[id_engine][0], group_dict[id_engine][1], id_engine)

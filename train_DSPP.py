@@ -17,11 +17,11 @@ import file_read
 
 num_epochs = 100
 BATCH_SIZE = 512
-output_dims = [4] * 3
+output_dims = [2] * 3
 num_inducing = 71
-num_quadrature_sites = 7
-beta = 0.01
-lr = 0.03776271737103609
+num_quadrature_sites = 6
+beta = 0.05
+lr = 0.0997909631509229
 
 Train_X = file_read.Train_X
 Train_y = file_read.Train_y

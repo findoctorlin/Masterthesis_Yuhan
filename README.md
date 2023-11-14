@@ -1,1 +1,1 @@
-# DGP_Yuhan
+# Deep Gaussian Process implementation
